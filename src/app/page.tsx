@@ -1,5 +1,5 @@
 import Typography from '@/components/ui/Typography';
-import Button from '@/components/ui/Button';
+import Button from '@/components/ui/Button/Button';
 import ThemeDebug from '@/components/ui/ThemeDebug';
 
 export default function Home() {
