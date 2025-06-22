@@ -4,7 +4,7 @@ import React from 'react';
 import { useTheme } from '@/contexts/ThemeContext';
 
 export interface TypographyProps {
-  variant?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'subtitle1' | 'subtitle2' | 'body1' | 'body2' | 'button' | 'caption' | 'overline';
+  variant?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'bodyXLargeSB' | 'bodyXLargeM' | 'bodyXLargeR' | 'bodyLargeSB' | 'bodyLargeM' | 'bodyLargeR' | 'bodyMediumSB' | 'bodyMediumM' | 'bodyMediumR' | 'bodySmallSB' | 'bodySmallM' | 'bodySmallR' | 'bodyXSmallSB' | 'bodyXSmallM' | 'bodyXSmallR' | 'subtitle1' | 'subtitle2' | 'body1' | 'body2' | 'button' | 'caption' | 'overline';
   color?: 'primary' | 'secondary' | 'success' | 'error' | 'warning' | 'info' | 'textPrimary' | 'textSecondary' | 'textDisabled' | 'inherit';
   align?: 'left' | 'center' | 'right' | 'justify';
   gutterBottom?: boolean;
@@ -15,7 +15,7 @@ export interface TypographyProps {
 }
 
 const Typography: React.FC<TypographyProps> = ({
-  variant = 'body1',
+  variant = 'bodyXLargeSB',
   color = 'textPrimary',
   align = 'left',
   gutterBottom = false,
@@ -38,6 +38,21 @@ const Typography: React.FC<TypographyProps> = ({
       h4: 'h4',
       h5: 'h5',
       h6: 'h6',
+      bodyXLargeSB: 'h6',
+      bodyXLargeM: 'h6',
+      bodyXLargeR: 'h6',
+      bodyLargeSB: 'p',
+      bodyLargeM: 'p',
+      bodyLargeR: 'p',
+      bodyMediumSB: 'p',
+      bodyMediumM: 'p',
+      bodyMediumR: 'p',
+      bodySmallSB: 'p',
+      bodySmallM: 'p',
+      bodySmallR: 'p',
+      bodyXSmallSB: 'p',
+      bodyXSmallM: 'p',
+      bodyXSmallR: 'p',
       subtitle1: 'h6',
       subtitle2: 'h6',
       body1: 'p',
@@ -58,19 +73,34 @@ const Typography: React.FC<TypographyProps> = ({
 
   // Variant classes (using MUI typography scale)
   const variantClasses = {
-    h1: 'text-h1 font-light',
-    h2: 'text-h2 font-light',
-    h3: 'text-h3 font-normal',
-    h4: 'text-h4 font-normal',
-    h5: 'text-h5 font-normal',
-    h6: 'text-h6 font-medium',
-    subtitle1: 'text-subtitle1 font-normal',
-    subtitle2: 'text-subtitle2 font-medium',
-    body1: 'text-body1 font-normal',
-    body2: 'text-body2 font-normal',
-    button: 'text-button font-medium',
-    caption: 'text-caption font-normal',
-    overline: 'text-overline font-normal uppercase',
+    h1: 'text-h1 font-bold',
+    h2: 'text-h2 font-bold',
+    h3: 'text-h3 font-bold',
+    h4: 'text-h4 font-bold',
+    h5: 'text-h5 font-bold',
+    h6: 'text-h6 font-bold',
+    bodyXLargeSB: 'text-xl font-semibold',
+    bodyXLargeM: 'text-xl font-medium',    
+    bodyXLargeR: 'text-xl font-regular',    
+    bodyLargeSB: 'text-lg font-semibold',
+    bodyLargeM: 'text-lg font-medium',    
+    bodyLargeR: 'text-lg font-regular',    
+    bodyMediumSB: 'text-base font-semibold',
+    bodyMediumM: 'text-base font-medium',    
+    bodyMediumR: 'text-base font-regular',   
+    bodySmallSB: 'text-sm font-semibold',
+    bodySmallM: 'text-sm font-medium',    
+    bodySmallR: 'text-sm font-regular',   
+    bodyXSmallSB: 'text-xs font-semibold',
+    bodyXSmallM: 'text-xs font-medium',    
+    bodyXSmallR: 'text-xs font-regular',   
+    subtitle1: 'text-base font-normal',
+    subtitle2: 'text-sm font-normal',
+    body1: 'text-base font-normal',
+    body2: 'text-sm font-normal',
+    button: 'text-sm font-medium',
+    caption: 'text-xs font-normal',
+    overline: 'text-xs font-normal uppercase',
   };
 
   // Color classes

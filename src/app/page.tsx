@@ -16,7 +16,7 @@ export default function Home() {
             A MUI-inspired theming system built with Next.js and Tailwind CSS
           </Typography>
           <Typography variant="body1" color="textSecondary" className="max-w-2xl mx-auto mb-8">
-            Experience a comprehensive design system with dynamic theming, consistent typography, 
+            Experience a comprehensive design system with dynamic theming, consistent typography,
             and beautiful components that adapt seamlessly between light and dark modes.
           </Typography>
           <div className="flex gap-4 justify-center">
@@ -44,13 +44,21 @@ export default function Home() {
               <Typography variant="h6">Heading 6</Typography>
             </div>
             <div className="space-y-4">
-              <Typography variant="subtitle1">Subtitle 1</Typography>
-              <Typography variant="subtitle2">Subtitle 2</Typography>
-              <Typography variant="body1">Body 1 - This is the main body text used for paragraphs and general content.</Typography>
-              <Typography variant="body2">Body 2 - This is secondary body text, slightly smaller than body 1.</Typography>
-              <Typography variant="button">Button Text</Typography>
-              <Typography variant="caption">Caption Text</Typography>
-              <Typography variant="overline">Overline Text</Typography>
+              <Typography variant="bodyXLargeSB">Body XLargeSB</Typography>
+              <Typography variant="bodyXLargeM">Body XLargeM</Typography>
+              <Typography variant="bodyXLargeR">Body XLargeR</Typography>
+              <Typography variant="bodyLargeSB">Body LargeSB</Typography>
+              <Typography variant="bodyLargeM">Body LargeM</Typography>
+              <Typography variant="bodyLargeR">Body LargeR</Typography>
+              <Typography variant="bodyMediumSB">Body MediumSB</Typography>
+              <Typography variant="bodyMediumM">Body MediumM</Typography>
+              <Typography variant="bodyMediumR">Body MediumR</Typography>
+              <Typography variant="bodySmallSB">Body SmallSB</Typography>
+              <Typography variant="bodySmallM">Body SmallM</Typography>
+              <Typography variant="bodySmallR">Body SmallR</Typography>
+              <Typography variant="bodyXSmallSB">Body XSmallSB</Typography>
+              <Typography variant="bodyXSmallM">Body XSmallM</Typography>
+              <Typography variant="bodyXSmallR">Body XSmallR</Typography>
             </div>
           </div>
         </section>
@@ -65,7 +73,7 @@ export default function Home() {
             <div className="space-y-2">
               <Typography variant="h6" color="primary">Primary Colors</Typography>
               <div className="grid grid-cols-5 gap-1">
-                {[50, 100, 200, 300, 400, 500, 600, 700, 800, 900].map((shade) => (
+                {[10, 20, 30, 40, 50, 60, 70, 80, 90, 100].map((shade) => (
                   <div
                     key={shade}
                     className={`h-12 rounded bg-primary-${shade} border border-grey-200 dark:border-grey-700`}
@@ -110,7 +118,7 @@ export default function Home() {
           <Typography variant="h2" color="textPrimary" gutterBottom>
             Button Components
           </Typography>
-          
+
           {/* Contained Buttons */}
           <div className="mb-8">
             <Typography variant="h6" color="textPrimary" gutterBottom>
@@ -180,7 +188,7 @@ export default function Home() {
                 Dynamic Theming
               </Typography>
               <Typography variant="body2" color="textSecondary">
-                Switch between light and dark modes with a beautiful animated toggle. 
+                Switch between light and dark modes with a beautiful animated toggle.
                 The theme persists across sessions and respects system preferences.
               </Typography>
             </div>
@@ -189,7 +197,7 @@ export default function Home() {
                 Consistent Design
               </Typography>
               <Typography variant="body2" color="textSecondary">
-                MUI-inspired design tokens ensure consistency across colors, typography, 
+                MUI-inspired design tokens ensure consistency across colors, typography,
                 spacing, and shadows throughout your application.
               </Typography>
             </div>
@@ -198,7 +206,7 @@ export default function Home() {
                 TypeScript Support
               </Typography>
               <Typography variant="body2" color="textSecondary">
-                Full TypeScript support with proper type definitions for all components 
+                Full TypeScript support with proper type definitions for all components
                 and theme values, ensuring type safety and better developer experience.
               </Typography>
             </div>

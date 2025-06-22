@@ -44,9 +44,9 @@ const Button: React.FC<ButtonProps> = ({
   const getColorClasses = () => {
     const colorMap = {
       primary: {
-        contained: 'bg-primary-500 hover:bg-primary-600 text-white focus:ring-primary-500',
-        outlined: 'border border-primary-500 text-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/20 focus:ring-primary-500',
-        text: 'text-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/20 focus:ring-primary-500',
+        contained: 'bg-primary-50 hover:bg-primary-70 text-white focus:ring-primary-70',
+        outlined: 'border border-primary-50 text-primary-50 hover:text-primary-10 hover:bg-primary-50 dark:hover:bg-primary-900/20 focus:ring-primary-50',
+        text: 'text-primary-500 hover:bg-primary-10 dark:hover:bg-primary-900/20 focus:ring-primary-500',
       },
       secondary: {
         contained: 'bg-secondary-500 hover:bg-secondary-600 text-white focus:ring-secondary-500',
