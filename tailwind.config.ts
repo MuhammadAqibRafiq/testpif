@@ -33,6 +33,9 @@ const config: Config = {
         // 'caption': ['var(--font-size-caption)', { lineHeight: '1.5' }],
         // 'overline': ['var(--font-size-overline)', { lineHeight: '1.5' }],
       },
+      fontFamily: {
+        sans: ['Work Sans', 'Arial', 'Helvetica', 'sans-serif'],
+      },
     }
   },
   plugins: [],

@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -7,6 +12,7 @@
   --text-primary: rgba(0, 0, 0, 0.87);
   --text-secondary: rgba(0, 0, 0, 0.6);
   --text-disabled: rgba(0, 0, 0, 0.38);
+  --font-family-work-sans: 'Work Sans', Arial, Helvetica, sans-serif;
 
 }
 
@@ -21,6 +27,22 @@
 }
 
 @theme {
+
+  /* Grey Colors */
+  --color-neutral-0: #FFFFFF;
+  --color-neutral-10: #F6F6F6;
+  --color-neutral-20: #E7E7E7;
+  --color-neutral-30: #D1D1D1;
+  --color-neutral-40: #B0B0B0;
+  --color-neutral-50: #898989;
+  --color-neutral-60: #6D6D6D;
+  --color-neutral-70: #4F4F4F;
+  --color-neutral-80: #454545;
+  --color-neutral-90: #3D3D3D;
+  --color-neutral-100: #0F0F0F;
+  --color-neutral-200: #000000;
+
+
   /* Primary Colors */
   --color-primary-10: #F3FAF8;
   --color-primary-20: #D6F1E7;
@@ -132,7 +154,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-family-work-sans);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -182,4 +204,5 @@ h6 { font-size: var(--font-size-h6); line-height: 1.1; }
 .bg-primary-100 {
   background-color: var(--color-primary-100);
 }
+
 

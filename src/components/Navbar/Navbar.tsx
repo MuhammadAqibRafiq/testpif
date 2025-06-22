@@ -2,35 +2,68 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from './Navbar.module.css';
 import ThemeToggle from '@/components/ui/ThemeToggle';
+import Button from '../ui/Button/Button';
+import { constants } from '@/Contants/constants';
+import PIFLogo from '@/assets/images/PIFLogo.png';
 
 const Navbar = () => {
   return (
+
     <nav className="flex items-center justify-between px-8 h-16 bg-[var(--background-paper)] border-b border-grey-200 dark:border-grey-800 transition-colors duration-200">
+
+      {/* Logo */}
       <div className="flex items-center">
         <Link href="/">
-          <Image src="/Images/PIF Logo.png" alt="PIF Logo" width={40} height={40} className="transition-transform hover:scale-105" />
+          <Image src={PIFLogo} alt="PIF Logo" width={40} height={40} className="transition-transform hover:scale-105" />
         </Link>
       </div>
+
+      {/* Navbar links */}
       <div className="flex items-center justify-center space-x-8">
-        <Link href="/" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
-          Home
-        </Link>
-        <Link href="/about" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
-          About
-        </Link>
-        <Link href="/features" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
+        <Link href="#features" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
           Features
         </Link>
+        <Link href="/reports" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
+          Halal Reports
+        </Link>
+        <Link href="/watchlist" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
+          Watchlist
+        </Link>
+        <Link href="/portfolio" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
+          Portfolio
+        </Link>
+        <Link href="/pricing" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
+          Pricing
+        </Link>
+        <Link href="/blog" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
+          Blog
+        </Link>
       </div>
+
+      {/* Login and Get Started buttons */}
       <div className="flex items-center space-x-4">
-        <ThemeToggle />
-        <Link href="/login" className="px-4 py-2 text-primary-500 border border-primary-500 rounded-md hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors duration-200 font-medium">
-          Login
+        {/* <ThemeToggle />  Dark mode toggle */}
+        <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
+          <Button
+            variant="contained"
+            color="primary"
+            size="medium"
+          >
+            Get started
+          </Button>
         </Link>
-        <Link href="/signup" className="px-4 py-2 bg-primary-500 text-white rounded-md hover:bg-primary-600 transition-colors duration-200 font-medium">
-          Sign Up
+        <Link href={constants.login.href} target="_blank" rel="noopener noreferrer">
+          <Button
+            variant="outlined"
+            color="primary"
+            size="medium"
+          >
+            Log in
+          </Button>
         </Link>
+
       </div>
+
     </nav>
   );
 };
