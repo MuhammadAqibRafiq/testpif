@@ -9,14 +9,14 @@ import Crypto from '@/assets/images/Crypto.png'
 const Index = () => {
     return (
         // <section id="features" className="py-20 bg-primary-10">
-        <div className="max-w-7xl mx-auto py-12">
+        <div className="max-w-7xl mx-auto py-12 max-xl:px-6">
 
             <Typography variant="h2" color="primary" className="mb-8 md:w-2/3 mx-auto" align="center">
                 Choose from Four High- Potential Portfolios:
             </Typography>
         
 
-            <div className="grid md:grid-cols-4 sm:grid-cols-2  gap-8">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2  gap-8">
 
                 <div className="bg-primary-10 rounded-2xl shadow p-8 flex flex-col items-center border border-primary-50">
                     <div className="mb-6">

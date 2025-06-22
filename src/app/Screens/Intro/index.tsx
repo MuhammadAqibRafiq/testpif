@@ -6,7 +6,7 @@ import Button from '@/components/ui/Button/Button'
 
 const Index = () => {
     return (
-        <div className="max-w-7xl mx-auto py-12 ">
+        <div className="max-w-7xl mx-auto py-12 max-xl:px-6 ">
 
             <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-8">
 
