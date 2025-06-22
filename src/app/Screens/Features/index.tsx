@@ -9,7 +9,7 @@ import Crypto from '@/assets/images/Crypto.png'
 const Index = () => {
     return (
         // <section id="features" className="py-20 bg-primary-10">
-        <div className="max-w-7xl mx-auto py-12 max-xl:px-6">
+        <div className="max-w-7xl mx-auto lg:py-12 max-lg:py-6 max-xl:px-6">
 
             <Typography variant="h2" color="primary" className="mb-8 md:w-2/3 mx-auto" align="center">
                 Choose from Four High- Potential Portfolios:
