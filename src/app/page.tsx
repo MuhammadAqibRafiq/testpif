@@ -5,6 +5,7 @@ import { ThemeViewer } from './themeViewer';
 import Features from './Screens/Features';
 import  Intro  from './Screens/Intro';
 import InvestingProcess from './Screens/InvestingProcess';
+import StockCrypto from './Screens/StockCrypto';
 
 export default function Home() {
   return (
@@ -21,6 +22,10 @@ export default function Home() {
 
       <section id="investingProcess">
         <InvestingProcess />
+      </section>
+
+      <section id="stockCrypto">
+        <StockCrypto />
       </section>
 
     </>
