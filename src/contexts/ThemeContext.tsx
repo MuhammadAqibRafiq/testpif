@@ -33,11 +33,13 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
     const savedTheme = localStorage.getItem('theme') as ThemeMode;
     const systemPreference = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
     
-    if (savedTheme) {
-      setMode(savedTheme);
-    } else {
-      setMode(systemPreference);
-    }
+    // It will enable when dark mode toggle added
+    
+    // if (savedTheme) {
+    //   setMode(savedTheme);
+    // } else {
+    //   setMode(systemPreference);
+    // }
   }, []);
 
   // Apply theme to document
