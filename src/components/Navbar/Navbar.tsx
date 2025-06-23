@@ -12,97 +12,102 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav style={{ height: 'var(--navbar-height)' }} className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-8 bg-white transition-colors duration-200">
-      {/* Logo */}
-      <div className="flex items-center">
-        <Link href="/">
-          <Image src={PIFLogo} alt="PIF Logo" width={40} height={40} className="transition-transform hover:scale-105" />
-        </Link>
-      </div>
+    <nav
+      style={{ height: 'var(--navbar-height)' }}
+      className="fixed top-0 left-0 w-full bg-white z-50 transition-colors duration-200"
+    >
+      <div className="max-w-7xl mx-auto flex items-center justify-between h-full px-8">
+        {/* Logo */}
+        <div className="flex items-center">
+          <Link href="/">
+            <Image src={PIFLogo} alt="PIF Logo" width={40} height={40} className="transition-transform hover:scale-105" />
+          </Link>
+        </div>
 
-      {/* Desktop Navbar links */}
-      <div className="hidden lg:flex items-center justify-center space-x-8">
-        <Link href="#features" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
-          Features
-        </Link>
-        <Link href="/reports" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
-          Halal Reports
-        </Link>
-        <Link href="/watchlist" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
-          Watchlist
-        </Link>
-        <Link href="/portfolio" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
-          Portfolio
-        </Link>
-        <Link href="/pricing" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
-          Pricing
-        </Link>
-        <Link href="/blog" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
-          Blog
-        </Link>
-      </div>
-
-      {/* Desktop Buttons (visible only on lg and up) */}
-      <div className="hidden lg:flex items-center space-x-4">
-        <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
-          <Button variant="contained" color="primary" size="medium">
-            Get started
-          </Button>
-        </Link>
-        <Link href={constants.login.href} target="_blank" rel="noopener noreferrer">
-          <Button variant="outlined" color="primary" size="medium">
-            Log in
-          </Button>
-        </Link>
-      </div>
-
-      {/* On small screens: Get started button before hamburger */}
-      <div className="flex items-center space-x-2 lg:hidden">
-        <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
-          <Button variant="contained" color="primary" size="small">
-            Get started
-          </Button>
-        </Link>
-        {/* Hamburger Icon */}
-        <button
-          className="flex items-center justify-center w-10 h-10"
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Open menu"
-        >
-          <svg className="w-6 h-6 text-primary-500" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
-          </svg>
-        </button>
-      </div>
-
-      {/* Mobile/Tablet Menu */}
-      {menuOpen && (
-        <div className="absolute top-16 left-0 w-full bg-[var(--background-paper)] border-b border-grey-200 dark:border-grey-800 shadow-lg z-50 flex flex-col items-center space-y-4 py-6 lg:hidden">
-          <Link href="#features" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+        {/* Desktop Navbar links */}
+        <div className="hidden lg:flex items-center justify-center space-x-8">
+          <Link href="#features" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
             Features
           </Link>
-          <Link href="/reports" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+          <Link href="/reports" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
             Halal Reports
           </Link>
-          <Link href="/watchlist" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+          <Link href="/watchlist" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
             Watchlist
           </Link>
-          <Link href="/portfolio" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+          <Link href="/portfolio" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
             Portfolio
           </Link>
-          <Link href="/pricing" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+          <Link href="/pricing" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
             Pricing
           </Link>
-          <Link href="/blog" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+          <Link href="/blog" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
             Blog
           </Link>
-          <Link href={constants.login.href} target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>
+        </div>
+
+        {/* Desktop Buttons (visible only on lg and up) */}
+        <div className="hidden lg:flex items-center space-x-4">
+          <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
+            <Button variant="contained" color="primary" size="medium">
+              Get started
+            </Button>
+          </Link>
+          <Link href={constants.login.href} target="_blank" rel="noopener noreferrer">
             <Button variant="outlined" color="primary" size="medium">
               Log in
             </Button>
           </Link>
         </div>
-      )}
+
+        {/* On small screens: Get started button before hamburger */}
+        <div className="flex items-center space-x-2 lg:hidden">
+          <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
+            <Button variant="contained" color="primary" size="small">
+              Get started
+            </Button>
+          </Link>
+          {/* Hamburger Icon */}
+          <button
+            className="flex items-center justify-center w-10 h-10"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Open menu"
+          >
+            <svg className="w-6 h-6 text-primary-500" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
+            </svg>
+          </button>
+        </div>
+
+        {/* Mobile/Tablet Menu */}
+        {menuOpen && (
+          <div className="absolute top-16 left-0 w-full bg-[var(--background-paper)] border-b border-grey-200 dark:border-grey-800 shadow-lg z-50 flex flex-col items-center space-y-4 py-6 lg:hidden">
+            <Link href="#features" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+              Features
+            </Link>
+            <Link href="/reports" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+              Halal Reports
+            </Link>
+            <Link href="/watchlist" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+              Watchlist
+            </Link>
+            <Link href="/portfolio" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+              Portfolio
+            </Link>
+            <Link href="/pricing" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+              Pricing
+            </Link>
+            <Link href="/blog" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+              Blog
+            </Link>
+            <Link href={constants.login.href} target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>
+              <Button variant="outlined" color="primary" size="medium">
+                Log in
+              </Button>
+            </Link>
+          </div>
+        )}
+      </div>
     </nav>
   );
 };
