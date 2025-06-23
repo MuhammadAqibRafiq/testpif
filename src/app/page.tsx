@@ -10,7 +10,7 @@ import StockCrypto from './Screens/StockCrypto';
 export default function Home() {
   return (
 
-    <>
+    <div style={{ marginTop: 'var(--navbar-height)'}}>
       {/* //  <ThemeViewer /> */}
       <section id="intro">
         <Intro />
@@ -28,7 +28,7 @@ export default function Home() {
         <StockCrypto />
       </section>
 
-    </>
+    </div>
 
   );
 }

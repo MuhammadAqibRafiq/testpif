@@ -12,7 +12,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between px-8 h-16  border-b border-grey-200 dark:border-grey-800 transition-colors duration-200 relative">
+    <nav style={{ height: 'var(--navbar-height)' }} className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-8 bg-white transition-colors duration-200">
       {/* Logo */}
       <div className="flex items-center">
         <Link href="/">
