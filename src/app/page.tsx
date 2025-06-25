@@ -6,6 +6,7 @@ import Features from './Screens/Features';
 import  Intro  from './Screens/Intro';
 import InvestingProcess from './Screens/InvestingProcess';
 import StockCrypto from './Screens/StockCrypto';
+import JoinPIF from './Screens/JoinPIF';
 
 export default function Home() {
   return (
@@ -26,6 +27,10 @@ export default function Home() {
 
       <section id="stockCrypto">
         <StockCrypto />
+      </section>
+
+      <section id="joinPIF">
+        <JoinPIF />
       </section>
 
     </div>
