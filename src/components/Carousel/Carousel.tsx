@@ -17,35 +17,51 @@ import Button from "../ui/Button/Button";
 function Carousel() {
     const sliderRef = useRef<Slider | null>(null);
     var settings = {
-        dots: true,
-        infinite: false,
+        dots: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 3,
-        initialSlide: 1,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        centerMode: true,
+        centerPadding: '5%',
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots: true
                 }
             },
             {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 0,
+                    // infinite: true,
+                    // dots: true
+                }
+            },
+            {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 0,
+                    // infinite: true,
+                    // dots: true
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    // infinite: true,
+                    // dots: true
                 }
             }
         ]
@@ -83,15 +99,18 @@ function Carousel() {
             <Slider ref={sliderRef} {...settings} >
                 {items?.map((x, index) => (
                     <div key={index}>
-                        <div className=" bg-white border border-neutral-30 p-[24px] rounded-lg mx-4">
+                        <div className=" bg-white border border-neutral-30 p-[24px] rounded-lg mx-4 max-sm:mx-2">
                             <div className="flex">
                                 <div className="pr-[16px]">
                                     <Image src={x.icon} alt="Apple" width={56} height={56} />
                                 </div>
 
-                                <div className="flex gap-2 justify-between w-full gap-4">
-                                    <div>
-                                        <Typography variant="bodyXLargeSB" className="text-neutral-900">
+                                <div className="flex gap-2 justify-between w-full gap-4 overflow-hidden">
+                                    <div className="overflow-hidden">
+                                        <Typography
+                                            variant="bodyXLargeSB"
+                                            className="text-neutral-900 truncate whitespace-nowrap overflow-hidden text-ellipsis"
+                                        >
                                             {x.name}
                                         </Typography>
                                         <Typography variant="bodySmallM" className="text-neutral-900">
