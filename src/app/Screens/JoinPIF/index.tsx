@@ -9,13 +9,13 @@ const Index = () => {
     return (
         <div className="max-w-7xl mx-auto py-12 max-xl:px-6">
             {/* card Section */}
-            <div className="grid md:grid-cols-2 sm:grid-cols-2 gap-4 rounded-2xl p-8 flex flex-col mt-8 bg-[linear-gradient(180deg,_#E5F5F1_0%,_#FFFFFF_97%)]">
+            <div className="grid md:grid-cols-2 sm:grid-cols-2 gap-1 rounded-2xl p-18 flex flex-col mt-8 bg-[linear-gradient(180deg,_#E5F5F1_0%,_#FFFFFF_97%)]">
 
                 <div className="flex flex-col gap-[24px]">
-                    <Typography variant="h2" color="primary" className="md:w-3/5">
+                    <Typography variant="h2" color="primary" className="md:w-[70%]">
                         Join PIF Invest Today
                     </Typography>
-                    <Typography variant="bodyXLargeR" className="md:w-4/5 text-neutral-100">
+                    <Typography variant="bodyXLargeR" className="text-neutral-100">
                         Start your journey toward halal, high-conviction investing—without the jargon or confusion.
                     </Typography>
 

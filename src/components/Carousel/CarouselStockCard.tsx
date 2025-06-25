@@ -115,7 +115,14 @@ const CarouselStockCard = forwardRef<unknown, CarouselProps>(({ items }, ref) =>
                                 <div className="h-12 w-px bg-neutral-30" />
                                 <div className="flex flex-col items-center flex-1">
                                     <Typography variant="bodySmallM" className="text-neutral-50">1D Change</Typography>
-                                    <Typography variant="bodySmallM" className="text-neutral-100">{x.dayChange}%</Typography>
+                                    <Typography
+                                        variant="bodySmallM"
+                                        className={Number(x.dayChange) < 0 ? "text-error-50" : "text-success-50"}
+                                    >
+                                        {Number(x.dayChange) < 0
+                                            ? `${x.dayChange} %`
+                                            : `+${x.dayChange} %`}
+                                    </Typography>
                                 </div>
                             </div>
 

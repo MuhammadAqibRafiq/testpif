@@ -16,9 +16,9 @@ const CarouselSectionSearch = () => {
     const items = [
         { icon: AppleIcon, name: "Apple Inc.", description: "Apple Inc.", chip: <Chip label="Uncomfortable" bgColor="var(--color-error-50)" />, dayChange: "-1.2", marketCap: "$1000", lastPrice: "$100" },
         { icon: BitCoinIcon, name: "BitCoin", description: "BitCoin", chip: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, dayChange: "3.5", marketCap: "$100", lastPrice: "$900" },
-        { icon: DogecoinIcon, name: "Dogecoin", description: "Dogecoin", chip: <Chip label="Uncomfortable" bgColor="var(--color-error-50)" />, dayChange: "2.5", marketCap: "$5000", lastPrice: "$8000" },
+        { icon: DogecoinIcon, name: "Dogecoin", description: "Dogecoin", chip: <Chip label="Uncomfortable" bgColor="var(--color-error-50)" />, dayChange: "-2.5", marketCap: "$5000", lastPrice: "$8000" },
         { icon: MicrosoftIcon, name: "Microsoft", description: "Microsoft", chip: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, dayChange: "8.0", marketCap: "$9000", lastPrice: "$1300" },
-        { icon: WallmartIcon, name: "Wallmart", description: "Wallmart", chip: <Chip label="Uncomfortable" bgColor="var(--color-success-50)" />, dayChange: "2.7", marketCap: "$8000", lastPrice: "$1700" },
+        { icon: WallmartIcon, name: "Wallmart", description: "Wallmart", chip: <Chip label="Uncomfortable" bgColor="var(--color-success-50)" />, dayChange: "-2.7", marketCap: "$8000", lastPrice: "$1700" },
     ];
 
     const carouselRef = useRef<any>(null)
