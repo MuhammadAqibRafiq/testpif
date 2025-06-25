@@ -3,7 +3,8 @@ import Button from '@/components/ui/Button/Button'
 import Typography from '@/components/ui/Typography'
 import { Camera, Search } from 'lucide-react'
 import React from 'react'
-import Carousel from '@/components/Carousel/Carousel'
+import CarouselSectionSearch from './CarouselSectionSearch'
+
 
 const Index = () => {
     return (
@@ -17,20 +18,7 @@ const Index = () => {
                 Save hours of research — instantly check the halal status, market data, and trends in one place.
             </Typography>
 
-            <div className="flex items-center justify-center gap-2 w-1/3 mx-auto">
-                <InputField placeholder="Try amazon, tesla, bitcoin.." />
-                <Button
-                    variant="contained"
-                    color="primary"
-                    className="mx-auto rounded-full w-11 h-11 flex items-center justify-center"
-                    // size="large"
-                >
-                    <Search size={20} />
-                </Button>
-
-            </div>
-            
-            <Carousel />
+            <CarouselSectionSearch />
 
         </div>
     )
