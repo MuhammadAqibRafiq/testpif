@@ -3,6 +3,7 @@ import Button from '@/components/ui/Button/Button'
 import Typography from '@/components/ui/Typography'
 import { Camera, Search } from 'lucide-react'
 import React from 'react'
+import Carousel from '@/components/Carousel/Carousel'
 
 const Index = () => {
     return (
@@ -28,6 +29,7 @@ const Index = () => {
                 </Button>
 
             </div>
+            <Carousel />
 
         </div>
     )

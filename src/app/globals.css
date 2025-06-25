@@ -1,3 +1,5 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 @import "tailwindcss";
 
 
@@ -68,7 +70,7 @@ html {
   --color-secondary-900: #4a148c;
 
   /* Success Colors */
-  --color-success-50: #e8f5e8;
+  --color-success-50: #16A34A;
   --color-success-100: #c8e6c9;
   --color-success-200: #a5d6a7;
   --color-success-300: #81c784;
@@ -80,7 +82,7 @@ html {
   --color-success-900: #1b5e20;
 
   /* Warning Colors */
-  --color-warning-50: #fff8e1;
+  --color-warning-50: #FFACC15;
   --color-warning-100: #ffecb3;
   --color-warning-200: #ffe082;
   --color-warning-300: #ffd54f;
@@ -92,7 +94,7 @@ html {
   --color-warning-900: #ff6f00;
 
   /* Error Colors */
-  --color-error-50: #ffebee;
+  --color-error-50: #EF4444;
   --color-error-100: #ffcdd2;
   --color-error-200: #ef9a9a;
   --color-error-300: #e57373;
@@ -127,16 +129,17 @@ html {
   --color-grey-800: #424242;
   --color-grey-900: #212121;
 
+
   /* Background Colors */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-background-paper: var(--background-paper);
-  
+
   /* Text Colors */
   --color-text-primary: var(--text-primary);
   --color-text-secondary: var(--text-secondary);
   --color-text-disabled: var(--text-disabled);
-  
+
   /* Font sizes */
   --font-size-h1: 64px;
   --font-size-h2: 56px;
@@ -158,12 +161,35 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-h1 { font-size: var(--font-size-h1); line-height: 1.1; }
-h2 { font-size: var(--font-size-h2); line-height: 1.1; }
-h3 { font-size: var(--font-size-h3); line-height: 1.1; }
-h4 { font-size: var(--font-size-h4); line-height: 1.1; }
-h5 { font-size: var(--font-size-h5); line-height: 1.1; }
-h6 { font-size: var(--font-size-h6); line-height: 1.1; }
+h1 {
+  font-size: var(--font-size-h1);
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+  line-height: 1.1;
+}
+
+h4 {
+  font-size: var(--font-size-h4);
+  line-height: 1.1;
+}
+
+h5 {
+  font-size: var(--font-size-h5);
+  line-height: 1.1;
+}
+
+h6 {
+  font-size: var(--font-size-h6);
+  line-height: 1.1;
+}
 
 .bg-primary-10 {
   background-color: var(--color-primary-10);
@@ -191,7 +217,7 @@ h6 { font-size: var(--font-size-h6); line-height: 1.1; }
 
 .bg-primary-70 {
   background-color: var(--color-primary-70);
-} 
+}
 
 .bg-primary-80 {
   background-color: var(--color-primary-80);
@@ -199,10 +225,8 @@ h6 { font-size: var(--font-size-h6); line-height: 1.1; }
 
 .bg-primary-90 {
   background-color: var(--color-primary-90);
-}     
+}
 
 .bg-primary-100 {
   background-color: var(--color-primary-100);
 }
-
-
