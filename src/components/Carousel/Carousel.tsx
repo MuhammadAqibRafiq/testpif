@@ -125,16 +125,22 @@ function Carousel() {
                                 </div>
                             </div>
 
-                            <div className="flex gap-4 w-full justify-between mt-4">
-                                <div className="flex flex-col gap-1">
+                            <div className="flex gap-0 w-full justify-between mt-4">
+                                <div className="flex flex-col gap-1 px-4 flex-1 items-center">
                                     <Typography variant="bodySmallM" className="text-neutral-50" align="center" >Last Price</Typography>
                                     <Typography variant="bodySmallM" className="text-neutral-100" align="center">{x.lastPrice}</Typography>
                                 </div>
-                                <div className="flex flex-col gap-1">
+                                <div className="flex flex-col justify-center">
+                                    <div className="h-12 w-px bg-neutral-20 mx-auto" />
+                                </div>
+                                <div className="flex flex-col gap-1 px-4 flex-1 items-center">
                                     <Typography variant="bodySmallM" className="text-neutral-50" align="center">Market Cap</Typography>
                                     <Typography variant="bodySmallM" className="text-neutral-100" align="center">{x.marketCap}</Typography>
                                 </div>
-                                <div className="flex flex-col gap-1">
+                                <div className="flex flex-col justify-center">
+                                    <div className="h-12 w-px bg-neutral-30 mx-auto" />
+                                </div>
+                                <div className="flex flex-col gap-1 px-4 flex-1 items-center">
                                     <Typography variant="bodySmallM" className="text-neutral-50" align="center">1D Change</Typography>
                                     <Typography variant="bodySmallM" className="text-neutral-100" align="center">{x.dayChange}%</Typography>
                                 </div>
