@@ -76,7 +76,7 @@ function Carousel() {
     ]
 
     return (
-        <div className="relative overflow-hidden pt-8">
+        <div className="relative overflow-hidden pt-8 carousel-dots">
             {/* Prev Button */}
             <button
                 className="absolute left-[2%] top-[55%] -translate-y-1/2 z-10 bg-white border border-neutral-20 rounded-full p-2 shadow hover:bg-gray-100 shadow:0px 4px 12px 0px #00000014"

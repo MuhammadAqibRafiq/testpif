@@ -231,9 +231,13 @@ h6 {
   background-color: var(--color-primary-100);
 }
 
-.slick-dots {
+.carousel-dots .slick-dots {
   display: flex !important;
   justify-content: center;
   position: static !important;
   margin-top: 16px;
+}
+
+.carousel-dots .slick-dots li {
+  margin: 0;
 }
