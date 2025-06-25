@@ -17,7 +17,7 @@ import Button from "../ui/Button/Button";
 function Carousel() {
     const sliderRef = useRef<Slider | null>(null);
     var settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
@@ -79,7 +79,7 @@ function Carousel() {
         <div className="relative overflow-hidden pt-8">
             {/* Prev Button */}
             <button
-                className="absolute left-0 top-[65%] -translate-y-1/2 z-10 bg-white border border-gray-300 rounded-full p-2 shadow hover:bg-gray-100"
+                className="absolute left-[2%] top-[55%] -translate-y-1/2 z-10 bg-white border border-neutral-20 rounded-full p-2 shadow hover:bg-gray-100 shadow:0px 4px 12px 0px #00000014"
                 onClick={() => sliderRef.current?.slickPrev()}
                 style={{ transform: 'translateY(-50%)' }}
                 aria-label="Previous"
@@ -88,7 +88,7 @@ function Carousel() {
             </button>
             {/* Next Button */}
             <button
-                className="absolute right-0 top-[65%] -translate-y-1/2 z-10 bg-white border border-gray-300 rounded-full p-2 shadow hover:bg-gray-100"
+                className="absolute right-[2%] top-[55%] -translate-y-1/2 z-10 bg-white border border-neutral-20 rounded-full p-2 shadow hover:bg-gray-100 shadow:0px 4px 12px 0px #00000014"
                 onClick={() => sliderRef.current?.slickNext()}
                 style={{ transform: 'translateY(-50%)' }}
                 aria-label="Next"
@@ -126,21 +126,21 @@ function Carousel() {
                             </div>
 
                             <div className="flex gap-0 w-full justify-between mt-4">
-                                <div className="flex flex-col gap-1 px-4 flex-1 items-center">
+                                <div className="flex flex-col gap-1 px-4 max-sm:px-1  flex-1 items-center">
                                     <Typography variant="bodySmallM" className="text-neutral-50" align="center" >Last Price</Typography>
                                     <Typography variant="bodySmallM" className="text-neutral-100" align="center">{x.lastPrice}</Typography>
                                 </div>
                                 <div className="flex flex-col justify-center">
                                     <div className="h-12 w-px bg-neutral-20 mx-auto" />
                                 </div>
-                                <div className="flex flex-col gap-1 px-4 flex-1 items-center">
+                                <div className="flex flex-col gap-1 px-4 max-sm:px-1 flex-1 items-center">
                                     <Typography variant="bodySmallM" className="text-neutral-50" align="center">Market Cap</Typography>
                                     <Typography variant="bodySmallM" className="text-neutral-100" align="center">{x.marketCap}</Typography>
                                 </div>
                                 <div className="flex flex-col justify-center">
                                     <div className="h-12 w-px bg-neutral-30 mx-auto" />
                                 </div>
-                                <div className="flex flex-col gap-1 px-4 flex-1 items-center">
+                                <div className="flex flex-col gap-1 px-4 max-sm:px-1  flex-1 items-center">
                                     <Typography variant="bodySmallM" className="text-neutral-50" align="center">1D Change</Typography>
                                     <Typography variant="bodySmallM" className="text-neutral-100" align="center">{x.dayChange}%</Typography>
                                 </div>

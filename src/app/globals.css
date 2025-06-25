@@ -230,3 +230,10 @@ h6 {
 .bg-primary-100 {
   background-color: var(--color-primary-100);
 }
+
+.slick-dots {
+  display: flex !important;
+  justify-content: center;
+  position: static !important;
+  margin-top: 16px;
+}

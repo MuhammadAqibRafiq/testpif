@@ -29,6 +29,7 @@ const Index = () => {
                 </Button>
 
             </div>
+            
             <Carousel />
 
         </div>
