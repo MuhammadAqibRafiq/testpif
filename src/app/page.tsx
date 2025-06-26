@@ -7,6 +7,7 @@ import  Intro  from './Screens/Intro';
 import InvestingProcess from './Screens/InvestingProcess';
 import StockCrypto from './Screens/StockCrypto';
 import JoinPIF from './Screens/JoinPIF';
+import SimpleSteps from './Screens/SimpleSteps';
 
 export default function Home() {
   return (
@@ -27,6 +28,10 @@ export default function Home() {
 
       <section id="stockCrypto">
         <StockCrypto />
+      </section>
+
+      <section id="simpleSteps">
+        <SimpleSteps />
       </section>
 
       <section id="joinPIF">

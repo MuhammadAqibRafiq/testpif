@@ -241,3 +241,7 @@ h6 {
 .carousel-dots .slick-dots li {
   margin: 0;
 }
+
+.linear-bg {
+  background: linear-gradient(180deg, #F3FAF8 0%, #FFFFFF 100%);
+}
