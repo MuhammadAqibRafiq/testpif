@@ -3,16 +3,17 @@ import Button from '@/components/ui/Button/Button';
 import ThemeDebug from '@/components/ui/ThemeDebug';
 import { ThemeViewer } from './themeViewer';
 import Features from './Screens/Features';
-import  Intro  from './Screens/Intro';
+import Intro from './Screens/Intro';
 import InvestingProcess from './Screens/InvestingProcess';
 import StockCrypto from './Screens/StockCrypto';
 import JoinPIF from './Screens/JoinPIF';
 import SimpleSteps from './Screens/SimpleSteps';
+import PifInvest from './Screens/PifInvest';
 
 export default function Home() {
   return (
 
-    <div style={{ marginTop: 'var(--navbar-height)'}}>
+    <div style={{ marginTop: 'var(--navbar-height)' }}>
       {/* //  <ThemeViewer /> */}
       <section id="intro">
         <Intro />
@@ -32,6 +33,10 @@ export default function Home() {
 
       <section id="simpleSteps">
         <SimpleSteps />
+      </section>
+
+      <section id="pifInvest">
+        <PifInvest />
       </section>
 
       <section id="joinPIF">
