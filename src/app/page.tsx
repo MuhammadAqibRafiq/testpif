@@ -10,6 +10,7 @@ import JoinPIF from './Screens/JoinPIF';
 import SimpleSteps from './Screens/SimpleSteps';
 import PifInvest from './Screens/PifInvest';
 import Comments from './Screens/Comments';
+import FAQ from './Screens/FAQ';
 
 export default function Home() {
   return (
@@ -46,6 +47,11 @@ export default function Home() {
 
       <section id="stockCrypto">
         <Comments />
+      </section>
+
+
+      <section id="FAQ">
+        <FAQ />
       </section>
 
     </div>
