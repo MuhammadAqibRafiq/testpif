@@ -245,3 +245,19 @@ h6 {
 .linear-bg {
   background: linear-gradient(180deg, #F3FAF8 0%, #FFFFFF 100%);
 }
+
+.padding-lg {
+  padding: 32px;
+}
+.padding-md {
+  padding: 24px;
+}
+
+@media (max-width: 1024px) {
+  .padding-lg {
+    padding: 24px;
+  }
+  .padding-md {
+    padding: 16px;
+  }
+}

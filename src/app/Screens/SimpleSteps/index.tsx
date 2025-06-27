@@ -48,7 +48,7 @@ const Index = () => {
 
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
                     {steps?.map((step, idx) => (
-                        <div key={idx} className="bg-white rounded-2xl shadow p-[32px] max-lg:p-[24px] flex flex-col border border-primary-30">
+                        <div key={idx} className="bg-white rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
                             <div className="mb-6 flex justify-center relative">
                                 <Image src={step.icon} alt="Step Icon" className="absolute top-0 left-0 w-[40px] h-[40px]" />
                                 <div className="relative w-[200px] h-[200px] md:w-[329px] md:h-[329px]">

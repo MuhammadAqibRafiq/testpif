@@ -18,8 +18,8 @@ const Index = () => {
                     Halal-first investing made simple, smart, and personalized.</Typography>
 
 
-                <div className="grid grid-cols-6 grid-rows-8 gap-4">
-                    <div className="col-span-4 row-span-3 p-[32px] bg-primary-10 border border-primary-30 rounded-2xl">
+                <div className="grid grid-cols-1 md:grid-cols-6 grid-rows-none md:grid-rows-8 gap-4">
+                    <div className="col-span-1 md:col-span-4 row-span-1 md:row-span-3 padding-lg bg-primary-10 border border-primary-30 rounded-2xl">
                         <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50">
                             Halal & Transparent
                         </Typography>
@@ -34,7 +34,7 @@ const Index = () => {
                             <ul className="list-none">
                                 <li className="flex items-center">
                                     <span className="text-green-500 mr-2">✔️</span>
-                                    “Comfortable,” “Questionable,” or “Uncomfortable” ratings
+                                    "Comfortable," "Questionable," or "Uncomfortable" ratings
                                 </li>
                                 <li className="flex items-center">
                                     <span className="text-green-500 mr-2">✔️</span>
@@ -49,12 +49,12 @@ const Index = () => {
                     </div>
 
 
-                    <div className="col-span-2 row-span-5 col-start-1 row-start-4 p-[32px] bg-primary-10 border border-primary-30 rounded-2xl">
+                    <div className="col-span-1 md:col-span-2 row-span-1 md:row-span-5 md:col-start-1 md:row-start-4 padding-lg bg-primary-10 border border-primary-30 rounded-2xl">
                         <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50">
                             Learn as You Grow
                         </Typography>
                         <Typography variant="bodyMediumR" color="textSecondary">
-                            We teach you what we do—and why. You’ll get smarter with every update, video, and
+                            We teach you what we do—and why. You'll get smarter with every update, video, and
                             community discussion.
                         </Typography>
                         <div className='mt-[24px] gap-[8px]'>
@@ -83,7 +83,7 @@ const Index = () => {
                     </div>
 
 
-                    <div className="col-span-2 row-span-2 col-start-3 row-start-4 p-[32px]  bg-primary-10 border border-primary-30 rounded-2xl">
+                    <div className="col-span-1 md:col-span-2 row-span-1 md:row-span-2 md:col-start-3 md:row-start-4 padding-lg  bg-primary-10 border border-primary-30 rounded-2xl">
                         <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50">
                             One Price.
                         </Typography>
@@ -94,12 +94,12 @@ const Index = () => {
 
 
 
-                    <div className="col-span-2 row-span-5 col-start-5 row-start-1 p-[32px]  bg-primary-10 border border-primary-30 rounded-2xl">
+                    <div className="col-span-1 md:col-span-2 row-span-1 md:row-span-5 md:col-start-5 md:row-start-1 padding-lg  bg-primary-10 border border-primary-30 rounded-2xl">
                         <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50">
                             Curated for Performance
                         </Typography>
                         <Typography variant="bodyMediumR" color="textSecondary">
-                            We don’t believe in cookie-cutter portfolios. Every pick is backed by research, screened for compliance, and chosen with conviction.
+                            We don't believe in cookie-cutter portfolios. Every pick is backed by research, screened for compliance, and chosen with conviction.
                         </Typography>
                         <div className='mt-[24px] gap-[8px]'>
                             <Typography variant="bodyMediumSB" color="textSecondary">
@@ -123,7 +123,7 @@ const Index = () => {
                     </div>
 
 
-                    <div className="col-span-4 row-span-3 col-start-3 row-start-6  p-[32px] bg-primary-10 border border-primary-30 rounded-2xl">
+                    <div className="col-span-1 md:col-span-4 row-span-1 md:row-span-3 md:col-start-3 md:row-start-6  padding-lg bg-primary-10 border border-primary-30 rounded-2xl">
                         <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50">
                             Built with Community
                         </Typography>
