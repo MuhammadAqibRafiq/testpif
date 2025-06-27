@@ -12,4 +12,7 @@ export const constants = {
     getStarted: {
         href: 'https://app.practicalislamicfinance.com/accounts/register/',
     },
+    youtube: {
+        href: 'https://www.youtube.com/@practicalislamicfinance',
+    },
 };
