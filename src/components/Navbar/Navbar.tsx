@@ -26,22 +26,22 @@ const Navbar = () => {
 
         {/* Desktop Navbar links */}
         <div className="hidden lg:flex items-center justify-center space-x-8">
-          <Link href="#features" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
+          <Link href="#features" className={styles.navLink}>
             Features
           </Link>
-          <Link href="/reports" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
+          <Link href="/reports" className={styles.navLink}>
             Halal Reports
           </Link>
-          <Link href="/watchlist" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
+          <Link href="/watchlist" className={styles.navLink}>
             Watchlist
           </Link>
-          <Link href="/portfolio" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
+          <Link href="/portfolio" className={styles.navLink}>
             Portfolio
           </Link>
-          <Link href="/pricing" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
+          <Link href="/pricing" className={styles.navLink}>
             Pricing
           </Link>
-          <Link href="/blog" className="text-[var(--text-primary)] hover:text-primary-500 dark:hover:text-primary-400 transition-colors duration-200 font-medium">
+          <Link href="/blog" className={styles.navLink}>
             Blog
           </Link>
         </div>
@@ -82,22 +82,22 @@ const Navbar = () => {
         {/* Mobile/Tablet Menu */}
         {menuOpen && (
           <div className="absolute top-16 left-0 w-full bg-[var(--background-paper)] border-b border-grey-200 dark:border-grey-800 shadow-lg z-50 flex flex-col items-center space-y-4 py-6 lg:hidden">
-            <Link href="#features" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+            <Link href="#features" className={styles.navLink} onClick={() => setMenuOpen(false)}>
               Features
             </Link>
-            <Link href="/reports" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+            <Link href="/reports" className={styles.navLink} onClick={() => setMenuOpen(false)}>
               Halal Reports
             </Link>
-            <Link href="/watchlist" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+            <Link href="/watchlist" className={styles.navLink} onClick={() => setMenuOpen(false)}>
               Watchlist
             </Link>
-            <Link href="/portfolio" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+            <Link href="/portfolio" className={styles.navLink} onClick={() => setMenuOpen(false)}>
               Portfolio
             </Link>
-            <Link href="/pricing" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+            <Link href="/pricing" className={styles.navLink} onClick={() => setMenuOpen(false)}>
               Pricing
             </Link>
-            <Link href="/blog" className="text-[var(--text-primary)] font-medium" onClick={() => setMenuOpen(false)}>
+            <Link href="/blog" className={styles.navLink} onClick={() => setMenuOpen(false)}>
               Blog
             </Link>
             <Link href={constants.login.href} target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>

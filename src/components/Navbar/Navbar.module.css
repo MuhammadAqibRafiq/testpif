@@ -29,10 +29,28 @@
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
-  transition: color 0.2s;
+  transition: color 0.2s, font-weight 0.2s;
+  position: relative;
+}
+.navLink::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background: var(--color-primary-50, #e0f2fe);
+  transition: width 0.3s cubic-bezier(0.4,0,0.2,1);
+  border-radius: 2px;
+  pointer-events: none;
 }
 .navLink:hover {
-  color: #0070f3;
+  color: var(--color-primary-50, #e0f2fe);
+  font-weight: 600;
+}
+.navLink:hover::after {
+  width: 100%;
 }
 .right {
   flex: 1;
