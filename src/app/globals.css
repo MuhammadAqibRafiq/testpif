@@ -246,6 +246,12 @@ h6 {
   background: linear-gradient(180deg, #F3FAF8 0%, #FFFFFF 100%);
 }
 
+.linear-bg2 {
+  background: linear-gradient(180deg, #E5F5F1 0%, #FFFFFF 97%);
+}
+
+
+
 .padding-lg {
   padding: 32px;
 }

@@ -11,7 +11,7 @@ import DogecoinIcon from "@/assets/images/DogecoinIcon.png"
 import MicrosoftIcon from "@/assets/images/MicrosoftIcon.png"
 import WallmartIcon from "@/assets/images/WallmartIcon.png"
 
-const CarouselSectionSearch = () => {
+const CommentsSection= () => {
 
     const items = [
         { icon: AppleIcon, name: "Apple Inc.", description: "Apple Inc.", chip: <Chip label="Uncomfortable" bgColor="var(--color-error-50)" />, dayChange: "-1.2", marketCap: "$1000", lastPrice: "$100" },
@@ -61,4 +61,4 @@ const CarouselSectionSearch = () => {
     )
 }
 
-export default CarouselSectionSearch
+export default CommentsSection
