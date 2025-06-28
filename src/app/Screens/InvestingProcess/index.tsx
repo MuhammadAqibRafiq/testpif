@@ -24,44 +24,44 @@ const Index = () => {
             {/* card Section */}
             <div className="grid md:grid-cols-2 sm:grid-cols-2  gap-8">
 
-                <div className="bg-primary-10 rounded-2xl shadow p-8 flex flex-col border border-primary-30">
-                    <div className="mb-6 h-[400px]"  >
-                        <Image src={AppleCard} alt="10X Growth" height={400} className="w-full h-full" />
+                <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
+                    <div className="mb-6 md:h-[400px] sm:h-[200px]"  >
+                        <Image src={AppleCard} alt="10X Growth" className="w-full h-full" />
                     </div>
 
-                    <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50"  >Only invest in halal stock & crypto</Typography>
+                    <Typography variant="h6" className="mb-2 text-primary-50"  >Only invest in halal stock & crypto</Typography>
                     <Typography variant="bodyMediumR" color="textSecondary" >
                         Easily find out whether a particular stock or crypto complies with sharia principles. No manual research needed.                    </Typography>
                 </div>
 
-                <div className="bg-primary-10 rounded-2xl shadow p-8 flex flex-col border border-primary-30">
-                    <div className="mb-6 h-[400px]">
-                        <Image src={PieCard} alt="10X Growth" height={400} className="w-full h-full" />
+                <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
+                    <div className="mb-6 md:h-[400px] sm:h-[200px]">
+                        <Image src={PieCard} alt="10X Growth" className="w-full h-full" />
                     </div>
 
-                    <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50"  >Expertly-managed halal portfolios</Typography>
+                    <Typography variant="h6" className="mb-2 text-primary-50"  >Expertly-managed halal portfolios</Typography>
                     <Typography variant="bodyMediumR" color="textSecondary" >
                         Need some halal investing inspiration? Follow our expertly-managed halal portfolios. We invest our own money into carefully curated stock and crypto portfolios with various return and risk objectives.
                     </Typography>
                 </div>
 
-                <div className="bg-primary-10 rounded-2xl shadow p-8 flex flex-col border border-primary-30">
-                    <div className="mb-6 h-[400px]">
-                        <Image src={CryptoTable} alt="10X Growth" height={400} className="w-full h-full" />
+                <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
+                    <div className="mb-6 md:h-[400px] sm:h-[200px]">
+                        <Image src={CryptoTable} alt="10X Growth" className="w-full h-full" />
                     </div>
 
-                    <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50"  >Real-time buy and sell prices</Typography>
+                    <Typography variant="h6" className="mb-2 text-primary-50"  >Real-time buy and sell prices</Typography>
                     <Typography variant="bodyMediumR" color="textSecondary" >
                         Follow our regularly updated buy and sell prices for hundreds of stocks and cryptocurrencies. No more time spent on calculating the intrinsic value of a stock.
                     </Typography>
                 </div>
 
-                <div className="bg-primary-10 rounded-2xl shadow p-8 flex flex-col border border-primary-30">
-                    <div className="mb-6 h-[400px]">
-                        <Image src={nvidiaCard} alt="10X Growth" height={400} className="w-full h-full" />
+                <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
+                    <div className="mb-6 md:h-[400px] sm:h-[200px]">
+                        <Image src={nvidiaCard} alt="10X Growth" className="w-full h-full" />
                     </div>
 
-                    <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50"  >Reduce the stress of investing</Typography>
+                    <Typography variant="h6" className="mb-2 text-primary-50"  >Reduce the stress of investing</Typography>
                     <Typography variant="bodyMediumR" color="textSecondary" >
                         Our skilled analyst insights can help you take the guesswork out of investing in stocks and cryptocurrencies.
                     </Typography>
@@ -70,19 +70,19 @@ const Index = () => {
 
 
             {/* card Section */}
-            <div className="grid md:grid-cols-2 sm:grid-cols-2 gap-4 bg-primary-10 rounded-2xl shadow p-8 flex flex-col border border-primary-30 mt-8">
+            <div className="grid md:grid-cols-2 sm:grid-cols-2 gap-4 bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30 mt-8">
 
                 <div className="flex flex-col justify-center">
-                    <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50"  >Join an Exclusive Halal Investor Community</Typography>
+                    <Typography variant="h6" className="mb-2 text-primary-50"  >Join an Exclusive Halal Investor Community</Typography>
                     <Typography variant="bodyMediumR" color="textSecondary" >
                         Connect with a carefully curated group of committed, values-driven investors sharing exclusive insights and opportunities.
                     </Typography>
                 </div>
 
                 <div className="flex flex-col">
-                    <div className="h-[400px]">
-                        <Image src={Globe} alt="10X Growth" height={400} className="w-full h-full" />
-                    </div>
+                    <div className="md:h-[400px] sm:h-[200px]">
+                            <Image src={Globe} alt="10X Growth"  className="w-full h-full" />
+                        </div>
                 </div>
 
             </div>
