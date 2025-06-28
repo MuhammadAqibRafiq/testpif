@@ -10,7 +10,7 @@ const Index = () => {
         <div className='linear-bg'>
             <div className="max-w-7xl mx-auto lg:py-12 max-lg:py-6 max-xl:px-6">
 
-                <Typography variant="h2" color="primary" className="mb-[16px] md:w-2/3 mx-auto" align="center">
+                <Typography variant="h2" color="primary" className="mb-[16px] max-w-[900px] mx-auto" align="center">
                     Why Members Love PIF Invest
                 </Typography>
 
