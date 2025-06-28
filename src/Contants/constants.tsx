@@ -15,4 +15,21 @@ export const constants = {
     youtube: {
         href: 'https://www.youtube.com/@practicalislamicfinance',
     },
+    X:{
+        href: 'https://x.com/PracticalIF',
+    },
+    linkedin:{
+        href: 'https://www.linkedin.com/company/practicalislamicfinance',
+    },
+    discord:{
+        href: 'https://discord.com/invite/practicalislamicfinance',
+    },
+    instagram:{
+        href: 'https://www.instagram.com/practicalislamicfinance',
+    },
+    facebook:{
+        href: 'https://www.facebook.com/practicalislamicfinance',
+    },
+    
+    
 };

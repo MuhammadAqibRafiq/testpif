@@ -14,6 +14,8 @@ import FAQ from './Screens/FAQ';
 import YoutubeSection from './Screens/YoutubeSection';
 import ArticleSection from './Screens/ArticleSection';
 import SubscribeEmail from './Screens/SubscribeEmail';
+import Footer from './Screens/Footer';
+
 
 export default function Home() {
   return (
@@ -70,9 +72,9 @@ export default function Home() {
 
 
 
-      {/* <section id='footer'>
+      <section id='footer'>
         <Footer />
-      </section> */}
+      </section>
 
     </div>
 
