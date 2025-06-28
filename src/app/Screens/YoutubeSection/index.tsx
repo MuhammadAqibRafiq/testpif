@@ -31,8 +31,8 @@ const index = () => {
 
     const btnComponent = () => {
         return (
-            <Link href={constants.youtube.href} target="_blank" rel="noopener noreferrer">
-                <Button variant="outlined" color="primary" size="medium">
+            <Link href={constants.youtube.href} target="_blank" rel="noopener noreferrer" className='w-full'>
+                <Button variant="outlined" color="primary" size="medium" className='w-full'>
                     View all on Youtube
                 </Button>
             </Link>
@@ -42,7 +42,7 @@ const index = () => {
     return (
         <div className="max-w-7xl mx-auto py-12 max-xl:px-6">
             <div className='flex justify-between items-center pb-[40px]'>
-                <Typography variant='h2' className='text-center'>
+                <Typography variant='h2' className='lg:text-left'   align="center" >
                     Popular videos from Youtube
                 </Typography>
 
