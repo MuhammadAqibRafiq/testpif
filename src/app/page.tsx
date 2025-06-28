@@ -13,6 +13,7 @@ import Comments from './Screens/Comments';
 import FAQ from './Screens/FAQ';
 import YoutubeSection from './Screens/YoutubeSection';
 import ArticleSection from './Screens/ArticleSection';
+import SubscribeEmail from './Screens/SubscribeEmail';
 
 export default function Home() {
   return (
@@ -62,6 +63,16 @@ export default function Home() {
       <section id='articleSection'>
         <ArticleSection />
       </section>
+
+      <section id='SubscribeEmail'>
+        <SubscribeEmail />
+      </section>
+
+
+
+      {/* <section id='footer'>
+        <Footer />
+      </section> */}
 
     </div>
 

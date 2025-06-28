@@ -4,9 +4,9 @@ import Typography from '../ui/Typography'
 
 const ThumbnailCard = ({ videoThumbnail, title, discription }: { videoThumbnail: any, title: string, discription: string }) => {
     return (
-        <div className='rounded-2xl p-[16px] max-w-[410px] bg-[#E5F5F1]'>
+        <div className='rounded-2xl p-[16px] max-w-[410px] border border-neutral-30'>
 
-            <div className="relative w-full aspect-video"> {/* or aspect-[4/3], etc. */}
+            <div className="relative w-full aspect-video">
                 <Image
                     src={videoThumbnail}
                     alt="Video Thumbnail"
