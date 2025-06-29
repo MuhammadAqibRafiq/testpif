@@ -1,6 +1,6 @@
 'use client'
 import Typography from '@/components/ui/Typography'
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 import ThumbnailCard from '@/components/Card/thumbnailCard'
 import Button from '@/components/ui/Button/Button'
