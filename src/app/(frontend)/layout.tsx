@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "../components/Navbar/Navbar";
 import { ThemeProvider } from "@/contexts/ThemeContext";
+import Navbar from "@/components/Navbar/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,3 +41,24 @@ export default function RootLayout({
     </html>
   );
 }
+
+
+// import React from 'react'
+// import './styles.css'
+
+// export const metadata = {
+//   description: 'A blank template using Payload in a Next.js app.',
+//   title: 'Payload Blank Template',
+// }
+
+// export default async function RootLayout(props: { children: React.ReactNode }) {
+//   const { children } = props
+
+//   return (
+//     <html lang="en">
+//       <body>
+//         <main>{children}</main>
+//       </body>
+//     </html>
+//   )
+// }
