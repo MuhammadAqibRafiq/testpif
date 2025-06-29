@@ -1,65 +1,7 @@
-// src/viewModels/useUserViewModel.js
 import { useState, useEffect } from 'react';
-import VideoThumbnail1 from '@/assets/images/VideoThumbnail1.png'
-import VideoThumbnail2 from '@/assets/images/VideoThumbnail2.png'
-import VideoThumbnail3 from '@/assets/images/VideoThumbnail3.png'
 import moment from 'moment';
-import { StaticImageData } from 'next/image';
-
-// Interfaces
-interface MediaDocument {
-  createdAt: string;
-  updatedAt: string;
-  title: string;
-  date: string;
-  filename: string;
-  mimeType: string;
-  filesize: number;
-  width: number;
-  height: number;
-  focalX: number;
-  focalY: number;
-  id: string;
-  url: string;
-  thumbnailURL: string | null;
-}
-
-interface PayloadResponse {
-  docs: MediaDocument[];
-  totalDocs: number;
-  limit: number;
-  totalPages: number;
-  page: number;
-  pagingCounter: number;
-  hasPrevPage: boolean;
-  hasNextPage: boolean;
-  prevPage: number | null;
-  nextPage: number | null;
-}
-
-interface VideoItem {
-  videoThumbnail: string | StaticImageData;
-  title: string;
-  date: string;
-}
-
-const dummyData: VideoItem[] = [
-    {
-        videoThumbnail: VideoThumbnail1,
-        title: "My Transformative Journey through Trusting in God",
-        date: "May 1, 2025"
-    },
-    {
-        videoThumbnail: VideoThumbnail2,
-        title: "A Muslim's Guide to the New World Order",
-        date: "April 27, 2025"
-    },
-    {
-        videoThumbnail: VideoThumbnail3,
-        title: "My Crypto Investing Strategy REVEALED!!",
-        date: "May 01, 2025"
-    }
-]
+import { MediaDocument, PayloadResponse, VideoItem } from '@/app/(frontend)/utils/types';
+import { youtubeSectionDummyData } from '@/app/(frontend)/utils/DummyData/youtubeSectionData';
 
 export const useYoutubeSectionController = () => {
     const [media, setMedia] = useState<VideoItem[]>([]);
