@@ -5,7 +5,7 @@ import PieCard from '@/assets/images/PieCard.png'
 import AppleCard from '@/assets/images/AppleCard.png'
 import CryptoTable from '@/assets/images/CryptoTable.png'
 import nvidiaCard from '@/assets/images/nvidiaCard.png'
-import Globe from '@/assets/images/Globe.png'
+import Globe from '@/assets/images/globe.png'
 
 import Image from 'next/image'
 
