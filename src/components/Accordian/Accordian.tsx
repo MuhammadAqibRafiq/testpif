@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
-const AccordionItem = ({ title, children, isOpen, onToggle }: { title: string, children: React.ReactNode, isOpen: boolean, onToggle: () => void }) => {
+const AccordionItem = ({ title, children, isOpen, onToggle }: AccordionItemProps) => {
     return (
         <div className="border border-primary-30 rounded-lg mb-2 overflow-hidden">
             <button
@@ -18,9 +18,8 @@ const AccordionItem = ({ title, children, isOpen, onToggle }: { title: string, c
                 )}
             </button>
             <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                    isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                }`}
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                    }`}
             >
                 <div className="px-6 pb-4 bg-white text-gray-700">
                     {children}
@@ -30,19 +29,19 @@ const AccordionItem = ({ title, children, isOpen, onToggle }: { title: string, c
     );
 };
 
-const Accordion = ({ 
-    data = [], 
-    allowMultiple = true, 
+const Accordion = ({
+    data = [],
+    allowMultiple = true,
     className = "",
     defaultOpenItems = []
-}) => {
+}: AccordionProps) => {
     const [openItems, setOpenItems] = useState(
         new Set(defaultOpenItems)
     );
 
     const toggleItem = (index: number) => {
         const newOpenItems = new Set(allowMultiple ? openItems : []);
-        
+
         if (newOpenItems.has(index)) {
             newOpenItems.delete(index);
         } else {
@@ -59,23 +58,42 @@ const Accordion = ({
     }
 
     return (
-    <>
-                {data.map((item, index) => (
-                    <AccordionItem
-                        key={index}
-                        title={item?.title}
-                        isOpen={openItems.has(index)}
-                        onToggle={() => toggleItem(index)}
-                    >
-                        {typeof item?.content === 'string' ? (
-                            <p>{item?.content}</p>
-                        ) : (
-                            item?.content
-                        )}
-                    </AccordionItem>
-                ))}
-         </>
+        <>
+            {data.map((item: AccordionItemData, index: number) => (
+                <AccordionItem
+                    key={index}
+                    title={item?.title}
+                    isOpen={openItems.has(index)}
+                    onToggle={() => toggleItem(index)}
+                >
+                    {typeof item?.content === 'string' ? (
+                        <p>{item?.content}</p>
+                    ) : (
+                        item?.content
+                    )}
+                </AccordionItem>
+            ))}
+        </>
     );
 };
 
 export default Accordion;
+
+
+interface AccordionItemData {
+    title: string;
+    content: any;
+}
+interface AccordionProps {
+    data: AccordionItemData[];
+    allowMultiple?: boolean;
+    className?: string;
+    defaultOpenItems?: number[];
+}
+
+interface AccordionItemProps {
+    title: string;
+    children: React.ReactNode;
+    isOpen: boolean;
+    onToggle: () => void;
+}

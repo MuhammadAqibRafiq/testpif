@@ -12,6 +12,7 @@ export interface TypographyProps {
   children: React.ReactNode;
   className?: string;
   as?: React.ElementType;
+  style?: React.CSSProperties;
 }
 
 const Typography: React.FC<TypographyProps> = ({

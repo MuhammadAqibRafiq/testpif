@@ -1,21 +1,35 @@
 import React from 'react';
 import Image from 'next/image';
 
-export const OverlappingAvatars = ({ avatars = [], maxVisible = 5, size = "md", showCount = true }: { avatars: any[], maxVisible: number, size: string, showCount: boolean }) => {
-  const sizeClasses = {
-    sm: "w-8 h-8",
-    md: "w-12 h-12",
-    lg: "w-16 h-16",
-    xl: "w-20 h-20"
-  };
+const sizeClasses = {
+  sm: "w-8 h-8",
+  md: "w-12 h-12",
+  lg: "w-16 h-16",
+  xl: "w-20 h-20"
+};
 
-  const offsetClasses = {
-    sm: "-ml-2",
-    md: "-ml-3",
-    lg: "-ml-4",
-    xl: "-ml-5"
-  };
+const offsetClasses = {
+  sm: "-ml-2",
+  md: "-ml-3",
+  lg: "-ml-4",
+  xl: "-ml-5"
+};
 
+type AvatarSize = keyof typeof sizeClasses;
+
+interface OverlappingAvatarsProps {
+  avatars: { src: any; alt?: string }[];
+  maxVisible?: number;
+  size?: AvatarSize;
+  showCount?: boolean;
+}
+
+export const OverlappingAvatars: React.FC<OverlappingAvatarsProps> = ({
+  avatars = [],
+  maxVisible = 5,
+  size = "md",
+  showCount = true
+}) => {
   const visibleAvatars = avatars.slice(0, maxVisible);
   const remainingCount = avatars.length - maxVisible;
 
