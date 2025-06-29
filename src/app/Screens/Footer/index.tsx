@@ -1,11 +1,11 @@
 import Typography from "@/components/ui/Typography";
-import fb from '@/assets/images/fb.png'
-import Youtube from '@/assets/images/youtube.png'
+import fb from '@/assets/images/Fb.png'
+import Youtube from '@/assets/images/Youtube.png'
 import Linkedin from '@/assets/images/linkedin.png'
 import Instagram from '@/assets/images/instagram.png'
 import SocialIcon from "@/components/SocialIcon";
 import X from '@/assets/images/X.png'
-import Discord from '@/assets/images/discord.png'
+import Discord from '@/assets/images/Discord.png'
 import { constants } from "@/Contants/constants";
 
 
