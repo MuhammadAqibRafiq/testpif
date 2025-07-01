@@ -40,7 +40,7 @@ const CommentsSection= () => {
 
     return (
         <div>
-            <div className="flex items-center justify-center gap-2 max-w-[600px] mx-auto sm:px-[24px] px-4">
+            <div className="flex items-center justify-center gap-2 max-w-[600px] mx-auto sm:px-[24px] px-4 padding-b-xl">
                 <InputField 
                     placeholder="Try amazon, tesla, bitcoin.."
                     value={search}

@@ -11,7 +11,7 @@ const Index = () => {
         // <section id="features" className="py-20 bg-primary-10">
         <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
 
-            <Typography variant="h2" color="primary" className="mb-8 md:w-2/3 mx-auto" align="center">
+            <Typography variant="h2" color="primary" className="padding-b-xl max-w-[900px] mx-auto" align="center">
                 Choose from Four High- Potential Portfolios:
             </Typography>
 

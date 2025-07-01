@@ -37,11 +37,11 @@ const Index = () => {
         <div className='linear-bg'>
             <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
 
-                <Typography variant="h2" color="primary" className="mb-8 max-w-[900px] mx-auto" align="center">
+                <Typography variant="h2" color="primary" className="pb-[16px] max-w-[900px] mx-auto" align="center">
                     Get Started in 3 Simple Steps
                 </Typography>
 
-                <Typography variant="bodyLargeR" color="textSecondary" className="mb-8 max-w-[500px] mx-auto" align="center">
+                <Typography variant="bodyLargeR" color="textSecondary" className="padding-b-xl max-w-[500px] mx-auto" align="center">
                     You don't need a finance degree to invest with confidence. Here's how to begin your journey with PIF:
                 </Typography>
 

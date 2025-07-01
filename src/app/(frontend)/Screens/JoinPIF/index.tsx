@@ -23,7 +23,7 @@ const Index = () => {
                     <Typography variant="h2" color="primary" className="md:w-[70%] max-md:text-center">
                         Join PIF Invest Today
                     </Typography>
-                    <Typography variant="bodyXLargeR" className="text-neutral-100 max-md:text-center">
+                    <Typography variant="bodyXLargeR" className="text-neutral-100 max-md:text-center max-w-[500px]">
                         Start your journey toward halal, high-conviction investing—without the jargon or confusion.
                     </Typography>
 

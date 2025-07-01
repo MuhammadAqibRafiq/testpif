@@ -26,20 +26,20 @@ const Index = () => {
             <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-8">
 
                 <div className="flex flex-col">
-                    <Typography variant="h1" className=" text-neutral-100 lg:w-[500px] " >
+                    <Typography variant="h1" className=" text-neutral-100 lg:w-[500px] pb-[16px]" >
                         Make smarte<span className='relative'>r <Image src={Isolation_Mode} alt="Arrow" className='absolute top-0 left-0' /></span> <span className="text-primary-50">halal </span>investing decisions
                     </Typography>
-                    <Typography variant="bodyXLargeM" className="text-neutral-50 pt-4 max-w-[600px]" >
+                    <Typography variant="bodyXLargeM" className="text-neutral-50 max-w-[600px] pb-[32px]" >
                         Find and invest in halal opportunities, follow expertly-managed halal portfolios, meet your financial goals while aligning with your beliefs and values.
                     </Typography>
-                    <div className='pt-4'>
+                    <div className='pb-[40px]'>
                         <Button variant="contained" color="primary" size="medium" className='max-md:w-full'>
                             Get started
                         </Button>
                     </div>
 
                     {/* Desktop only */}
-                    <div className="hidden md:flex gap-[16px] flex-col mt-[40px]">
+                    <div className="hidden md:flex gap-[16px] flex-col">
                         <Typography variant="bodyLargeM" className="text-neutral-100">
                             Used and loved by 10,000+ muslim investors
                         </Typography>

@@ -13,10 +13,10 @@ const Index = () => {
     return (
         <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
 
-            <Typography variant="h2" color="primary" className="mb-4 max-w-[554px] mx-auto" align="center">
+            <Typography variant="h2" color="primary" className="pb-[16px] max-w-[554px] mx-auto" align="center">
                 Level Up Your Halal Investing Process
             </Typography>
-            <Typography variant="bodyLargeR" color="textSecondary" className="mb-8 max-w-[620px] mx-auto" align="center">
+            <Typography variant="bodyLargeR" color="textSecondary" className="padding-b-xl max-w-[620px] mx-auto" align="center">
                 Unlock the tools and resources that make ethical, Shariah-compliant finance simple and effective for everyone.
             </Typography>
 

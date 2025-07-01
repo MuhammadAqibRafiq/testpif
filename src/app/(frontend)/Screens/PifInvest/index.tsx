@@ -14,7 +14,7 @@ const Index = () => {
                     Why Members Love PIF Invest
                 </Typography>
 
-                <Typography variant="bodyLargeR" color="textSecondary" className="mb-8 mx-auto" align="center">
+                <Typography variant="bodyLargeR" color="textSecondary" className="padding-b-xl mx-auto" align="center">
                     Halal-first investing made simple, smart, and personalized.</Typography>
 
 
