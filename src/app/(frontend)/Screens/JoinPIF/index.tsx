@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 const Index = () => {
     return (
-        <div className="max-w-7xl mx-auto py-12 max-xl:px-6">
+        <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
             {/* card Section */}
             <div className="grid md:grid-cols-2 sm:grid-cols-2 gap-1 max-md:gap-[32px] rounded-2xl p-18 max-lg:p-[24px] flex flex-col bg-[linear-gradient(180deg,_#E5F5F1_0%,_#FFFFFF_97%)]">
 

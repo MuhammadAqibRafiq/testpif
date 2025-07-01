@@ -21,7 +21,7 @@ const Index = () => {
         { src: Avatar5, alt: "User 5" },
     ];
     return (
-        <div className="max-w-7xl mx-auto lg:py-12 max-lg:py-6 max-lg:py-6  max-xl:px-6 ">
+        <div className="max-w-7xl mx-auto padding-y-lg max-xl:px-6 ">
 
             <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-8">
 

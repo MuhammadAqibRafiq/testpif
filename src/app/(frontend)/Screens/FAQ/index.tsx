@@ -43,7 +43,7 @@ const accordionData = [
 
 const Index = () => {
     return (
-        <div className="py-12 px-[24px]">
+        <div className="padding-y-xl px-[24px]">
 
             <Typography variant="h2" color="primary" className="mb-4" align="center">
                 Frequently asked questions

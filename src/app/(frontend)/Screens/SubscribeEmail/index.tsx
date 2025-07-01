@@ -18,7 +18,7 @@ const Index = () => {
     return (
 
         <div className='linear-bg'>
-            <div className="max-w-7xl mx-auto lg:py-12 max-lg:py-6 max-xl:px-6">
+            <div className="max-w-7xl mx-auto padding-y-lg max-xl:px-6">
                 <div className='flex justify-center p-[44px]'>
                     <Image src={PifLogoCircle} alt="Pif Logo Circle" width={72} height={72} />
                 </div>

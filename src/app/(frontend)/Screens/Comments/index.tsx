@@ -8,7 +8,7 @@ import CommentsSection from './CommentsSection'
 
 const Index = () => {
     return (
-        <div className="py-12">
+        <div className="padding-y-xl">
 
             <Typography variant="h2" color="primary" className="mb-4" align="center">
                 Trusted by Hundreds

@@ -35,7 +35,7 @@ const Index = () => {
     return (
 
         <div className='linear-bg'>
-            <div className="max-w-7xl mx-auto lg:py-12 max-lg:py-6 max-xl:px-6">
+            <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
 
                 <Typography variant="h2" color="primary" className="mb-8 max-w-[900px] mx-auto" align="center">
                     Get Started in 3 Simple Steps

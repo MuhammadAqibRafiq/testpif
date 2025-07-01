@@ -8,7 +8,7 @@ import CarouselSectionSearch from './CarouselSectionSearch'
 
 const Index = () => {
     return (
-        <div className="py-12 [background:linear-gradient(180deg,_#E4F5F0_0%,_#F3FAF8_97%)]">
+        <div className="padding-y-xl [background:linear-gradient(180deg,_#E4F5F0_0%,_#F3FAF8_97%)]">
 
             <div className='sm:px-[24px] px-4'>
                 <Typography variant="h2" color="primary" className="mb-4 max-w-[800px] mx-auto" align="center">

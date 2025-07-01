@@ -11,7 +11,7 @@ import Image from 'next/image'
 
 const Index = () => {
     return (
-        <div className="max-w-7xl mx-auto py-12 max-xl:px-6">
+        <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
 
             <Typography variant="h2" color="primary" className="mb-4 max-w-[554px] mx-auto" align="center">
                 Level Up Your Halal Investing Process

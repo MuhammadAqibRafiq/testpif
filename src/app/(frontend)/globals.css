@@ -251,6 +251,26 @@ h6 {
 }
 
 
+.padding-y-xl {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.padding-y-lg {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+@media (max-width: 1024px) {
+  .padding-y-xl {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .padding-y-lg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 
 .padding-lg {
   padding: 32px;
