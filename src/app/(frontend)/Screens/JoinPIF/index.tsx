@@ -29,7 +29,7 @@ const Index = () => {
 
                     <div >
                         <Button variant="contained" color="primary" size="medium" className='max-md:w-full'>
-                            Get Started
+                            Get started
                         </Button>
                     </div>
 

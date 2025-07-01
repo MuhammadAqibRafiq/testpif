@@ -29,12 +29,12 @@ const Index = () => {
                     <Typography variant="h1" className=" text-neutral-100 lg:w-[500px] " >
                         Make smarte<span className='relative'>r <Image src={Isolation_Mode} alt="Arrow" className='absolute top-0 left-0' /></span> <span className="text-primary-50">halal </span>investing decisions
                     </Typography>
-                    <Typography variant="bodyXLargeM" className="text-neutral-50 pt-4" >
+                    <Typography variant="bodyXLargeM" className="text-neutral-50 pt-4 max-w-[600px]" >
                         Find and invest in halal opportunities, follow expertly-managed halal portfolios, meet your financial goals while aligning with your beliefs and values.
                     </Typography>
                     <div className='pt-4'>
                         <Button variant="contained" color="primary" size="medium" className='max-md:w-full'>
-                            Get Started
+                            Get started
                         </Button>
                     </div>
 

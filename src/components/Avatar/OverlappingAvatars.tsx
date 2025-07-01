@@ -38,7 +38,7 @@ export const OverlappingAvatars: React.FC<OverlappingAvatarsProps> = ({
       {visibleAvatars.map((avatar, index) => (
         <div
           key={index}
-          className={`${sizeClasses[size]} ${index > 0 ? offsetClasses[size] : ''} relative rounded-full border-2 border-white bg-gray-100 overflow-hidden shadow-md hover:z-10 transition-transform hover:scale-110`}
+          className={`${sizeClasses[size]} ${index > 0 ? offsetClasses[size] : ''} relative rounded-full border-2 border-white bg-gray-100 overflow-hidden shadow-md hover:z-10 transition-transform`}
           style={{ zIndex: visibleAvatars.length - index }}
         >
           <Image

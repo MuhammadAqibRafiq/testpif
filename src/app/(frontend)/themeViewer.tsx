@@ -22,7 +22,7 @@ export const ThemeViewer = () => {
         </Typography>
         <div className="flex gap-4 justify-center">
           <Button variant="contained" color="primary" size="large">
-            Get Started
+            Get started
           </Button>
           <Button variant="outlined" color="secondary" size="large">
             Learn More
