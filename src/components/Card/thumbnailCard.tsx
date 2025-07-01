@@ -1,29 +1,57 @@
 import React from 'react'
 import Image from 'next/image'
 import Typography from '../ui/Typography'
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
+import { VideoItem } from '@/app/(frontend)/utils/types'
 
+type ThumbnailCardProps = VideoItem & {
+    loading?: boolean;
+};
 
-const ThumbnailCard = ({ videoThumbnail, title, discription }: { videoThumbnail: any, title: string, discription: string }) => {
+const ThumbnailCard: React.FC<ThumbnailCardProps> = ({
+    videoThumbnail,
+    title,
+    date,
+    loading = false,
+}) => {
     return (
         <div className='rounded-2xl p-[16px] max-w-[410px] border border-neutral-30'>
             <div className="relative w-full aspect-video">
-                <Image
-                    src={videoThumbnail}
-                    alt="Video Thumbnail"
-                    fill
-                    className="object-cover rounded-lg"
-                    sizes="(max-width: 768px) 100vw, 50vw" // optional, for better performance
-                />
+                {loading ? (
+                    <Skeleton height="100%" width="100%" style={{ borderRadius: '0.5rem', position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }} />
+                ) : (
+                    <Image
+                        src={videoThumbnail!}
+                        alt="Video Thumbnail"
+                        fill
+                        className="object-cover rounded-lg"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                )}
             </div>
 
-            <Typography variant='bodyXLargeSB' className='text-neutral-100 pt-[16px]'>
-                {title}
-            </Typography>
+            <div className="pt-[16px]">
+                {loading ? (
+                    <Skeleton height={24} width="75%" />
+                ) : (
+                    <Typography variant='bodyXLargeSB' className='text-neutral-100'>
+                        {title}
+                    </Typography>
+                )}
+            </div>
 
-            <Typography variant='body1' className='text-neutral-50'>{discription}</Typography>
-
+            <div className="pt-2">
+                {loading ? (
+                    <Skeleton height={16} width="100%" />
+                ) : (
+                    <Typography variant='body1' className='text-neutral-50'>
+                        {date}
+                    </Typography>
+                )}
+            </div>
         </div>
-    )
-}
+    );
+};
 
 export default ThumbnailCard

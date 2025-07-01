@@ -2,9 +2,9 @@ import { StaticImageData } from 'next/image';
 
 
 export interface VideoItem {
-    videoThumbnail: string | StaticImageData;
-    title: string;
-    date: string;
+    videoThumbnail?: string | StaticImageData;
+    title?: string;
+    date?: string;
 }
 // Interfaces
 export interface MediaDocument {

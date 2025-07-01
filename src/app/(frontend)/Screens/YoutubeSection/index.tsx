@@ -7,11 +7,12 @@ import Button from '@/components/ui/Button/Button'
 import Link from 'next/link'
 import { constants } from '@/Contants/constants'
 import { useYoutubeSectionController } from '../../Controller/Screens/YoutubeSection'
+import Skeleton from 'react-loading-skeleton'
 
 
 const index = () => {
 
-    const { data , loading , error } = useYoutubeSectionController()
+    const { data, loading, error } = useYoutubeSectionController()
 
     const btnComponent = () => {
         return (
@@ -34,14 +35,27 @@ const index = () => {
                     {btnComponent()}
                 </div>
             </div>
+
+
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-                {data?.map((item, index) => {
-                    return (
+                {loading
+                    ? // Show 3 skeleton cards while loading
+                    Array.from({ length: 2 }).map((_, index) => (
                         <div key={index}>
-                            <ThumbnailCard videoThumbnail={item.videoThumbnail} title={item.title} discription={item.date} />
+                            <ThumbnailCard loading={loading} videoThumbnail={''} title={''} date={''} />
                         </div>
-                    )
-                })}
+                    ))
+                    : // Show real data when loaded
+                    data?.map((item, index) => (
+                        <div key={index}>
+                            <ThumbnailCard
+                                videoThumbnail={item.videoThumbnail}
+                                title={item.title}
+                                date={item.date}
+                            />
+                        </div>
+                    ))
+                }
             </div>
 
             <div className="block sm:hidden mt-4 w-full">
