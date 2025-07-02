@@ -7,7 +7,7 @@ const Index = () => {
 
     return (
 
-        <div className='linear-bg'>
+        <div className=''>
             <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
 
                 <Typography variant="h2" color="primary" className="mb-[16px] max-w-[900px] mx-auto" align="center">
