@@ -62,7 +62,7 @@ const CarouselCommentsCard = forwardRef<unknown, CarouselProps>(({ items }, ref)
 
 
     return (
-        <div className="relative overflow-hidden pt-8 carousel-dots">
+        <div className="relative overflow-hidden carousel-dots">
             <button
                 className="absolute left-[2%] top-[55%] -translate-y-1/2 z-10 bg-white border border-neutral-20 rounded-full p-2 shadow hover:bg-gray-100"
                 onClick={() => sliderRef.current?.slickPrev()}

@@ -16,7 +16,7 @@ const Navbar = () => {
       style={{ height: 'var(--navbar-height)' }}
       className="fixed top-0 left-0 w-full bg-white z-50 transition-colors duration-200"
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between h-full px-8">
+      <div className="max-w-7xl mx-auto flex items-center justify-between h-full max-xl:px-[24px]">
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/">

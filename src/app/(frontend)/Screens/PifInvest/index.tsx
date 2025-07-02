@@ -1,13 +1,14 @@
 import Typography from '@/components/ui/Typography'
 import React from 'react'
 import Image from 'next/image'
-
+import greenTick from "@/assets/images/greenTick.png"
 
 const Index = () => {
 
     return (
 
         <div className=''>
+
             <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
 
                 <Typography variant="h2" color="primary" className="mb-[16px] max-w-[900px] mx-auto" align="center">
@@ -18,7 +19,7 @@ const Index = () => {
                     Halal-first investing made simple, smart, and personalized.</Typography>
 
 
-                <div className="grid grid-cols-1 md:grid-cols-6 grid-rows-none md:grid-rows-8 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-6 grid-rows-none md:grid-rows-8 gap-[24px]">
                     <div className="col-span-1 md:col-span-4 row-span-1 md:row-span-3 padding-lg bg-primary-10 border border-primary-30 rounded-2xl">
                         <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50">
                             Halal & Transparent
@@ -28,20 +29,26 @@ const Index = () => {
                         </Typography>
 
                         <div className='mt-[24px] gap-[8px]'>
-                            <Typography variant="bodyMediumSB" color="textSecondary">
+                            <Typography variant="bodyMediumSB" color="textSecondary" className='pb-[8px]'>
                                 You'll See:
                             </Typography>
-                            <ul className="list-none">
-                                <li className="flex items-center">
-                                    <span className="text-green-500 mr-2">✔️</span>
+                            <ul className="list-none space-y-[4px]">
+                                <li className="flex items-baseline">
+                                    <div className='mr-[8px]'>
+                                        <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    </div>
                                     "Comfortable," "Questionable," or "Uncomfortable" ratings
                                 </li>
-                                <li className="flex items-center">
-                                    <span className="text-green-500 mr-2">✔️</span>
+                                <li className="flex items-baseline">
+                                    <div className='mr-[8px]'>
+                                        <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    </div>
                                     Automatic alerts when something turns questionable
                                 </li>
-                                <li className="flex items-center">
-                                    <span className="text-green-500 mr-2">✔️</span>
+                                <li className="flex items-baseline">
+                                    <div className='mr-[8px]'>
+                                        <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    </div>
                                     Honest transparency—no hidden exposure
                                 </li>
                             </ul>
@@ -58,24 +65,32 @@ const Index = () => {
                             community discussion.
                         </Typography>
                         <div className='mt-[24px] gap-[8px]'>
-                            <Typography variant="bodyMediumSB" color="textSecondary">
+                            <Typography variant="bodyMediumSB" color="textSecondary" className='pb-[8px]'>
                                 Included:
                             </Typography>
-                            <ul className="list-none">
-                                <li className="flex items-center">
-                                    <span className="text-green-500 mr-2">✔️</span>
+                            <ul className="list-none space-y-[4px]">
+                                <li className="flex items-baseline">
+                                    <div className='mr-[8px]'>
+                                        <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    </div>
                                     Deep dives
                                 </li>
-                                <li className="flex items-center">
-                                    <span className="text-green-500 mr-2">✔️</span>
+                                <li className="flex items-baseline">
+                                    <div className='mr-[8px]'>
+                                        <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    </div>
                                     Market recaps
                                 </li>
-                                <li className="flex items-center">
-                                    <span className="text-green-500 mr-2">✔️</span>
+                                <li className="flex items-baseline">
+                                    <div className='mr-[8px]'>
+                                        <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    </div>
                                     Monthly portfolio reviews
                                 </li>
-                                <li className="flex items-center">
-                                    <span className="text-green-500 mr-2">✔️</span>
+                                <li className="flex items-baseline">
+                                    <div className='mr-[8px]'>
+                                        <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    </div>
                                     Q&As with Rakaan
                                 </li>
                             </ul>
@@ -102,20 +117,26 @@ const Index = () => {
                             We don't believe in cookie-cutter portfolios. Every pick is backed by research, screened for compliance, and chosen with conviction.
                         </Typography>
                         <div className='mt-[24px] gap-[8px]'>
-                            <Typography variant="bodyMediumSB" color="textSecondary">
+                            <Typography variant="bodyMediumSB" color="textSecondary" className='pb-[8px]'>
                                 What You Get:
                             </Typography>
-                            <ul className="list-none">
-                                <li className="flex items-center">
-                                    <span className="text-green-500 mr-2">✔️</span>
+                            <ul className="list-none space-y-[4px]">
+                                <li className="flex items-baseline">
+                                    <div className='mr-[8px]'>
+                                        <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    </div>
                                     Hand-picked halal stock and crypto ideas
                                 </li>
-                                <li className="flex items-center">
-                                    <span className="text-green-500 mr-2">✔️</span>
+                                <li className="flex items-baseline">
+                                    <div className='mr-[8px]'>
+                                        <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    </div>
                                     Clear buy/sell updates with rationale
                                 </li>
-                                <li className="flex items-center">
-                                    <span className="text-green-500 mr-2">✔️</span>
+                                <li className="flex items-baseline">
+                                    <div className='mr-[8px]'>
+                                        <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    </div>
                                     No guesswork—just smart signals
                                 </li>
                             </ul>
@@ -132,16 +153,20 @@ const Index = () => {
                             recognition for your contributions.
                         </Typography>
                         <div className='mt-[24px] gap-[8px]'>
-                            <Typography variant="bodyMediumSB" color="textSecondary">
+                            <Typography variant="bodyMediumSB" color="textSecondary" className='pb-[8px]'>
                                 In the PIF Discord:
                             </Typography>
-                            <ul className="list-none">
-                                <li className="flex items-center">
-                                    <span className="text-green-500 mr-2">✔️</span>
+                            <ul className="list-none space-y-[4px]">
+                                <li className="flex items-baseline">
+                                    <div className='mr-[8px]'>
+                                        <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    </div>
                                     Trade discussions
                                 </li>
-                                <li className="flex items-center">
-                                    <span className="text-green-500 mr-2">✔️</span>
+                                <li className="flex items-baseline">
+                                    <div className='mr-[8px]'>
+                                        <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    </div>
                                     Support from like-minded investors
                                 </li>
                             </ul>
