@@ -59,7 +59,7 @@ const Index = () => {
                 <div className="space-y-2">
                     <Accordion
                         data={accordionData}
-                        allowMultiple={false} // Only one item open at a time
+                        allowMultiple={true} // Only one item open at a time
                         defaultOpenItems={[0]} // First item open by default
                     />
                 </div>

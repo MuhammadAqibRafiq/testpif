@@ -20,7 +20,7 @@ const socialLinks = [
 
 const Index = () => {
     return (
-        <footer className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
+        <footer className="max-w-7xl mx-auto padding-y-xl  pb-[0px!important] max-xl:px-6">
             <div className="max-w-7xl mx-auto">
 
                 <div className="flex flex-col md:flex-row md:justify-between gap-8">
