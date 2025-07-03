@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import moment from 'moment';
 import { MediaDocument, PayloadResponse, VideoItem } from '@/app/(frontend)/utils/types';
-import { youtubeSectionDummyData } from '@/app/(frontend)/utils/DummyData/youtubeSectionData';
+import { youtubeSectionDummyData } from '@/app/(frontend)/utils/DummyData/youtubeSectionDummyData';
 
 export const useYoutubeSectionController = () => {
     const [media, setMedia] = useState<VideoItem[]>([]);
-    const [loading, setLoading] = useState(true);
+    // const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
     const manipulateAndSetData = (docs: MediaDocument[]) => {
@@ -42,12 +43,12 @@ export const useYoutubeSectionController = () => {
     const data: VideoItem[] = media?.length > 0 ? media : [];
 
     useEffect(() => {
-        fetchMedia();
+        // fetchMedia();
     }, []);
 
     return {
         loading,
         error,
-        data
+        data: youtubeSectionDummyData //when payload not in use
     };
 };
