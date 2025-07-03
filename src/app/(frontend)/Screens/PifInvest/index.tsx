@@ -22,10 +22,10 @@ const Index = () => {
                 <div className="grid grid-cols-1 md:grid-cols-6 grid-rows-none md:grid-rows-8 gap-[24px]">
                     <div className="col-span-1 md:col-span-4 row-span-1 md:row-span-3 padding-lg bg-primary-10 border border-primary-30 rounded-2xl">
                         <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50">
-                            Halal & Transparent
+                        Halal & Transparent
                         </Typography>
                         <Typography variant="bodyMediumR" className='color-neutral-100'>
-                            Every investment is screened using clear shariah standards. Interest income, debt ratios, and business activities are monitored regularly.
+                        Every investment is screened using clear shariah standards. Interest income, debt ratios, and business activities are monitored regularly.
                         </Typography>
 
                         <div className='mt-[24px] gap-[8px]'>
@@ -37,13 +37,13 @@ const Index = () => {
                                     <div className='mr-[8px]'>
                                         <Image src={greenTick} alt="greenTick" height={11} width={13} />
                                     </div>
-                                    "Comfortable," "Questionable," or "Uncomfortable" ratings
+                                    “Comfortable,” “Questionable,” or “Uncomfortable” ratings
                                 </li>
                                 <li className="flex items-baseline">
                                     <div className='mr-[8px]'>
                                         <Image src={greenTick} alt="greenTick" height={11} width={13} />
                                     </div>
-                                    Automatic alerts when something turns questionable
+                                    Alerts when our comfort rating changes for followed assets
                                 </li>
                                 <li className="flex items-baseline">
                                     <div className='mr-[8px]'>
