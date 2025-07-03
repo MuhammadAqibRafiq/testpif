@@ -1,7 +1,7 @@
 import Typography from '@/components/ui/Typography'
 import React from 'react'
 import Image from 'next/image'
-import Stats1 from '@/assets/images/Stats1.png'
+import Stats1 from '@/assets/images/Stats2.png'
 import Button from '@/components/ui/Button/Button'
 import { OverlappingAvatars } from '@/components/Avatar/OverlappingAvatars'
 import Avatar1 from '@/assets/images/Avatar1.png'
@@ -54,7 +54,14 @@ const Index = () => {
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <Image src={Stats1} alt="10X Growth" />
+                    <div className='flex flex-col gap-[16px] items-center'>
+                        <Image src={Stats1} alt="10X Growth" className='max-h-[432px] max-w-[556px]' />
+
+                        <Typography variant="bodySmallM" className='text-neutral-100 max-w-[450px]' align='center'  >
+                            Annualized returns are shown for the PIF Aggressive Growth Portfolio and S&P500 from Jan 01 2022 to Jun 01 2025.
+                            Returns shown are historical and for illustrative purposes only. Past performance is not necessarily indicative of future results.
+                        </Typography>
+                    </div>
 
                     {/* Mobile only */}
                     <div className="flex md:hidden gap-[16px] flex-col mt-[40px] justify-center items-center">
