@@ -7,10 +7,30 @@ import ThemeToggle from '@/components/ui/ThemeToggle';
 import Button from '../ui/Button/Button';
 import { constants } from '@/Contants/constants';
 import PIFLogo from '@/assets/images/PIFLogo.png';
+import { navLinks } from '@/constants/navLinks';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const LoginComponent = () => {
+    return (
+      <Link href={constants.login.href} target="_blank" rel="noopener noreferrer">
+        <Button variant="outlined" color="primary" size="medium">
+          Log in
+        </Button>
+      </Link>
+    )
+  }
+
+  const GetStartedComponent = () => {
+    return (
+      <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
+      <Button variant="contained" color="primary" size="medium">
+        Get started
+      </Button>
+    </Link>
+    )
+  }
   return (
     <nav
       style={{ height: 'var(--navbar-height)' }}
@@ -26,47 +46,28 @@ const Navbar = () => {
 
         {/* Desktop Navbar links */}
         <div className="hidden lg:flex items-center justify-center space-x-8">
-          <Link href="#features" className={styles.navLink}>
-            Features
-          </Link>
-          <Link href="/reports" className={styles.navLink}>
-            Halal Reports
-          </Link>
-          <Link href="/watchlist" className={styles.navLink}>
-            Watchlist
-          </Link>
-          <Link href="/portfolio" className={styles.navLink}>
-            Portfolio
-          </Link>
-          <Link href="/pricing" className={styles.navLink}>
-            Pricing
-          </Link>
-          <Link href="/blog" className={styles.navLink}>
-            Blog
-          </Link>
+          {navLinks.map((link) => (
+            <Link
+              key={link.label}
+              href={link.href}
+              className={styles.navLink}
+              target={link.external ? '_blank' : '_self'}
+            >
+              {link.label}
+            </Link>
+          ))}
         </div>
 
         {/* Desktop Buttons (visible only on lg and up) */}
         <div className="hidden lg:flex items-center space-x-4">
-          <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
-            <Button variant="contained" color="primary" size="medium">
-              Get started
-            </Button>
-          </Link>
-          <Link href={constants.login.href} target="_blank" rel="noopener noreferrer">
-            <Button variant="outlined" color="primary" size="medium">
-              Log in
-            </Button>
-          </Link>
+          <GetStartedComponent />
+          <LoginComponent />
+
         </div>
 
         {/* On small screens: Get started button before hamburger */}
         <div className="flex items-center space-x-2 lg:hidden">
-          <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
-            <Button variant="contained" color="primary" size="small">
-              Get started
-            </Button>
-          </Link>
+          <GetStartedComponent />
           {/* Hamburger Icon */}
           <button
             className="flex items-center justify-center w-10 h-10"
@@ -81,30 +82,18 @@ const Navbar = () => {
 
         {/* Mobile/Tablet Menu */}
         {menuOpen && (
-          <div className="absolute top-16 left-0 w-full bg-[var(--background-paper)] border-b border-grey-200 dark:border-grey-800 shadow-lg z-50 flex flex-col items-center space-y-4 py-6 lg:hidden">
-            <Link href="#features" className={styles.navLink} onClick={() => setMenuOpen(false)}>
-              Features
-            </Link>
-            <Link href="/reports" className={styles.navLink} onClick={() => setMenuOpen(false)}>
-              Halal Reports
-            </Link>
-            <Link href="/watchlist" className={styles.navLink} onClick={() => setMenuOpen(false)}>
-              Watchlist
-            </Link>
-            <Link href="/portfolio" className={styles.navLink} onClick={() => setMenuOpen(false)}>
-              Portfolio
-            </Link>
-            <Link href="/pricing" className={styles.navLink} onClick={() => setMenuOpen(false)}>
-              Pricing
-            </Link>
-            <Link href="/blog" className={styles.navLink} onClick={() => setMenuOpen(false)}>
-              Blog
-            </Link>
-            <Link href={constants.login.href} target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>
-              <Button variant="outlined" color="primary" size="medium">
-                Log in
-              </Button>
-            </Link>
+          <div  style={{top: 'var(--navbar-height)'}} className="absolute left-0 w-full bg-[var(--background-paper)] border-b border-grey-200 dark:border-grey-800 shadow-lg z-50 flex flex-col items-center space-y-4 py-6 lg:hidden">
+            {navLinks.map((link) => (
+              <Link
+                key={link.label}
+                href={link.href}
+                className={styles.navLink}
+                onClick={() => setMenuOpen(false)}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <LoginComponent />
           </div>
         )}
       </div>

@@ -7,29 +7,38 @@ export const constants = {
     //     ],
     // },
     login: {
-        href: 'https://app.practicalislamicfinance.com/accounts/login/',
+        href: 'https://app.practicalislamicfinance.com/accounts/login',
     },
     getStarted: {
-        href: 'https://app.practicalislamicfinance.com/accounts/register/',
+        href: 'https://app.practicalislamicfinance.com/accounts/register',
+    },
+    pricing: {
+        href: 'https://app.practicalislamicfinance.com/plans',
+    },
+    stocksReports: {
+        href: 'https://app.practicalislamicfinance.com/reports/stocks',
+    },
+    cryptoReports: {
+        href: 'https://app.practicalislamicfinance.com/reports/crypto',
     },
     youtube: {
         href: 'https://www.youtube.com/@practicalislamicfinance',
     },
-    X:{
+    X: {
         href: 'https://x.com/PracticalIF',
     },
-    linkedin:{
+    linkedin: {
         href: 'https://www.linkedin.com/company/practicalislamicfinance',
     },
-    discord:{
+    discord: {
         href: 'https://discord.com/invite/practicalislamicfinance',
     },
-    instagram:{
+    instagram: {
         href: 'https://www.instagram.com/practicalislamicfinance',
     },
-    facebook:{
+    facebook: {
         href: 'https://www.facebook.com/practicalislamicfinance',
     },
-    
-    
+
+
 };
