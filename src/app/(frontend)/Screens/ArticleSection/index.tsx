@@ -54,7 +54,7 @@ const index = () => {
                 {array?.map((item, index) => {
                     return (
                         <div key={index}>
-                            <ThumbnailCard videoThumbnail={item.videoThumbnail} title={item.title} discription={item.date} />
+                            <ThumbnailCard videoThumbnail={item.videoThumbnail} title={item.title} date={item.date} />
                         </div>
                     )
                 })}
