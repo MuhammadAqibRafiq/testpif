@@ -55,7 +55,14 @@ const Index = () => {
 
                 <div className="flex flex-col items-center">
                     <div className='flex flex-col gap-[16px] items-center'>
-                        <Image src={Stats1} alt="10X Growth" className='max-h-[432px] max-w-[556px]' />
+                        <div className="w-full" style={{ maxWidth: '556px', maxHeight: '420px' }}>
+                            <Image
+                                src={Stats1}
+                                alt="10X Growth"
+                                className="w-full h-auto"
+                                style={{ maxHeight: '420px' }}
+                            />
+                        </div>
 
                         <Typography variant="bodySmallM" className='text-neutral-100 max-w-[450px]' align='center'  >
                             Annualized returns are shown for the PIF Aggressive Growth Portfolio and S&P500 from Jan 01 2022 to Jun 01 2025.
