@@ -13,8 +13,8 @@ const Index = () => {
 
                 {/* Image column: order 1 on mobile, order 2 on md+ */}
                 <div className="order-1 md:order-2 flex flex-col justify-center">
-                    <div className="h-[400px] w-full h-full flex items-center justify-center">
-                        <Image src={PifIcon} alt="10X Growth" height={400} className="" />
+                    <div className="max-h-[400px] flex items-center justify-center">
+                        <Image src={PifIcon} alt="10X Growth" className="w-full" />
                     </div>
                 </div>
 
