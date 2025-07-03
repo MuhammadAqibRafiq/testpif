@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <nav
       style={{ height: 'var(--navbar-height)' }}
-      className="fixed top-0 left-0 w-full bg-white z-50 transition-colors duration-200"
+      className="fixed top-0 left-0 w-full bg-white z-50 transition-colors duration-200 border-b border-neutral-30 dark:border-neutral-30"
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between h-full max-xl:px-[24px]">
         {/* Logo */}

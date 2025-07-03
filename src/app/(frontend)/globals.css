@@ -15,7 +15,7 @@ html {
   --text-secondary: rgba(0, 0, 0, 0.6);
   --text-disabled: rgba(0, 0, 0, 0.38);
   --font-family-work-sans: 'Work Sans', Arial, Helvetica, sans-serif;
-  --navbar-height: 96px;
+  --navbar-height: 80px;
 }
 
 .dark {
