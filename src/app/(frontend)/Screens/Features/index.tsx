@@ -12,13 +12,13 @@ const Index = () => {
         <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
 
             <Typography variant="h2" color="primary" className="padding-b-xl max-w-[900px] mx-auto" align="center">
-                Choose from Four High- Potential Portfolios:
+            Choose from High-Potential Portfolios
             </Typography>
 
 
             <div className="grid lg:grid-cols-4 md:grid-cols-2  gap-8">
 
-                <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col items-center border border-primary-50">
+                <div className="bg-white rounded-2xl shadow padding-lg flex flex-col items-center border border-primary-30">
                     <div className="mb-6">
                         <Image src={XGrowth} alt="10X Growth" width={238} height={238} />
                     </div>
