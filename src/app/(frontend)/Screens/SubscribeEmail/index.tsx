@@ -6,15 +6,13 @@ import PifLogoCircle from '@/assets/images/PifLogoCircle.png'
 import InputField from '@/components/InputField/InputField'
 import Button from '@/components/ui/Button/Button'
 import { Search } from 'lucide-react'
+import { useSubscribeEmailController } from '../../Controller/Screens/SubscribeEmail'
 
 
 const Index = () => {
 
-    const [email, setEmail] = useState('')
+    const { loading,formik } = useSubscribeEmailController()
 
-    const handleSubmit = () => {
-        console.log('submit')
-    }
     return (
 
         <div className='linear-bg'>
@@ -31,17 +29,19 @@ const Index = () => {
                     Get step-by-step guidance on how to align your investments with Islamic principles.
                 </Typography>
 
-                <div className="flex items-center justify-center gap-2 max-w-[461px] mx-auto pt-[32px] max-md:flex-col">
-                    <InputField
-                        placeholder="youremail@pif.com"
-                        value={email}
-                        onChange={e => setEmail(e.target.value)}
-                        onKeyDown={handleSubmit}
-                    />
+                <div className="flex items-start justify-center gap-2 mx-auto pt-[32px] max-md:flex-col">
+                    <div className='max-w-[361px] w-full'>
+                        <InputField
+                            className='w-full'
+                            placeholder="youremail@pif.com"
+                            formik={formik}
+                            fieldName="email"
+                        />
+                    </div>
                     <Button
                         variant="contained"
                         color="primary"
-                        onClick={handleSubmit}
+                        onClick={() => formik.handleSubmit()}
                         className='max-md:w-full'
                     >
                         Subscribe
