@@ -11,6 +11,8 @@ import Avatar4 from '@/assets/images/Avatar4.png'
 import Avatar5 from '@/assets/images/Avatar5.png'
 
 import Isolation_Mode from '@/assets/images/Isolation_Mode.png'
+import Link from 'next/link'
+import { constants } from '@/Contants/constants'
 
 const Index = () => {
     const avatars = [
@@ -33,9 +35,12 @@ const Index = () => {
                         Find and invest in halal opportunities, follow expertly-managed halal portfolios, meet your financial goals while aligning with your beliefs and values.
                     </Typography>
                     <div className='pb-[40px]'>
-                        <Button variant="contained" color="primary" size="medium" className='max-md:w-full'>
-                            Get started
-                        </Button>
+                    <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
+
+                            <Button variant="contained" color="primary" size="medium" className='max-md:w-full'>
+                                Get started
+                            </Button>
+                        </Link>
                     </div>
 
                     {/* Desktop only */}

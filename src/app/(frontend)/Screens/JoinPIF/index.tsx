@@ -4,6 +4,8 @@ import React from 'react'
 import PifIcon from '@/assets/images/PifIcon.png'
 
 import Image from 'next/image'
+import Link from 'next/link'
+import { constants } from '@/Contants/constants'
 
 const Index = () => {
     return (
@@ -21,22 +23,26 @@ const Index = () => {
                 {/* Content column: order 2 on mobile, order 1 on md+ */}
                 <div className="order-2 md:order-1 flex flex-col justify-center gap-[24px]">
                     <Typography variant="h2" color="primary" className="max-w-[548px] max-md:text-center">
-                    Join PIF Today
+                        Join PIF Today
                     </Typography>
                     <Typography variant="bodyXLargeR" className="text-neutral-100 max-md:text-center max-w-[500px]">
                         Start your journey toward halal, high-conviction investing—without the jargon or confusion.
                     </Typography>
 
                     <div >
-                        <Button variant="contained" color="primary" size="medium" className='max-md:w-full'>
-                            Get started
-                        </Button>
+                        <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
+
+                            <Button variant="contained" color="primary" size="medium" className='max-md:w-full'>
+                                Get started
+                            </Button>
+                        </Link>
                     </div>
+
 
                 </div>
 
             </div>
-        </div>
+        </div >
     )
 }
 

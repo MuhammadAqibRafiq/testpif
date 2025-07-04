@@ -11,7 +11,7 @@ import { useSubscribeEmailController } from '../../Controller/Screens/SubscribeE
 
 const Index = () => {
 
-    const { loading,formik } = useSubscribeEmailController()
+    const { loading, formik } = useSubscribeEmailController()
 
     return (
 
@@ -43,6 +43,7 @@ const Index = () => {
                         color="primary"
                         onClick={() => formik.handleSubmit()}
                         className='max-md:w-full'
+                        loading={loading}
                     >
                         Subscribe
                     </Button>

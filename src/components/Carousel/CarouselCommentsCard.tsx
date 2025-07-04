@@ -88,9 +88,9 @@ const CarouselCommentsCard = forwardRef<unknown, CarouselProps>(({ items }, ref)
                             </Typography>
 
                             <div className="flex items-center">
-                                <div className="pr-4">
+                                {/* <div className="pr-4">
                                     <Avatar src={x.icon} alt={x.name} />
-                                </div>
+                                </div> */}
                                 <div className="flex gap-2 justify-between w-full overflow-hidden">
                                     <div className="overflow-hidden">
                                         <Typography variant="bodyXLargeSB" className="text-neutral-900 truncate">
