@@ -6,7 +6,7 @@ const AccordionItem = ({ title, children, isOpen, onToggle }: AccordionItemProps
     return (
         <div className="border border-primary-30 rounded-lg mb-2 overflow-hidden">
             <button
-                className="w-full px-6 py-4 text-left transition-colors duration-200 flex justify-between items-center hover:bg-gray-50"
+                className="w-full px-6 py-4 text-left transition-colors duration-200 flex justify-between items-center"
                 onClick={onToggle}
                 aria-expanded={isOpen}
             >

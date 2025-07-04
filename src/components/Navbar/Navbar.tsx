@@ -40,7 +40,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/">
-            <Image src={PIFLogo} alt="PIF Logo" width={40} height={40} className="transition-transform hover:scale-105" />
+            <Image src={PIFLogo} alt="PIF Logo" width={60} height={32} className="" />
           </Link>
         </div>
 
