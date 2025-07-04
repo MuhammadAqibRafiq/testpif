@@ -33,7 +33,7 @@ const accordionData = [
     },
     {
         title: "What happens to my investments if I cancel my subscription?",
-        content: "Your investments remain in your account. You’ll simply lose access to portfolio updates, trade alerts, our watchlist, expert commentary and investor community.
+        content: "Your investments remain in your account. You’ll simply lose access to portfolio updates, trade alerts, our watchlist, expert commentary and investor community",
     },
     {
         title: "Do you have a referral program?",

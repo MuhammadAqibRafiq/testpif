@@ -31,7 +31,7 @@ const index = () => {
 
     const btnComponent = () => {
         return (
-            <Link href={constants.youtube.href} target="_blank" rel="noopener noreferrer" >
+            <Link href={constants.blog.href} target="_blank" rel="noopener noreferrer" >
                 <Button variant="outlined" color="primary" size="medium" className='w-full'>
                     View all articles
                 </Button>
