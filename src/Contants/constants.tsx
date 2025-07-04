@@ -6,6 +6,9 @@ export const constants = {
     //         { label: 'Features', href: '/features' },
     //     ],
     // },
+    app:{
+        href: 'https://app.practicalislamicfinance.com',
+    },
     login: {
         href: 'https://app.practicalislamicfinance.com/accounts/login',
     },
@@ -31,7 +34,7 @@ export const constants = {
         href: 'https://x.com/PracticalIF',
     },
     linkedin: {
-        href: 'https://www.linkedin.com/company/practicalislamicfinance',
+        href: 'https://www.linkedin.com/company/practical-islamic-finance/posts/?feedView=all',
     },
     discord: {
         href: 'https://discord.com/invite/practicalislamicfinance',
@@ -41,6 +44,9 @@ export const constants = {
     },
     facebook: {
         href: 'https://www.facebook.com/practicalislamicfinance',
+    },
+    podcast: {
+        href: 'https://podcast.practicalislamicfinance.com/1833184',
     },
 
 
