@@ -41,7 +41,7 @@ const Index = () => {
                     Get Started in 3 Simple Steps
                 </Typography>
 
-                <Typography variant="bodyLargeR" color="textSecondary" className="padding-b-xl max-w-[500px] mx-auto" align="center">
+                <Typography variant="bodyLargeR" color="textSecondary" className="padding-b-xl mx-auto" align="center">
                     You don't need a finance degree to invest with confidence. Here's how to begin your journey with PIF:
                 </Typography>
 

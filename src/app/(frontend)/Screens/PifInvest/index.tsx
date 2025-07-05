@@ -34,23 +34,29 @@ const Index = () => {
                                     You'll See:
                                 </Typography>
                                 <ul className="list-none space-y-[4px]">
-                                    <li className="flex items-baseline">
-                                        <div className='mr-[8px]'>
-                                            <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    <li className="flex items-baseline gap-2">
+                                        <div className="flex-shrink-0">
+                                            <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
-                                        “Comfortable,” “Questionable,” or “Uncomfortable” ratings
+                                        <span>
+                                            “Comfortable,” “Questionable,” or “Uncomfortable” ratings
+                                        </span>
                                     </li>
-                                    <li className="flex items-baseline">
-                                        <div className='mr-[8px]'>
-                                            <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    <li className="flex items-baseline gap-2">
+                                        <div className="flex-shrink-0">
+                                            <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
-                                        Alerts when our comfort rating changes for followed assets
+                                        <span>
+                                            Alerts when our comfort rating changes for followed assets
+                                        </span>
                                     </li>
-                                    <li className="flex items-baseline">
-                                        <div className='mr-[8px]'>
-                                            <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    <li className="flex items-baseline gap-2">
+                                        <div className="flex-shrink-0">
+                                            <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
-                                        Honest transparency—no hidden exposure
+                                        <span>
+                                            Honest transparency—no hidden exposure
+                                        </span>
                                     </li>
                                 </ul>
                             </div>
@@ -70,29 +76,37 @@ const Index = () => {
                                     Included:
                                 </Typography>
                                 <ul className="list-none space-y-[4px]">
-                                    <li className="flex items-baseline">
-                                        <div className='mr-[8px]'>
-                                            <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    <li className="flex items-baseline gap-2">
+                                        <div className="flex-shrink-0">
+                                            <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
-                                        Deep dives
+                                        <span>
+                                            Deep dives
+                                        </span>
                                     </li>
-                                    <li className="flex items-baseline">
-                                        <div className='mr-[8px]'>
-                                            <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    <li className="flex items-baseline gap-2">
+                                        <div className="flex-shrink-0">
+                                            <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
-                                        Market recaps
+                                        <span>
+                                            Market recaps
+                                        </span>
                                     </li>
-                                    <li className="flex items-baseline">
-                                        <div className='mr-[8px]'>
-                                            <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    <li className="flex items-baseline gap-2">
+                                        <div className="flex-shrink-0">
+                                            <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
-                                        Monthly portfolio reviews
+                                        <span>
+                                            Monthly portfolio reviews
+                                        </span>
                                     </li>
-                                    <li className="flex items-baseline">
-                                        <div className='mr-[8px]'>
-                                            <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    <li className="flex items-baseline gap-2">
+                                        <div className="flex-shrink-0">
+                                            <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
-                                        Q&As with Rakaan
+                                        <span>
+                                            Q&As with Rakaan
+                                        </span>
                                     </li>
                                 </ul>
                             </div>
@@ -122,23 +136,29 @@ const Index = () => {
                                     What You Get:
                                 </Typography>
                                 <ul className="list-none space-y-[4px]">
-                                    <li className="flex items-baseline">
-                                        <div className='mr-[8px]'>
-                                            <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    <li className="flex items-baseline gap-2">
+                                        <div className="flex-shrink-0">
+                                            <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
-                                        Hand-picked halal stock and crypto ideas
+                                        <span>
+                                            Hand-picked halal stock and crypto ideas
+                                        </span>
                                     </li>
-                                    <li className="flex items-baseline">
-                                        <div className='mr-[8px]'>
-                                            <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    <li className="flex items-baseline gap-2">
+                                        <div className="flex-shrink-0">
+                                            <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
-                                        Clear buy/sell updates with rationale
+                                        <span>
+                                            Clear buy/sell updates with rationale
+                                        </span>
                                     </li>
-                                    <li className="flex items-baseline">
-                                        <div className='mr-[8px]'>
-                                            <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    <li className="flex items-baseline gap-2">
+                                        <div className="flex-shrink-0">
+                                            <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
-                                        No guesswork—just smart signals
+                                        <span>
+                                            No guesswork—just smart signals
+                                        </span>
                                     </li>
                                 </ul>
                             </div>
@@ -158,17 +178,21 @@ const Index = () => {
                                     In the PIF Discord:
                                 </Typography>
                                 <ul className="list-none space-y-[4px]">
-                                    <li className="flex items-baseline">
-                                        <div className='mr-[8px]'>
-                                            <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    <li className="flex items-baseline gap-2">
+                                        <div className="flex-shrink-0">
+                                            <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
-                                        Trade discussions
+                                        <span>
+                                            Trade discussions
+                                        </span>
                                     </li>
-                                    <li className="flex items-baseline">
-                                        <div className='mr-[8px]'>
-                                            <Image src={greenTick} alt="greenTick" height={11} width={13} />
+                                    <li className="flex items-baseline gap-2">
+                                        <div className="flex-shrink-0">
+                                            <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
-                                        Support from like-minded investors
+                                        <span>
+                                            Support from like-minded investors
+                                        </span>
                                     </li>
                                 </ul>
                             </div>
