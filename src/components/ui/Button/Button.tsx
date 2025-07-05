@@ -31,7 +31,7 @@ const Button: React.FC<ButtonProps> = ({
     'inline-flex items-center justify-center',
     'font-medium rounded-full',
     'transition-all duration-200',
-    'focus:outline-none focus:ring-2 focus:ring-offset-2',
+    'focus:outline-none',
     'disabled:opacity-50 disabled:cursor-not-allowed',
   ];
 
@@ -46,34 +46,34 @@ const Button: React.FC<ButtonProps> = ({
   const getColorClasses = () => {
     const colorMap = {
       primary: {
-        contained: 'bg-primary-50 hover:bg-primary-70 text-white focus:ring-primary-70',
-        outlined: 'border border-primary-50 text-primary-50 hover:text-primary-10 hover:bg-primary-50 dark:hover:bg-primary-900/20 focus:ring-primary-50',
-        text: 'text-primary-50 hover:bg-primary-10 dark:hover:bg-primary-900/20 focus:ring-primary-40',
+        contained: 'bg-primary-50 hover:bg-primary-70 text-white',
+        outlined: 'border border-primary-50 text-primary-50 hover:text-primary-10 hover:bg-primary-50 dark:hover:bg-primary-900/20',
+        text: 'text-primary-50 hover:bg-primary-10 dark:hover:bg-primary-900/20',
       },
       secondary: {
-        contained: 'bg-secondary-500 hover:bg-secondary-600 text-white focus:ring-secondary-500',
-        outlined: 'border border-secondary-500 text-secondary-500 hover:bg-secondary-50 dark:hover:bg-secondary-900/20 focus:ring-secondary-500',
-        text: 'text-secondary-500 hover:bg-secondary-50 dark:hover:bg-secondary-900/20 focus:ring-secondary-500',
+        contained: 'bg-secondary-500 hover:bg-secondary-600 text-white',
+        outlined: 'border border-secondary-500 text-secondary-500 hover:bg-secondary-50 dark:hover:bg-secondary-900/20',
+        text: 'text-secondary-500 hover:bg-secondary-50 dark:hover:bg-secondary-900/20',
       },
       success: {
-        contained: 'bg-success-500 hover:bg-success-600 text-white focus:ring-success-500',
-        outlined: 'border border-success-500 text-success-500 hover:bg-success-50 dark:hover:bg-success-900/20 focus:ring-success-500',
-        text: 'text-success-500 hover:bg-success-50 dark:hover:bg-success-900/20 focus:ring-success-500',
+        contained: 'bg-success-500 hover:bg-success-600 text-white',
+        outlined: 'border border-success-500 text-success-500 hover:bg-success-50 dark:hover:bg-success-900/20',
+        text: 'text-success-500 hover:bg-success-50 dark:hover:bg-success-900/20',
       },
       error: {
-        contained: 'bg-error-500 hover:bg-error-600 text-white focus:ring-error-500',
-        outlined: 'border border-error-500 text-error-500 hover:bg-error-50 dark:hover:bg-error-900/20 focus:ring-error-500',
-        text: 'text-error-500 hover:bg-error-50 dark:hover:bg-error-900/20 focus:ring-error-500',
+        contained: 'bg-error-500 hover:bg-error-600 text-white',
+        outlined: 'border border-error-500 text-error-500 hover:bg-error-50 dark:hover:bg-error-900/20',
+        text: 'text-error-500 hover:bg-error-50 dark:hover:bg-error-900/20',
       },
       warning: {
-        contained: 'bg-warning-500 hover:bg-warning-600 text-white focus:ring-warning-500',
-        outlined: 'border border-warning-500 text-warning-500 hover:bg-warning-50 dark:hover:bg-warning-900/20 focus:ring-warning-500',
-        text: 'text-warning-500 hover:bg-warning-50 dark:hover:bg-warning-900/20 focus:ring-warning-500',
+        contained: 'bg-warning-500 hover:bg-warning-600 text-white',
+        outlined: 'border border-warning-500 text-warning-500 hover:bg-warning-50 dark:hover:bg-warning-900/20',
+        text: 'text-warning-500 hover:bg-warning-50 dark:hover:bg-warning-900/20',
       },
       info: {
-        contained: 'bg-info-500 hover:bg-info-600 text-white focus:ring-info-500',
-        outlined: 'border border-info-500 text-info-500 hover:bg-info-50 dark:hover:bg-info-900/20 focus:ring-info-500',
-        text: 'text-info-500 hover:bg-info-50 dark:hover:bg-info-900/20 focus:ring-info-500',
+        contained: 'bg-info-500 hover:bg-info-600 text-white',
+        outlined: 'border border-info-500 text-info-500 hover:bg-info-50 dark:hover:bg-info-900/20',
+        text: 'text-info-500 hover:bg-info-50 dark:hover:bg-info-900/20',
       },
     };
 
