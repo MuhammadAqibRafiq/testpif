@@ -19,7 +19,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Practical Islamic Finance | Halal Wealth Simplified",
   description: "Halal Wealth Simplified is a platform that provides practical Islamic finance solutions for Muslims around the world.",
-};
+  icons: {
+    icon: ["/favicon.ico?v=4"],
+    apple: ["/apple-touch-icon.png?v=4"],
+    shortcut: ["/apple-touch-icon.png"],
+  },
+}
+;
 
 export default function RootLayout({
   children,
@@ -30,7 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-        <link rel="icon" type="ico" href="/favico.ico" />
+        {/* <link rel="icon" type="ico" href="/favico.ico" /> */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[var(--background)] text-[var(--foreground)]`}
