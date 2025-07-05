@@ -67,7 +67,6 @@ const Navbar = () => {
 
         {/* On small screens: Get started button before hamburger */}
         <div className="flex items-center space-x-2 lg:hidden">
-          <GetStartedComponent />
           {/* Hamburger Icon */}
           <button
             className="flex items-center justify-center w-10 h-10"
@@ -78,6 +77,8 @@ const Navbar = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
             </svg>
           </button>
+          <GetStartedComponent />
+
         </div>
 
         {/* Mobile/Tablet Menu */}
