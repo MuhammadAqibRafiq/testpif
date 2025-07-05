@@ -34,7 +34,7 @@ const Index = () => {
                                     You'll See:
                                 </Typography>
                                 <ul className="list-none space-y-[4px]">
-                                    <li className="flex items-baseline gap-2">
+                                    <li className="flex items-baseline gap-[10px]">
                                         <div className="flex-shrink-0">
                                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
@@ -42,7 +42,7 @@ const Index = () => {
                                             “Comfortable,” “Questionable,” or “Uncomfortable” ratings
                                         </span>
                                     </li>
-                                    <li className="flex items-baseline gap-2">
+                                    <li className="flex items-baseline gap-[10px]">
                                         <div className="flex-shrink-0">
                                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
@@ -50,7 +50,7 @@ const Index = () => {
                                             Alerts when our comfort rating changes for followed assets
                                         </span>
                                     </li>
-                                    <li className="flex items-baseline gap-2">
+                                    <li className="flex items-baseline gap-[10px]">
                                         <div className="flex-shrink-0">
                                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
@@ -76,7 +76,7 @@ const Index = () => {
                                     Included:
                                 </Typography>
                                 <ul className="list-none space-y-[4px]">
-                                    <li className="flex items-baseline gap-2">
+                                    <li className="flex items-baseline gap-[10px]">
                                         <div className="flex-shrink-0">
                                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
@@ -84,7 +84,7 @@ const Index = () => {
                                             Deep dives
                                         </span>
                                     </li>
-                                    <li className="flex items-baseline gap-2">
+                                    <li className="flex items-baseline gap-[10px]">
                                         <div className="flex-shrink-0">
                                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
@@ -92,7 +92,7 @@ const Index = () => {
                                             Market recaps
                                         </span>
                                     </li>
-                                    <li className="flex items-baseline gap-2">
+                                    <li className="flex items-baseline gap-[10px]">
                                         <div className="flex-shrink-0">
                                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
@@ -100,7 +100,7 @@ const Index = () => {
                                             Monthly portfolio reviews
                                         </span>
                                     </li>
-                                    <li className="flex items-baseline gap-2">
+                                    <li className="flex items-baseline gap-[10px]">
                                         <div className="flex-shrink-0">
                                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
@@ -136,7 +136,7 @@ const Index = () => {
                                     What You Get:
                                 </Typography>
                                 <ul className="list-none space-y-[4px]">
-                                    <li className="flex items-baseline gap-2">
+                                    <li className="flex items-baseline gap-[10px]">
                                         <div className="flex-shrink-0">
                                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
@@ -144,7 +144,7 @@ const Index = () => {
                                             Hand-picked halal stock and crypto ideas
                                         </span>
                                     </li>
-                                    <li className="flex items-baseline gap-2">
+                                    <li className="flex items-baseline gap-[10px]">
                                         <div className="flex-shrink-0">
                                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
@@ -152,7 +152,7 @@ const Index = () => {
                                             Clear buy/sell updates with rationale
                                         </span>
                                     </li>
-                                    <li className="flex items-baseline gap-2">
+                                    <li className="flex items-baseline gap-[10px]">
                                         <div className="flex-shrink-0">
                                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
@@ -178,7 +178,7 @@ const Index = () => {
                                     In the PIF Discord:
                                 </Typography>
                                 <ul className="list-none space-y-[4px]">
-                                    <li className="flex items-baseline gap-2">
+                                    <li className="flex items-baseline gap-[10px]">
                                         <div className="flex-shrink-0">
                                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
@@ -186,7 +186,7 @@ const Index = () => {
                                             Trade discussions
                                         </span>
                                     </li>
-                                    <li className="flex items-baseline gap-2">
+                                    <li className="flex items-baseline gap-[10px]">
                                         <div className="flex-shrink-0">
                                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                                         </div>
