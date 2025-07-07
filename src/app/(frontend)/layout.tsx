@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Practical Islamic Finance | Halal Wealth Simplified",
-  description: "Halal Wealth Simplified is a platform that provides practical Islamic finance solutions for Muslims around the world.",
+  title: "Practical Islamic Finance | Make Smarter Islamic Investing Decisions",
+  description: "Find and invest in halal opportunities, follow expertly-managed halal portfolios, meet your financial goals while aligning with your beliefs and values.",
   icons: {
     icon: ["/favicon.ico?v=4"],
     apple: ["/apple-touch-icon.png?v=4"],
