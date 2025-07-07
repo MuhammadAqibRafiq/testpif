@@ -20,7 +20,7 @@ const Index = () => {
 
                 <div className="bg-white rounded-2xl shadow padding-lg flex flex-col items-center border border-primary-30">
                     <div className="mb-6">
-                        <Image src={XGrowth} alt="10X Growth" width={238} height={238} />
+                        <Image src={XGrowth} alt="XGrowth" width={238} height={238} />
                     </div>
                     <Typography variant="h6" className="mb-2 text-primary-50" align="center" >10X Growth<br />(Small Caps)</Typography>
                     <Typography variant="bodyMediumR" className='text-primary-100' align="center">
@@ -30,7 +30,7 @@ const Index = () => {
 
                 <div className="bg-white rounded-2xl shadow padding-lg flex flex-col items-center border border-primary-30">
                     <div className="mb-6">
-                        <Image src={AggrGrowth} alt="10X Growth" width={238} height={238} />
+                        <Image src={AggrGrowth} alt="AggrGrowth" width={238} height={238} />
                     </div>
                     <Typography variant="h6" className="mb-2 text-primary-50" align="center">Aggressive Growth<br />(Mid & Large Caps)</Typography>
                     <Typography variant="bodyMediumR" className='text-primary-100' align="center">
@@ -41,7 +41,7 @@ const Index = () => {
 
                 <div className="bg-white  rounded-2xl shadow padding-lg flex flex-col items-center border border-primary-30">
                     <div className="mb-6">
-                        <Image src={Earn} alt="10X Growth" width={238} height={238} />
+                        <Image src={Earn} alt="Earn" width={238} height={238} />
                     </div>
                     <Typography variant="h6" className="mb-2 text-primary-50" align="center">Earn<br />(Dividend Stocks)</Typography>
                     <Typography variant="bodyMediumR" className='text-primary-100' align="center">
@@ -52,7 +52,7 @@ const Index = () => {
 
                 <div className="bg-white rounded-2xl shadow padding-lg flex flex-col items-center border border-primary-30">
                     <div className="mb-6">
-                        <Image src={Crypto} alt="10X Growth" width={238} height={238} />
+                        <Image src={Crypto} alt="Crypto" width={238} height={238} />
                     </div>
                     <Typography variant="h6" className="mb-2 text-primary-50" align="center">Crypto</Typography>
                     <Typography variant="bodyMediumR" className='text-primary-100' align="center">

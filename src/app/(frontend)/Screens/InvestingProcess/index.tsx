@@ -28,7 +28,7 @@ const Index = () => {
 
                     <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
                         <div className="mb-6 md:h-[400px] sm:h-[200px]"  >
-                            <Image src={AppleCard} alt="10X Growth" className="w-full h-full" />
+                            <Image src={AppleCard} alt="AppleCard" className="w-full h-full" />
                         </div>
 
                         <Typography variant="h6" className="mb-2 text-primary-50"  >Only invest in halal stock & crypto</Typography>
@@ -38,7 +38,7 @@ const Index = () => {
 
                     <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
                         <div className="mb-6 md:h-[400px] sm:h-[200px]">
-                            <Image src={PieCard} alt="10X Growth" className="w-full h-full" />
+                            <Image src={PieCard} alt="PieCard" className="w-full h-full" />
                         </div>
 
                         <Typography variant="h6" className="mb-2 text-primary-50"  >Expertly-managed halal portfolios</Typography>
@@ -54,7 +54,7 @@ const Index = () => {
 
                     <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
                         <div className="mb-6 md:h-[400px] sm:h-[200px]">
-                            <Image src={CryptoTable} alt="10X Growth" className="w-full h-full" />
+                            <Image src={CryptoTable} alt="CryptoTable" className="w-full h-full" />
                         </div>
 
                         <Typography variant="h6" className="mb-2 text-primary-50"  >Real-time buy and sell prices</Typography>
@@ -65,7 +65,7 @@ const Index = () => {
 
                     <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
                         <div className="mb-6 md:h-[400px] sm:h-[200px]">
-                            <Image src={nvidiaCard} alt="10X Growth" className="w-full h-full" />
+                            <Image src={nvidiaCard} alt="1nvidiaCard" className="w-full h-full" />
                         </div>
 
                         <Typography variant="h6" className="mb-2 text-primary-50"  >Reduce the stress of investing</Typography>
@@ -91,7 +91,7 @@ const Index = () => {
 
                 <div className="flex flex-col">
                     <div className="md:h-[400px] sm:h-[200px]">
-                        <Image src={Globe} alt="10X Growth" className="w-full h-full" />
+                        <Image src={Globe} alt="Globe" className="w-full h-full" />
                     </div>
                 </div>
 

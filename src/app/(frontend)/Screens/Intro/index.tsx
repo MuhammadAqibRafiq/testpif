@@ -63,7 +63,7 @@ const Index = () => {
                         <div className="w-full" style={{ maxWidth: '556px', maxHeight: '420px' }}>
                             <Image
                                 src={Stats1}
-                                alt="10X Growth"
+                                alt="Stats1"
                                 className="w-full h-auto"
                                 style={{ maxHeight: '420px' }}
                             />
