@@ -41,7 +41,7 @@ const ThumbnailCard: React.FC<ThumbnailCardProps> = ({
                 {loading ? (
                     <Skeleton height={24} width="75%" />
                 ) : (
-                    <Typography variant='bodyXLargeSB' className='text-neutral-100'>
+                    <Typography variant='bodyXLargeSB' className='text-neutral-100 line-clamp-1'>
                         {title}
                     </Typography>
                 )}

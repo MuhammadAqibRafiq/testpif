@@ -70,8 +70,7 @@ const Index = () => {
                         </div>
 
                         <Typography variant="bodySmallM" className='text-neutral-100 max-w-[450px]' align='center'  >
-                            Annualized returns are shown for the PIF Aggressive Growth Portfolio and S&P500 from Jan 01 2022 to Jun 01 2025.
-                            Returns shown are historical and for illustrative purposes only. Past performance is not necessarily indicative of future results.
+                        PIF Aggressive Growth Portfolio and S&P500 annualized returns (Jan 1 2022 - Jun 1 2025). Past performance is not indicative of future results.
                         </Typography>
                     </div>
 

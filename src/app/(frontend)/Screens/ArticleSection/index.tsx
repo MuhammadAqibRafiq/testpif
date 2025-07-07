@@ -1,8 +1,9 @@
+'use client'
 import Typography from '@/components/ui/Typography'
 import React from 'react'
-import BlogThumbnail1 from '@/assets/images/BolgThumbnail1.png'
+import BlogThumbnail1 from '@/assets/images/BlogThumbnail1.png'
 import BlogThumbnail2 from '@/assets/images/BlogThumbnail2.png'
-import BlogThumbnail3 from '@/assets/images/BolgThumbnail3.png'
+import BlogThumbnail3 from '@/assets/images/BlogThumbnail3.png'
 import ThumbnailCard from '@/components/Card/thumbnailCard'
 import Button from '@/components/ui/Button/Button'
 import Link from 'next/link'
@@ -14,21 +15,21 @@ const index = () => {
     const array = [
         {
             videoThumbnail: BlogThumbnail1,
-            title: "My Transformative Journey through Trusting in God",
-            date: "May 1, 2025",
-            url: null
+            title: "Is OFFICIAL TRUMP Coin halal?",
+            date: "Jan 22, 2025",
+            url: 'https://practicalislamicfinance.com/is-official-trump-coin-halal/'
         },
         {
             videoThumbnail: BlogThumbnail2,
-            title: "A Muslim's Guide to the New World Order",
-            date: "April 27, 2025",
-            url: null
+            title: "Iman Fund (IMANX) Review",
+            date: "Nov 5, 2023",
+            url: 'https://practicalislamicfinance.com/iman-fund-review/'
         },
         {
             videoThumbnail: BlogThumbnail3,
-            title: "My Crypto Investing Strategy REVEALED!!",
-            date: "May 01, 2025",
-            url: null
+            title: "Amana Trust Growth Fund (AMAGX) Review",
+            date: "Nov 5, 2023",
+            url: 'https://practicalislamicfinance.com/amana-trust-growth-fund-review/'
         }
     ]
 

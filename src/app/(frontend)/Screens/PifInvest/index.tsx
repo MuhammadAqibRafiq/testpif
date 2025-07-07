@@ -65,7 +65,7 @@ const Index = () => {
     <div className=''>
       <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
         <Typography variant="h2" color="primary" className="mb-[16px] max-w-[900px] mx-auto" align="center">
-          Why Members Love PIF Invest
+          Why Members Love PIF
         </Typography>
         <Typography variant="bodyLargeR" color="textSecondary" className="padding-b-xl mx-auto" align="center">
           Halal-first investing made simple, smart, and personalized.
