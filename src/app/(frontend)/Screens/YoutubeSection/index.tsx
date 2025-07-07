@@ -52,6 +52,7 @@ const index = () => {
                                 videoThumbnail={item.videoThumbnail}
                                 title={item.title}
                                 date={item.date}
+                                url={item.url}
                             />
                         </div>
                     ))

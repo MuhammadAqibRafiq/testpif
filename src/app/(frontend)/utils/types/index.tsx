@@ -5,6 +5,7 @@ export interface VideoItem {
     videoThumbnail?: string | StaticImageData;
     title?: string;
     date?: string;
+    url?: string;
 }
 // Interfaces
 export interface MediaDocument {

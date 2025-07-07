@@ -13,10 +13,16 @@ const ThumbnailCard: React.FC<ThumbnailCardProps> = ({
     videoThumbnail,
     title,
     date,
+    url,
     loading = false,
 }) => {
+    const handleClick = () => {
+        if (url) {
+            window.open(url, '_blank');
+        }
+    }
     return (
-        <div className='rounded-2xl p-[16px] max-w-[410px] border border-neutral-30'>
+        <div className='rounded-2xl p-[16px] max-w-[410px] border border-neutral-30 cursor-pointer hover:border-primary-50 transition-all duration-300 hover:bg-primary-10' onClick={handleClick}>
             <div className="relative w-full aspect-video">
                 {loading ? (
                     <Skeleton height="100%" width="100%" style={{ borderRadius: '0.5rem', position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }} />

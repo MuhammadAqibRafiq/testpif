@@ -15,17 +15,20 @@ const index = () => {
         {
             videoThumbnail: BlogThumbnail1,
             title: "My Transformative Journey through Trusting in God",
-            date: "May 1, 2025"
+            date: "May 1, 2025",
+            url: null
         },
         {
             videoThumbnail: BlogThumbnail2,
             title: "A Muslim's Guide to the New World Order",
-            date: "April 27, 2025"
+            date: "April 27, 2025",
+            url: null
         },
         {
             videoThumbnail: BlogThumbnail3,
             title: "My Crypto Investing Strategy REVEALED!!",
-            date: "May 01, 2025"
+            date: "May 01, 2025",
+            url: null
         }
     ]
 
@@ -54,7 +57,7 @@ const index = () => {
                 {array?.map((item, index) => {
                     return (
                         <div key={index}>
-                            <ThumbnailCard videoThumbnail={item.videoThumbnail} title={item.title} date={item.date} />
+                            <ThumbnailCard videoThumbnail={item.videoThumbnail} title={item.title} date={item.date} url={item.url} />
                         </div>
                     )
                 })}
