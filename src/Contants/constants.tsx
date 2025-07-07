@@ -48,6 +48,19 @@ export const constants = {
     podcast: {
         href: 'https://podcast.practicalislamicfinance.com/1833184',
     },
+    disclaimer: {
+        href: 'https://app.practicalislamicfinance.com/disclaimer/',
+    },
+    terms: {
+        href: 'https://app.practicalislamicfinance.com/terms-conditions/',
+    },
+    cookie: {
+        href: 'https://app.practicalislamicfinance.com/cookie/',
+    },
+    privacy: {
+        href: 'https://app.practicalislamicfinance.com/privacy/',
+    },
+    
 
 
 };

@@ -30,9 +30,9 @@ export default function Home() {
         <InvestingProcess />
       </section>
 
-      <section id="stockCrypto">
+      {/* <section id="stockCrypto">
         <StockCrypto />
-      </section>
+      </section> */}
 
       <section id="simpleSteps">
         <SimpleSteps />

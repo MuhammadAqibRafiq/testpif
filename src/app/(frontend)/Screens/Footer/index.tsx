@@ -17,20 +17,21 @@ const socialLinks = [
     { icon: Linkedin, label: "LinkedIn", href: constants.linkedin.href , type: 'img' },
     { icon: Instagram, label: "Instagram", href: constants.instagram.href , type: 'img' },
     { icon: X, label: "X", href: constants.X.href , type: 'img' },
-    { icon: Discord, label: "Discord", href: constants.discord.href , type: 'img' },
+    // { icon: Discord, label: "Discord", href: constants.discord.href , type: 'img' },
     { icon: <Podcast height={24} width={24} color="white" />, label: "Podcast", href: constants.podcast.href , type: 'icon' },
 ];
 
 const footerLinks = [
-  { label: 'Disclaimer', href: constants.app.href , target: '_blank', rel: 'noopener noreferrer' },
-  { label: 'Terms & Conditions', href: constants.app.href , target: '_blank', rel: 'noopener noreferrer' },
-  { label: 'Cookie Policy', href: constants.app.href , target: '_blank', rel: 'noopener noreferrer' },
-  { label: 'Privacy Policy', href: constants.app.href , target: '_blank', rel: 'noopener noreferrer' },
+  { label: 'Disclaimer', href: constants.disclaimer.href , target: '_blank', rel: 'noopener noreferrer' },
+  { label: 'Terms & Conditions', href: constants.terms.href , target: '_blank', rel: 'noopener noreferrer' },
+  { label: 'Cookie Policy', href: constants.cookie.href , target: '_blank', rel: 'noopener noreferrer' },
+  { label: 'Privacy Policy', href: constants.privacy.href , target: '_blank', rel: 'noopener noreferrer' },
 ];
 
 const reportLinks = [
   { label: 'Stock Reports', href: constants.stocksReports.href , target: '_blank', rel: 'noopener noreferrer' },
   { label: 'Crypto Reports', href: constants.cryptoReports.href , target: '_blank', rel: 'noopener noreferrer' },
+  { label: 'Pricing', href: constants.pricing.href , target: '_blank', rel: 'noopener noreferrer' },
 ];
 
 const Index = () => {
