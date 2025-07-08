@@ -66,10 +66,12 @@ const Navbar = () => {
         </div>
 
         {/* On small screens: Get started button before hamburger */}
-        <div className="flex items-center space-x-2 lg:hidden">
+        <div className="flex items-center space-x-[8px] lg:hidden">
           {/* Hamburger Icon */}
+          <GetStartedComponent />
+
           <button
-            className="flex items-center justify-center w-10 h-10"
+            className="flex items-center justify-center p-[12px]"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Open menu"
           >
@@ -77,7 +79,6 @@ const Navbar = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
             </svg>
           </button>
-          <GetStartedComponent />
 
         </div>
 
