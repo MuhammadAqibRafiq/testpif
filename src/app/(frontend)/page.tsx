@@ -14,11 +14,15 @@ import Footer from './Screens/Footer';
 
 
 export default function Home() {
-  console.log('Home', process.env);
+  const staging = process.env.NODE_ENV === 'test';
+  console.log('Home', process.env.NODE_ENV);
+  console.log('Home=>', process.env.NODE_ENV == 'test');
+
   return (
 
     <div style={{ marginTop: 'var(--navbar-height)' }}>
       {/* //  <ThemeViewer /> */}
+      <p>Home:{process.env.NODE_ENV}</p>
       <section id="intro">
         <Intro />
       </section>
