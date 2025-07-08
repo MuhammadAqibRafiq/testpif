@@ -60,7 +60,10 @@ export const constants = {
     privacy: {
         href: 'https://app.practicalislamicfinance.com/privacy/',
     },
-    
+    envVariables:{
+        stg:'staging',
+        prod:'production'
+    }
 
 
 };

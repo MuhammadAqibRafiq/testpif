@@ -1,4 +1,3 @@
-'use client';
 import Features from './Screens/Features';
 import Intro from './Screens/Intro';
 import InvestingProcess from './Screens/InvestingProcess';
@@ -15,16 +14,10 @@ import Footer from './Screens/Footer';
 
 
 export default function Home() {
-  const staging = process.env.NODE_ENV === 'test';
-  console.log('Home', process.env);
-  console.log('Home=>', process.env.NODE_ENV == 'test');
-
   return (
 
     <div style={{ marginTop: 'var(--navbar-height)' }}>
       {/* //  <ThemeViewer /> */}
-      <p>Home-APP_ENV:{process.env.APP_ENV}</p>
-      <p>Home-NODE_ENV:{process.env.NODE_ENV}</p>
 
       <section id="intro">
         <Intro />
