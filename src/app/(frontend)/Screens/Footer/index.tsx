@@ -18,7 +18,7 @@ const socialLinks = [
     { icon: Instagram, label: "Instagram", href: constants.instagram.href , type: 'img' },
     { icon: X, label: "X", href: constants.X.href , type: 'img' },
     // { icon: Discord, label: "Discord", href: constants.discord.href , type: 'img' },
-    { icon: <Podcast height={24} width={24} color="white" />, label: "Podcast", href: constants.podcast.href , type: 'icon' },
+    { icon: <Podcast height={24} width={24} color="white" aria-label="Podcast link" />, label: "Podcast", href: constants.podcast.href , type: 'icon' },
 ];
 
 const footerLinks = [
