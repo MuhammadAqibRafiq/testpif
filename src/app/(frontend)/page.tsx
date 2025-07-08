@@ -1,3 +1,4 @@
+'use client';
 import Features from './Screens/Features';
 import Intro from './Screens/Intro';
 import InvestingProcess from './Screens/InvestingProcess';
