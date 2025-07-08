@@ -14,6 +14,7 @@ import Footer from './Screens/Footer';
 
 
 export default function Home() {
+  console.log('Home', process.env);
   return (
 
     <div style={{ marginTop: 'var(--navbar-height)' }}>
