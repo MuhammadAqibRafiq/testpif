@@ -45,13 +45,13 @@ const Index = () => {
     return (
         <div className="padding-y-xl px-[24px]">
 
-            <Typography variant="h2" color="primary" className="pb-[16px]" align="center">
+            <Typography variant="h2" color="primary" className="padding-b-xl" align="center">
                 Frequently asked questions
             </Typography>
 
-            <Typography variant="bodyLargeR" color="textSecondary" className="padding-b-xl" align="center">
+            {/* <Typography variant="bodyLargeR" color="textSecondary" className="padding-b-xl" align="center">
                 Here are the most common things people ask us about halal investing.
-            </Typography>
+            </Typography> */}
 
             {/* <Accordion /> */}
 
