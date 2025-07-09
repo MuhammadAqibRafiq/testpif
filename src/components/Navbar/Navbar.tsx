@@ -84,7 +84,7 @@ const Navbar = () => {
 
         {/* Mobile/Tablet Menu */}
         {menuOpen && (
-          <div  style={{top: 'var(--navbar-height)'}} className="absolute left-0 w-full bg-[var(--background-paper)] border-b border-grey-200 dark:border-grey-800 shadow-lg z-50 flex flex-col items-center space-y-4 py-6 lg:hidden">
+          <div  style={{top: 'var(--navbar-height)'}} className="absolute left-0 w-full bg-white border-b border-grey-200 dark:border-grey-800 shadow-lg z-50 flex flex-col items-center space-y-4 py-6 lg:hidden">
             {navLinks.map((link) => (
               <Link
                 key={link.label}

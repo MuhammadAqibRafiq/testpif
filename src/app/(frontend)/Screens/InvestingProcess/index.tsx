@@ -27,7 +27,7 @@ const Index = () => {
                 <div className="grid xl:grid-cols-[576px_1fr] lg:grid-cols-[400px_1fr] sm:grid-cols-2  gap-[24px]">
 
                     <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
-                        <div className="mb-6 md:h-[400px] sm:h-[200px]"  >
+                        <div className="mb-6 lg:h-[400px] md:h-[200px]"  >
                             <Image src={AppleCard} alt="AppleCard" className="w-full h-full" />
                         </div>
 
@@ -37,7 +37,7 @@ const Index = () => {
                     </div>
 
                     <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
-                        <div className="mb-6 md:h-[400px] sm:h-[200px]">
+                        <div className="mb-6 lg:h-[400px] md:h-[200px]">
                             <Image src={PieCard} alt="PieCard" className="w-full h-full" />
                         </div>
 
@@ -53,7 +53,7 @@ const Index = () => {
                 <div className="grid xl:grid-cols-[680px_1fr] lg:grid-cols-[580px_1fr] sm:grid-cols-2   gap-[24px]">
 
                     <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
-                        <div className="mb-6 md:h-[400px] sm:h-[200px]">
+                        <div className="mb-6 lg:h-[400px] md:h-[200px]">
                             <Image src={CryptoTable} alt="CryptoTable" className="w-full h-full" />
                         </div>
 
@@ -64,7 +64,7 @@ const Index = () => {
                     </div>
 
                     <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
-                        <div className="mb-6 md:h-[400px] sm:h-[200px]">
+                        <div className="mb-6 lg:h-[400px] md:h-[200px]">
                             <Image src={nvidiaCard} alt="1nvidiaCard" className="w-full h-full" />
                         </div>
 
@@ -90,7 +90,7 @@ const Index = () => {
                 </div>
 
                 <div className="flex flex-col">
-                    <div className="md:h-[400px] sm:h-[200px]">
+                    <div className="lg:h-[400px] md:h-[200px]">
                         <Image src={Globe} alt="Globe" className="w-full h-full" />
                     </div>
                 </div>

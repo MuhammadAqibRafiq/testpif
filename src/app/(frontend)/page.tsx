@@ -67,8 +67,6 @@ export default function Home() {
         <SubscribeEmail />
       </section>
 
-
-
       <section id='footer'>
         <Footer />
       </section>
