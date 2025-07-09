@@ -16,20 +16,20 @@ const Index = () => {
         {
             // icon: img1,
             mainImage: handImg,
-            label: 'Pick a portfolio you like',
-            description: "We'll share some halal-friendly brokerage options. U.S. and international options are available.",
+            label: 'Pick a Portfolio You Like',
+            description: "Explore our portfolios and pick one or more to follow — or build your own mix from positions you like. We’ll also share halal-friendly brokerage options for U.S. and international investors.",
         },
         {
             // icon: img2,
             mainImage: Imge2,
-            label: 'Enter all the trades into your broker account',
-            description: "Transfer funds into your brokerage account and choose from investments aligned with your values.",
+            label: 'Invest Through Your Broker',
+            description: "Transfer funds and use our Watchlist to guide your timing — buy when prices are below target and take profits when they’re above.",
         },
         {
             // icon: img3,
             mainImage: MoneyAnytime,
-            label: 'Sit back and enjoy your gains',
-            description: "Sell your holdings when needed—your cash typically lands in your bank account within a few business days, depending on your broker.",
+            label: 'Monitor and Grow Together',
+            description: "Stay connected with a community of halal-conscious investors. Share insights, adjust your holdings, and sell when it’s time.",
         },
     ]
     return (
