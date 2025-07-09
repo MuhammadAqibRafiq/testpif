@@ -1,0 +1,36 @@
+// // Example: GET API with callbacks
+// apiRequest({
+//     method: 'GET',
+//     url: '/api/user',
+//     token: 'your_token',
+//     onSuccess: (res) => {
+//       console.log('Success:', res.data);
+//     },
+//     onFail: (err) => {
+//       console.error('Error:', err.message);
+//     },
+//   });
+  
+//   // Example: POST with JSON
+//   apiRequest({
+//     method: 'POST',
+//     url: '/api/login',
+//     data: { email: 'test@test.com', password: '123456' },
+//     onSuccess: (res) => alert('Logged in!'),
+//     onFail: (err) => alert(`Login failed: ${err.message}`),
+//   });
+  
+//   // Example: POST with FormData
+//   const form = new FormData();
+//   form.append('file', file);
+  
+//   apiRequest({
+//     method: 'POST',
+//     url: '/api/upload',
+//     data: form,
+//     token: 'your_token',
+//     isFormData: true,
+//     onSuccess: (res) => console.log('Uploaded:', res.data),
+//     onFail: (err) => console.error('Upload failed:', err.message),
+//   });
+  

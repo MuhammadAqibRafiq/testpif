@@ -71,7 +71,7 @@ const Navbar = () => {
           <GetStartedComponent />
 
           <button
-            className="flex items-center justify-center p-[12px]"
+            className="flex items-center justify-center py-[12px] ps-[12px]"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Open menu"
           >
