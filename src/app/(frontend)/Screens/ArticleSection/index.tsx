@@ -11,7 +11,7 @@ import { constants } from '@/Contants/constants'
 
 
 const index = () => {
-    const blogDomain = process.env.NEXT_PUBLIC_BLOG_DOMAIN || 'https://blog.com';
+    const blogDomain = process.env.NEXT_PUBLIC_BLOG_DOMAIN || 'https://practicalislamicfinance.com';
 
     const array = [
         {
@@ -36,7 +36,7 @@ const index = () => {
     
     const btnComponent = () => {
         return (
-            <Link href={`${blogDomain}/blog/`} target="_blank" rel="noopener noreferrer" >
+            <Link href={blogDomain} target="_blank" rel="noopener noreferrer" >
                 <Button variant="outlined" color="primary" size="medium" className='w-full'>
                     View all articles
                 </Button>

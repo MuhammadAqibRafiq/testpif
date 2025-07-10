@@ -3,8 +3,8 @@ import type { NextConfig } from "next";
 
 const wordpressUrls = require("./wordpress-urls");
 
-// Get blog domain from environment variable, default to blog.com
-const BLOG_DOMAIN = process.env.NEXT_PUBLIC_BLOG_DOMAIN || "https://blog.com";
+// Get blog domain from environment variable, default to practicalislamicfinance.com
+const BLOG_DOMAIN = process.env.NEXT_PUBLIC_BLOG_DOMAIN || "https://practicalislamicfinance.com";
 
 const nextConfig: NextConfig = {
   async redirects() {
