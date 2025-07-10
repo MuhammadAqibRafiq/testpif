@@ -11,31 +11,32 @@ import { constants } from '@/Contants/constants'
 
 
 const index = () => {
+    const blogDomain = process.env.NEXT_PUBLIC_BLOG_DOMAIN || 'https://blog.com';
 
     const array = [
         {
             videoThumbnail: BlogThumbnail1,
             title: "Is OFFICIAL TRUMP Coin halal?",
             date: "Jan 22, 2025",
-            url: 'https://practicalislamicfinance.com/is-official-trump-coin-halal/'
+            url: `${blogDomain}/is-official-trump-coin-halal/`
         },
         {
             videoThumbnail: BlogThumbnail2,
             title: "Iman Fund (IMANX) Review",
             date: "Nov 5, 2023",
-            url: 'https://practicalislamicfinance.com/iman-fund-review/'
+            url: `${blogDomain}/iman-fund-review/`
         },
         {
             videoThumbnail: BlogThumbnail3,
             title: "Amana Trust Growth Fund (AMAGX) Review",
             date: "Nov 5, 2023",
-            url: 'https://practicalislamicfinance.com/amana-trust-growth-fund-review/'
+            url: `${blogDomain}/amana-trust-growth-fund-review/`
         }
     ]
-
+    
     const btnComponent = () => {
         return (
-            <Link href={constants.blog.href} target="_blank" rel="noopener noreferrer" >
+            <Link href={`${blogDomain}/blog/`} target="_blank" rel="noopener noreferrer" >
                 <Button variant="outlined" color="primary" size="medium" className='w-full'>
                     View all articles
                 </Button>
