@@ -12,7 +12,14 @@ import { useSubscribeEmailController } from '../../Controller/Screens/SubscribeE
 const Index = () => {
 
     const { loading, formik } = useSubscribeEmailController()
-
+    const handleSubmit = ()=>{
+        formik.handleSubmit()
+    }
+    const handleInputKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === 'Enter') {
+            handleSubmit()
+        }
+    };
     return (
 
         <div className='linear-bg'>
@@ -22,11 +29,11 @@ const Index = () => {
                 </div>
 
                 <Typography variant="h1" className=" text-neutral-100 max-w-[780px] mx-auto" align="center">
-                Get our free 7-day email course to start investing the <span className="text-primary-50">halal way </span>
+                    Get our free 7-day email course to start investing the <span className="text-primary-50">halal way </span>
                 </Typography>
 
                 <Typography variant="bodyXLargeM" className="text-neutral-50 pt-4 max-w-[680px] mx-auto" align="center" >
-                Get step-by-step guidance delivered straight to your inbox. 
+                    Get step-by-step guidance delivered straight to your inbox.
                 </Typography>
 
                 <div className="flex items-start justify-center gap-2 mx-auto pt-[32px] max-md:flex-col">
@@ -36,12 +43,14 @@ const Index = () => {
                             placeholder="youremail@pif.com"
                             formik={formik}
                             fieldName="email"
+                            onKeyDown={handleInputKeyDown}
+
                         />
                     </div>
                     <Button
                         variant="contained"
                         color="primary"
-                        onClick={() => formik.handleSubmit()}
+                        onClick={handleSubmit}
                         className='max-md:w-full'
                         loading={loading}
                     >
