@@ -45,7 +45,7 @@ const Index = () => {
                     </div>
                     <Typography variant="h6" className="mb-2 text-primary-50" align="center">Earn<br />(Dividend Stocks)</Typography>
                     <Typography variant="bodyMediumR" className='text-primary-100' align="center">
-                    High-quality, dividend-paying companies designed to generate consistent, passive halal income.
+                    High-quality companies providing reliable, passive halal income
                     </Typography>
                 </div>
 
