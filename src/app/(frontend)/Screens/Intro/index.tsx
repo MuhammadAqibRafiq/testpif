@@ -79,12 +79,12 @@ const Index = () => {
                         <Typography variant="bodyLargeM" className="text-neutral-100" align='center'>
                             Used and loved by 10,000+ muslim investors
                         </Typography>
-                        <OverlappingAvatars
+                        {/* <OverlappingAvatars
                             avatars={avatars}
                             size="md"
                             maxVisible={5}
                             showCount={true}
-                        />
+                        /> */}
                     </div>
                 </div>
 

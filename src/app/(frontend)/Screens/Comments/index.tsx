@@ -10,13 +10,13 @@ const Index = () => {
     return (
         <div className="padding-y-xl ">
 
-            <Typography variant="h2" color="primary" className="pb-[16px] max-xl:px-6 max-w-[850px] mx-auto" align="center">
+            <Typography variant="h2" color="primary" className="padding-b-xl  max-xl:px-6 max-w-[850px] mx-auto" align="center">
                 Join Hundreds Investing Halal, Profitably and Confidently
             </Typography>
 
-            <Typography variant="bodyLargeR" color="textSecondary" className="padding-b-xl max-xl:px-6" align="center">
+            {/* <Typography variant="bodyLargeR" color="textSecondary" className="padding-b-xl max-xl:px-6" align="center">
             See why so many trust us for halal investing insights.
-            </Typography>
+            </Typography> */}
 
             <CommentsSection />
 
