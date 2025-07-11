@@ -33,7 +33,7 @@ const Index = () => {
 
                         <Typography variant="h6" className="mb-2 text-primary-50"  >Only invest in halal stock & crypto</Typography>
                         <Typography variant="bodyMediumR" color="textSecondary" >
-                            Easily find out whether a particular stock or crypto complies with sharia principles. No manual research needed.                    </Typography>
+                            Easily find out whether a particular stock or crypto complies with sharia principles.</Typography>
                     </div>
 
                     <div className="bg-primary-10 rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
@@ -59,7 +59,7 @@ const Index = () => {
 
                         <Typography variant="h6" className="mb-2 text-primary-50"  >Real-time buy and sell prices</Typography>
                         <Typography variant="bodyMediumR" color="textSecondary" >
-                            Follow our regularly updated buy and sell prices for hundreds of stocks and cryptocurrencies. No more time spent on calculating the intrinsic value of a stock.
+                            Follow our regularly updated buy and sell prices for hundreds of stocks and cryptocurrencies.
                         </Typography>
                     </div>
 

@@ -16,6 +16,7 @@ html {
   --text-disabled: rgba(0, 0, 0, 0.38);
   --font-family-work-sans: 'Work Sans', Arial, Helvetica, sans-serif;
   --navbar-height: 80px;
+
 }
 
 .dark {
@@ -51,11 +52,11 @@ html {
   --color-primary-30: #ADE2D1;
   --color-primary-40: #51B097;
   --color-primary-50: #338A75;
-  --color-primary-60: #A2D0C3;
-  --color-primary-70: #82BCAD;
-  --color-primary-80: #34675B;
-  --color-primary-90: #125584D;
-  --color-primary-100: #1C342E;
+  --color-primary-60: #2A7361;
+  --color-primary-70: #225C4E;
+  --color-primary-80: #19453A;
+  --color-primary-90: #112E27;
+  --color-primary-100: #0A1C17;
 
   /* Secondary Colors */
   --color-secondary-50: #f3e5f5;
@@ -154,6 +155,8 @@ html {
   --font-mono: var(--font-geist-mono);
 }
 
+
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -250,6 +253,9 @@ h6 {
   background: linear-gradient(180deg, #E5F5F1 0%, #FFFFFF 97%);
 }
 
+.btn-primary-contained {
+  @apply bg-primary-50 hover:bg-primary-70 text-white;
+}
 
 /* paddingBottom */
 .padding-b-xl {
@@ -264,6 +270,7 @@ h6 {
   .padding-b-xl {
     padding-bottom: 48px;
   }
+
   .padding-b-lg {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -287,6 +294,7 @@ h6 {
     padding-top: 48px;
     padding-bottom: 48px;
   }
+
   .padding-y-lg {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -297,6 +305,7 @@ h6 {
 .padding-lg {
   padding: 32px;
 }
+
 .padding-md {
   padding: 24px;
 }
@@ -305,6 +314,7 @@ h6 {
   .padding-lg {
     padding: 24px;
   }
+
   .padding-md {
     padding: 16px;
   }

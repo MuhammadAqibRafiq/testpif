@@ -46,7 +46,7 @@ const Button: React.FC<ButtonProps> = ({
   const getColorClasses = () => {
     const colorMap = {
       primary: {
-        contained: 'bg-primary-50 hover:bg-primary-70 text-white',
+        contained: 'btn-primary-contained',
         outlined: 'border border-primary-50 text-primary-50 hover:text-primary-10 hover:bg-primary-50 dark:hover:bg-primary-900/20',
         text: 'text-primary-50 hover:bg-primary-10 dark:hover:bg-primary-900/20',
       },

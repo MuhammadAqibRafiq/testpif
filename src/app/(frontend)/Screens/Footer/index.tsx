@@ -12,10 +12,10 @@ import { Podcast } from "lucide-react";
 
 
 const socialLinks = [
-    { icon: fb, label: "Facebook", href: constants.facebook.href , type: 'img' },
+    // { icon: fb, label: "Facebook", href: constants.facebook.href , type: 'img' },
     { icon: Youtube, label: "YouTube", href: constants.youtube.href , type: 'img' },
-    { icon: Linkedin, label: "LinkedIn", href: constants.linkedin.href , type: 'img' },
-    { icon: Instagram, label: "Instagram", href: constants.instagram.href , type: 'img' },
+    // { icon: Linkedin, label: "LinkedIn", href: constants.linkedin.href , type: 'img' },
+    // { icon: Instagram, label: "Instagram", href: constants.instagram.href , type: 'img' },
     { icon: X, label: "X", href: constants.X.href , type: 'img' },
     // { icon: Discord, label: "Discord", href: constants.discord.href , type: 'img' },
     { icon: <Podcast height={24} width={24} color="white" aria-label="Podcast link" />, label: "Podcast", href: constants.podcast.href , type: 'icon' },
@@ -44,7 +44,7 @@ const Index = () => {
                     <div className="flex-1 max-w-[580px]">
                         <Typography variant="h6" className="pb-[16px]">Practical Islamic Finance</Typography>
                         <Typography className="pb-[24px]" variant="bodyLargeR">
-                            Empowering Muslims to make smarter and effortless personal finance and  investment decisions, aligned with Islamic values.
+                        Empowering Muslims to easily make smarter personal finance and investment decisions, aligned with Islamic values.
                         </Typography>
                         <div className="flex gap-[16px]">
                             {socialLinks.map(({ icon, label, href, type }) => (
