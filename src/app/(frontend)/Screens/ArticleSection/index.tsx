@@ -47,7 +47,7 @@ const index = () => {
     return (
         <div className="max-w-7xl mx-auto padding-y-lg max-xl:px-6">
             <div className='flex justify-between items-center pb-[40px]'>
-                <Typography variant='h2' className='lg:text-left'   align="center" >
+                <Typography variant='h3' className='text-center lg:text-left text-neutral-100'>
                     Latest articles & insights
                 </Typography>
 

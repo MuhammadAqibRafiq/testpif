@@ -83,7 +83,7 @@ const CarouselCommentsCard = forwardRef<unknown, CarouselProps>(({ items }, ref)
                 {items?.map((x, index) => (
                     <div key={index}>
                         <div className="linear-bg2 border border-primary-30 padding-lg rounded-xl mx-4 max-sm:mx-2">
-                            <Typography className="text-primary-100 pb-[32px]" style={{ fontStyle: 'italic', fontSize: '24px', fontWeight: '500' }} >
+                            <Typography className="text-primary-100 pb-[32px] !text-[20px] md:!text-[24px]" variant="displayMediumItalic">
                                 {x.comment}
                             </Typography>
 

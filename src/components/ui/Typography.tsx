@@ -4,9 +4,9 @@ import React from 'react';
 import { useTheme } from '@/contexts/ThemeContext';
 
 export interface TypographyProps {
-  variant?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'bodyXLargeSB' | 'bodyXLargeM' | 'bodyXLargeR' | 'bodyLargeSB' | 'bodyLargeM' | 'bodyLargeR' | 'bodyMediumSB' | 'bodyMediumM' | 'bodyMediumR' | 'bodySmallSB' | 'bodySmallM' | 'bodySmallR' | 'bodyXSmallSB' | 'bodyXSmallM' | 'bodyXSmallR' | 'subtitle1' | 'subtitle2' | 'body1' | 'body2' | 'button' | 'caption' | 'overline';
+  variant?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'displayLarge' | 'displayMedium' | 'displayMediumItalic' | 'bodyXLargeSB' | 'bodyXLargeM' | 'bodyXLargeR' | 'bodyLargeSB' | 'bodyLargeM' | 'bodyLargeR' | 'bodyMediumSB' | 'bodyMediumM' | 'bodyMediumR' | 'bodySmallSB' | 'bodySmallM' | 'bodySmallR' | 'bodyXSmallSB' | 'bodyXSmallM' | 'bodyXSmallR' | 'subtitle1' | 'subtitle2' | 'body1' | 'body2' | 'button' | 'caption' | 'overline';
   color?: 'primary' | 'secondary' | 'success' | 'error' | 'warning' | 'info' | 'textPrimary' | 'textSecondary' | 'textDisabled' | 'inherit';
-  align?: 'left' | 'center' | 'right' | 'justify';
+  align?: string | { [breakpoint: string]: 'left' | 'center' | 'right' | 'justify' };
   gutterBottom?: boolean;
   noWrap?: boolean;
   children: React.ReactNode;
@@ -39,6 +39,9 @@ const Typography: React.FC<TypographyProps> = ({
       h4: 'h4',
       h5: 'h5',
       h6: 'h6',
+      displayLarge:'p',
+      displayMedium:'p',
+      displayMediumItalic:'p',
       bodyXLargeSB: 'p',
       bodyXLargeM: 'p',
       bodyXLargeR: 'p',
@@ -80,21 +83,24 @@ const Typography: React.FC<TypographyProps> = ({
     h4: 'text-h4 font-bold',
     h5: 'text-h5 font-bold',
     h6: 'text-h6 font-bold',
-    bodyXLargeSB: 'text-xl font-semibold',
-    bodyXLargeM: 'text-xl font-medium',    
-    bodyXLargeR: 'text-xl font-regular',    
-    bodyLargeSB: 'text-lg font-semibold',
-    bodyLargeM: 'text-lg font-medium',    
-    bodyLargeR: 'text-lg font-regular',    
-    bodyMediumSB: 'text-base font-semibold',
-    bodyMediumM: 'text-base font-medium',    
-    bodyMediumR: 'text-base font-regular',   
-    bodySmallSB: 'text-sm font-semibold',
-    bodySmallM: 'text-sm font-medium',    
-    bodySmallR: 'text-sm font-regular',   
-    bodyXSmallSB: 'text-xs font-semibold',
-    bodyXSmallM: 'text-xs font-medium',    
-    bodyXSmallR: 'text-xs font-regular',   
+    displayLarge: 'text-displayLarge font-bold',
+    displayMedium:'text-displayMedium font-bold',
+    displayMediumItalic:'text-displayMedium font-normal italic',
+    bodyXLargeSB: 'text-bodyXLarge font-semibold',
+    bodyXLargeM: 'text-bodyXLarge font-medium',    
+    bodyXLargeR: 'text-bodyXLarge font-regular',    
+    bodyLargeSB: 'text-bodyLarge font-semibold',
+    bodyLargeM: 'text-bodyLarge font-medium',    
+    bodyLargeR: 'text-bodyLarge font-regular',    
+    bodyMediumSB: 'text-bodyMedium font-semibold',
+    bodyMediumM: 'text-bodyMedium font-medium',    
+    bodyMediumR: 'text-bodyMedium font-regular',   
+    bodySmallSB: 'text-bodySmall font-semibold',
+    bodySmallM: 'text-bodySmall font-medium',    
+    bodySmallR: 'text-bodySmall font-regular',   
+    bodyXSmallSB: 'text-bodyXSmall font-semibold',
+    bodyXSmallM: 'text-bodyXSmall font-medium',    
+    bodyXSmallR: 'text-bodyXSmall font-regular',   
     subtitle1: 'text-base font-normal',
     subtitle2: 'text-sm font-normal',
     body1: 'text-base font-normal',
@@ -123,12 +129,12 @@ const Typography: React.FC<TypographyProps> = ({
   };
 
   // Alignment classes
-  const alignClasses = {
-    left: 'text-left',
-    center: 'text-center',
-    right: 'text-right',
-    justify: 'text-justify',
-  };
+  // const alignClasses = {
+  //   left: 'text-left',
+  //   center: 'text-center',
+  //   right: 'text-right',
+  //   justify: 'text-justify',
+  // };
 
   // Additional classes
   const additionalClasses = [
@@ -141,7 +147,7 @@ const Typography: React.FC<TypographyProps> = ({
     ...baseClasses,
     variantClasses[variant],
     getColorClasses(),
-    alignClasses[align],
+    // alignClasses[align],
     ...additionalClasses,
     className,
   ].filter(Boolean).join(' ');

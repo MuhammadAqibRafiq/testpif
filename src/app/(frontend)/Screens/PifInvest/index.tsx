@@ -64,10 +64,10 @@ const Index = () => {
   return (
     <div className=''>
       <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
-        <Typography variant="h2" color="primary" className="mb-[16px] max-w-[900px] mx-auto" align="center">
+        <Typography variant="h3" className="mb-[16px] max-w-[900px] mx-auto text-center  text-neutral-100" >
           Why Members Love PIF
         </Typography>
-        <Typography variant="bodyLargeR" color="textSecondary" className="padding-b-xl mx-auto" align="center">
+        <Typography variant="bodyLargeR" className="padding-b-xl mx-auto text-center  text-neutral-100">
           Halal-first investing made simple, smart, and personalized.
         </Typography>
         <div className="md:max-w-6xl mx-auto">
@@ -77,20 +77,20 @@ const Index = () => {
                 key={idx}
                 className={`col-span-1 ${card.colSpan} row-span-1 ${card.rowSpan} padding-lg bg-primary-10 border border-primary-30 rounded-2xl`}
               >
-                <Typography variant="bodyXLargeSB" className="mb-2 text-primary-50">
+                <Typography variant="displayMedium" className="mb-2 text-primary-50">
                   {card.title}
                 </Typography>
-                <Typography variant="bodyMediumR" color="textSecondary">
+                <Typography variant="bodyMediumR" className='text-neutral-100' >
                   {card.description}
                 </Typography>
                 {card.list && (
                   <div className="mt-[24px] gap-[8px]">
-                    <Typography variant="bodyMediumSB" color="textSecondary" className="pb-[8px]">
+                    <Typography variant="bodyMediumSB" className="pb-[8px] text-neutral-100">
                       {card.label}
                     </Typography>
                     <ul className="list-none space-y-[4px]">
                       {card.list.map((item, i) => (
-                        <li key={i} className="flex items-baseline gap-[10px]">
+                        <li key={i} className="flex items-baseline gap-[10px] text-neutral-100">
                           <div className="flex-shrink-0">
                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                           </div>

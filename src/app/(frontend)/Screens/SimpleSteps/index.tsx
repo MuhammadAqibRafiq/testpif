@@ -37,7 +37,7 @@ const Index = () => {
         <div className='linear-bg'>
             <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
 
-                <Typography variant="h2" color="primary" className="padding-b-xl max-w-[900px] mx-auto" align="center">
+                <Typography variant="h3" className="padding-b-xl max-w-[1000px] mx-auto text-center  text-neutral-100" >
                     Get Started in 3 Simple Steps
                 </Typography>
 
@@ -73,8 +73,8 @@ const Index = () => {
                                     />
                             {/* </div> */}
 
-                            <Typography variant="bodyXLargeSB" className="pb-[16px] text-primary-50">{step.label}</Typography>
-                            <Typography variant="bodyMediumR" color="textSecondary">{step.description}</Typography>
+                            <Typography variant="displayMedium" className="pb-[16px] text-primary-50">{step.label}</Typography>
+                            <Typography variant="bodyMediumR" className='text-neutral-100'>{step.description}</Typography>
                         </div>
                     ))}
                 </div>

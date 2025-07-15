@@ -24,18 +24,17 @@ const Index = () => {
     ];
     return (
         <div className="max-w-7xl mx-auto padding-y-lg max-xl:px-6 ">
-
             <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-8">
 
                 <div className="flex flex-col">
-                    <Typography variant="h1" className=" text-neutral-100 lg:w-[500px] pb-[16px]" >
+                    <Typography variant="h1" className=" text-neutral-100 lg:w-[450px] xl:w-[700px] pb-[16px] text-center  lg:text-left" >
                         Make smarte<span className='relative'>r <Image src={Isolation_Mode} alt="Arrow" className='absolute top-0 left-0' /></span> <span className="text-primary-50">halal </span>investing decisions
                     </Typography>
-                    <Typography variant="bodyXLargeM" className="text-neutral-100 max-w-[600px] pb-[32px]" >
+                    <Typography variant="bodyXLargeM" className="text-neutral-100 lg:max-w-[600px] pb-[32px] text-center  lg:text-left" >
                         Find and invest in halal opportunities, follow expertly-managed halal portfolios, meet your financial goals while aligning with your beliefs and values.
                     </Typography>
-                    <div className='pb-[40px]'>
-                    <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
+                    <div className='pb-[40px] md:mx-auto lg:mx-0 '>
+                        <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
 
                             <Button variant="contained" color="primary" size="medium" className='max-md:w-full'>
                                 Get started
@@ -45,7 +44,7 @@ const Index = () => {
 
                     {/* Desktop only */}
                     <div className="hidden md:flex gap-[16px] flex-col">
-                        <Typography variant="bodyLargeM" className="text-neutral-100">
+                        <Typography variant="bodyLargeM" className="text-neutral-100 md:mx-auto lg:mx-0 ">
                             Used and loved by 10,000+ muslim investors
                         </Typography>
                         {/* <OverlappingAvatars
@@ -69,8 +68,8 @@ const Index = () => {
                             />
                         </div>
 
-                        <Typography variant="bodySmallM" className='text-neutral-100 max-w-[450px]' align='center'  >
-                        PIF Aggressive Growth Portfolio and S&P500 annualized returns (Jan 1 2022 - Jun 1 2025). Past performance is not indicative of future results.
+                        <Typography variant="bodySmallM" className='text-neutral-100 max-w-[450px] text-center'  >
+                            PIF Aggressive Growth Portfolio and S&P500 annualized returns (Jan 1 2022 - Jun 1 2025). Past performance is not indicative of future results.
                         </Typography>
                     </div>
 

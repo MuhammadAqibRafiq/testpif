@@ -10,7 +10,7 @@ const Index = () => {
     return (
         <div className="padding-y-xl ">
 
-            <Typography variant="h2" color="primary" className="padding-b-xl  max-xl:px-6 max-w-[850px] mx-auto" align="center">
+            <Typography variant="h3" className="padding-b-xl  max-xl:px-6 max-w-[1000px] mx-auto text-center text-neutral-100" >
                 Join Hundreds Investing Halal, Profitably and Confidently
             </Typography>
 

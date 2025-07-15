@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
+import Typography from '../ui/Typography';
 
 const AccordionItem = ({ title, children, isOpen, onToggle }: AccordionItemProps) => {
     return (
@@ -10,7 +11,7 @@ const AccordionItem = ({ title, children, isOpen, onToggle }: AccordionItemProps
                 onClick={onToggle}
                 aria-expanded={isOpen}
             >
-                <span className="font-medium text-gray-900">{title}</span>
+                <Typography variant='bodyXLargeSB'  className="text-neutral-100">{title}</Typography>
                 {isOpen ? (
                     <ChevronUp className="w-5 h-5 text-gray-500 transition-transform duration-200" />
                 ) : (
@@ -21,7 +22,7 @@ const AccordionItem = ({ title, children, isOpen, onToggle }: AccordionItemProps
                 className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                     }`}
             >
-                <div className="px-6 pb-4 bg-white text-gray-700">
+                <div className="px-6 pb-4 bg-white text-neutral-100">
                     {children}
                 </div>
             </div>

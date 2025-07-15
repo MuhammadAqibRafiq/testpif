@@ -6,7 +6,7 @@ const SocialIcon = ({ type, imageSrc, href = "#", bgColor = "bg-teal-600", alt =
         <a
             href={href}
             target="_blank"
-            className={`w-[40px] h-[40px] sm:w-[40px] sm:h-[40px] md:w-[48px] md:h-[48px] ${bgColor} rounded-full flex items-center justify-center hover:opacity-80 transition-opacity duration-200 shadow-md hover:shadow-lg overflow-hidden`}
+            className={`w-[40px] h-[40px] sm:w-[40px] sm:h-[40px] md:w-[48px] md:h-[48px] ${bgColor} rounded-full flex items-center justify-center hover:bg-primary-70  transition-opacity duration-200 shadow-md hover:shadow-lg overflow-hidden`}
         >
             {type === 'img' ? <Image
                 src={imageSrc}

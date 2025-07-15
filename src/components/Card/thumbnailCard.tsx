@@ -51,7 +51,7 @@ const ThumbnailCard: React.FC<ThumbnailCardProps> = ({
                 {loading ? (
                     <Skeleton height={16} width="100%" />
                 ) : (
-                    <Typography variant='body1' className='text-neutral-50'>
+                    <Typography variant='bodyMediumM' className='text-neutral-100'>
                         {date}
                     </Typography>
                 )}

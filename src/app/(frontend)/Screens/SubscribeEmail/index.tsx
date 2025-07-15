@@ -25,14 +25,29 @@ const Index = () => {
         <div className='linear-bg'>
             <div className="max-w-7xl mx-auto padding-y-lg max-xl:px-6">
                 <div className='flex justify-center p-[44px]'>
-                    <Image src={PifLogoCircle} alt="Pif Logo Circle" width={72} height={72} />
+                    <div className="relative inline-block w-[120px] h-[120px]">
+                        {/* Ripple 1 */}
+                        <div className="absolute left-1/2 top-1/2 animate-ripple-seq1 bg-neutral-30 rounded-full pointer-events-none"></div>
+                        {/* Ripple 2 */}
+                        <div className="absolute left-1/2 top-1/2 animate-ripple-seq2 bg-neutral-30 rounded-full pointer-events-none"></div>
+                        {/* Ripple 3 */}
+                        <div className="absolute left-1/2 top-1/2 animate-ripple-seq3 bg-neutral-30 rounded-full pointer-events-none"></div>
+                        {/* Centered logo */}
+                        <Image
+                            src={PifLogoCircle}
+                            alt="Pif Logo Circle"
+                            width={44}
+                            height={44}
+                            className="absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2"
+                        />
+                    </div>
                 </div>
 
-                <Typography variant="h1" className=" text-neutral-100 max-w-[780px] mx-auto" align="center">
+                <Typography variant="h3" className="text-neutral-100 max-w-[780px] mx-auto text-center">
                     Get our free 7-day email course to start investing the <span className="text-primary-50">halal way </span>
                 </Typography>
 
-                <Typography variant="bodyXLargeM" className="text-neutral-50 pt-4 max-w-[680px] mx-auto" align="center" >
+                <Typography variant="bodyXLargeM" className="text-neutral-100 pt-4 max-w-[680px] mx-auto text-center" >
                     Get step-by-step guidance delivered straight to your inbox.
                 </Typography>
 

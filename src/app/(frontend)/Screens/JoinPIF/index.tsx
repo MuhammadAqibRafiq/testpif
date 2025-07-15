@@ -22,10 +22,10 @@ const Index = () => {
 
                 {/* Content column: order 2 on mobile, order 1 on md+ */}
                 <div className="order-2 md:order-1 flex flex-col justify-center gap-[24px]">
-                    <Typography variant="h2" color="primary" className="max-w-[548px] max-md:text-center">
+                    <Typography variant="h3"  className="max-w-[548px] max-md:text-center text-neutral-100">
                         Join PIF Today
                     </Typography>
-                    <Typography variant="bodyXLargeR" className="text-neutral-100 max-md:text-center max-w-[500px]">
+                    <Typography variant="bodyXLargeR" className="text-neutral-100 max-md:text-center max-w-[500px] text-neutral-100">
                         Start your journey toward halal, high-conviction investing—without the jargon or confusion.
                     </Typography>
 

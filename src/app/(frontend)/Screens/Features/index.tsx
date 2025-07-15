@@ -11,7 +11,7 @@ const Index = () => {
         // <section id="features" className="py-20 bg-primary-10">
         <div className="max-w-7xl mx-auto padding-y-xl max-xl:px-6">
 
-            <Typography variant="h2" color="primary" className="padding-b-xl max-w-[900px] mx-auto" align="center">
+            <Typography variant="h3" className="padding-b-xl max-w-[800px] mx-auto text-center  text-neutral-100">
             Choose from High-Potential Portfolios
             </Typography>
 
@@ -22,8 +22,8 @@ const Index = () => {
                     <div className="mb-6">
                         <Image src={XGrowth} alt="XGrowth" width={238} height={238} />
                     </div>
-                    <Typography variant="h6" className="mb-2 text-primary-50" align="center" >10X Growth<br />(Small Caps)</Typography>
-                    <Typography variant="bodyMediumR" className='text-primary-100' align="center">
+                    <Typography variant="displayMedium" className="mb-2 text-primary-50 text-center"  >10X Growth<br />(Small Caps)</Typography>
+                    <Typography variant="bodyMediumR" className='text-neutral-100 text-center' >
                         High-growth potential over the short term
                     </Typography>
                 </div>
@@ -32,8 +32,8 @@ const Index = () => {
                     <div className="mb-6">
                         <Image src={AggrGrowth} alt="AggrGrowth" width={238} height={238} />
                     </div>
-                    <Typography variant="h6" className="mb-2 text-primary-50" align="center">Aggressive Growth<br />(Mid & Large Caps)</Typography>
-                    <Typography variant="bodyMediumR" className='text-primary-100' align="center">
+                    <Typography variant="displayMedium" className="mb-2 text-primary-50 text-center" >Aggressive Growth<br />(Mid & Large Caps)</Typography>
+                    <Typography variant="bodyMediumR" className='text-neutral-100 text-center' >
                         Longer-term, high-upside opportunities
                     </Typography>
                 </div>
@@ -43,8 +43,8 @@ const Index = () => {
                     <div className="mb-6">
                         <Image src={Earn} alt="Earn" width={238} height={238} />
                     </div>
-                    <Typography variant="h6" className="mb-2 text-primary-50" align="center">Earn<br />(Dividend Stocks)</Typography>
-                    <Typography variant="bodyMediumR" className='text-primary-100' align="center">
+                    <Typography variant="displayMedium" className="mb-2 text-primary-50 text-center">Earn<br />(Dividend Stocks)</Typography>
+                    <Typography variant="bodyMediumR" className='text-neutral-100 text-center' >
                     High-quality companies providing reliable, passive halal income
                     </Typography>
                 </div>
@@ -54,8 +54,8 @@ const Index = () => {
                     <div className="mb-6">
                         <Image src={Crypto} alt="Crypto" width={238} height={238} />
                     </div>
-                    <Typography variant="h6" className="mb-2 text-primary-50" align="center">Crypto</Typography>
-                    <Typography variant="bodyMediumR" className='text-primary-100' align="center">
+                    <Typography variant="displayMedium" className="mb-2 text-primary-50 text-center" >Crypto</Typography>
+                    <Typography variant="bodyMediumR" className='text-neutral-100 text-center' >
                         High-risk, high-reward exposure to digital assets
                     </Typography>
                 </div>

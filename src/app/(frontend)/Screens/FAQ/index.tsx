@@ -45,7 +45,7 @@ const Index = () => {
     return (
         <div className="padding-y-xl px-[24px]">
 
-            <Typography variant="h2" color="primary" className="padding-b-xl" align="center">
+            <Typography variant="h3" className="padding-b-xl text-center text-neutral-100">
                 Frequently asked questions
             </Typography>
 
