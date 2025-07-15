@@ -43,8 +43,8 @@ const Index = () => {
                     </div>
 
                     {/* Desktop only */}
-                    <div className="hidden md:flex gap-[16px] flex-col">
-                        <Typography variant="bodyLargeM" className="text-neutral-100 md:mx-auto lg:mx-0 ">
+                    <div className="hidden lg:flex gap-[16px] flex-col">
+                        <Typography variant="bodyLargeM" className="text-neutral-100 ">
                             Used and loved by 10,000+ muslim investors
                         </Typography>
                         {/* <OverlappingAvatars
@@ -74,8 +74,8 @@ const Index = () => {
                     </div>
 
                     {/* Mobile only */}
-                    <div className="flex md:hidden gap-[16px] flex-col mt-[40px] justify-center items-center">
-                        <Typography variant="bodyLargeM" className="text-neutral-100" align='center'>
+                    <div className="flex lg:hidden gap-[16px] flex-col mt-[40px] justify-center items-center">
+                        <Typography variant="bodyLargeM" className="text-neutral-100 text-center " >
                             Used and loved by 10,000+ muslim investors
                         </Typography>
                         {/* <OverlappingAvatars
