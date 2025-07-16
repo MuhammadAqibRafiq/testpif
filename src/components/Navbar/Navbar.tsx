@@ -14,7 +14,7 @@ const Navbar = () => {
 
   const LoginComponent = () => {
     return (
-      <Link href={constants.login.href} target="_blank" rel="noopener noreferrer">
+      <Link href={constants.login.href}  rel="noopener noreferrer">
         <Button variant="outlined" color="primary" size="medium">
           Log in
         </Button>
@@ -24,7 +24,7 @@ const Navbar = () => {
 
   const GetStartedComponent = () => {
     return (
-      <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
+      <Link href={constants.getStarted.href}  rel="noopener noreferrer">
       <Button variant="contained" color="primary" size="medium">
         Get started
       </Button>

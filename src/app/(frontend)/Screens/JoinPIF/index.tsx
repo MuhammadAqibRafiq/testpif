@@ -30,7 +30,7 @@ const Index = () => {
                     </Typography>
 
                     <div >
-                        <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
+                        <Link href={constants.getStarted.href}  rel="noopener noreferrer">
 
                             <Button variant="contained" color="primary" size="medium" className='max-md:w-full'>
                                 Get started

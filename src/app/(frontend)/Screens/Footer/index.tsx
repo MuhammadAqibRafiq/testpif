@@ -22,16 +22,16 @@ const socialLinks = [
 ];
 
 const footerLinks = [
-    { label: 'Disclaimer', href: constants.disclaimer.href, target: '_blank', rel: 'noopener noreferrer' },
-    { label: 'Terms & Conditions', href: constants.terms.href, target: '_blank', rel: 'noopener noreferrer' },
-    { label: 'Cookie Policy', href: constants.cookie.href, target: '_blank', rel: 'noopener noreferrer' },
-    { label: 'Privacy Policy', href: constants.privacy.href, target: '_blank', rel: 'noopener noreferrer' },
+    { label: 'Disclaimer', href: constants.disclaimer.href, target: '', rel: 'noopener noreferrer' },
+    { label: 'Terms & Conditions', href: constants.terms.href, target: '', rel: 'noopener noreferrer' },
+    { label: 'Cookie Policy', href: constants.cookie.href, target: '', rel: 'noopener noreferrer' },
+    { label: 'Privacy Policy', href: constants.privacy.href, target: '', rel: 'noopener noreferrer' },
 ];
 
 const reportLinks = [
-    { label: 'Stock Reports', href: constants.stocksReports.href, target: '_blank', rel: 'noopener noreferrer' },
-    { label: 'Crypto Reports', href: constants.cryptoReports.href, target: '_blank', rel: 'noopener noreferrer' },
-    { label: 'Pricing', href: constants.pricing.href, target: '_blank', rel: 'noopener noreferrer' },
+    { label: 'Stock Reports', href: constants.stocksReports.href, target: '', rel: 'noopener noreferrer' },
+    { label: 'Crypto Reports', href: constants.cryptoReports.href, target: '', rel: 'noopener noreferrer' },
+    { label: 'Pricing', href: constants.pricing.href, target: '', rel: 'noopener noreferrer' },
 ];
 
 const Index = () => {

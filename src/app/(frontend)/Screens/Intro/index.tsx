@@ -34,7 +34,7 @@ const Index = () => {
                         Find and invest in halal opportunities, follow expertly-managed halal portfolios, meet your financial goals while aligning with your beliefs and values.
                     </Typography>
                     <div className='pb-[40px] md:mx-auto lg:mx-0 '>
-                        <Link href={constants.getStarted.href} target="_blank" rel="noopener noreferrer">
+                        <Link href={constants.getStarted.href} rel="noopener noreferrer">
 
                             <Button variant="contained" color="primary" size="medium" className='max-md:w-full'>
                                 Get started
