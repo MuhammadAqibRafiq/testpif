@@ -17,7 +17,7 @@ export default function CryptoReport() {
     { key: "srNo", label: "#" },
     { key: "name", label: "Name" },
     { key: "marketCap", label: "Market Cap" },
-    { key: "comfortRating", label: "Rating" }
+    { key: "comfortRating", label: "Comfort Rating" }
   ];
 
   const maupulateName = () => {
