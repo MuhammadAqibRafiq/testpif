@@ -17,7 +17,7 @@ export default function CryptoReport() {
     { key: "srNo", label: "#" },
     { key: "name", label: "Name" },
     { key: "marketCap", label: "Market Cap" },
-    { key: "comfortRating", label: "Comfort Rating" }
+    { key: "comfortRating", label: "Rating" }
   ];
 
   const maupulateName = () => {
@@ -90,8 +90,9 @@ export default function CryptoReport() {
           Halal Crypto Report
         </Typography>
 
-        <div className="pt-[40px] flex justify-between items-center">
-          <div className='max-w-[480px] w-full'>
+        <div className="pt-[40px] flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+          {/* Search Input */}
+          <div className='md:max-w-[250px] lg:max-w-[320px] xl:max-w-[480px] w-full'>
             <InputField
               className='w-full'
               placeholder="Search name, ticker, rating"
@@ -100,26 +101,31 @@ export default function CryptoReport() {
             />
           </div>
 
-
-          <div className="flex items-center gap-[16px]">
+          {/* Market Cap Section */}
+          <div className="flex flex-col sm:flex-row sm:items-center gap-[16px]">
             <Typography variant="bodyMediumSB">Market Cap:</Typography>
-            <div className='max-w-[200px] w-full'>
-              <InputField
-                className='w-full'
-                placeholder="Min"
-                formik={formik}
-                fieldName="email"
-              />
-            </div>
-            <Typography variant="bodyMediumSB">-</Typography>
 
-            <div className='max-w-[200px] w-full'>
-              <InputField
-                className='w-full'
-                placeholder="Max"
-                formik={formik}
-                fieldName="email"
-              />
+            {/* Min/Max inputs - stacked on small screens, inline on larger screens */}
+            <div className="flex flex-col sm:flex-row sm:items-center gap-[16px]">
+              <div className='md:max-w-[100px] lg:max-w-[200px] w-full'>
+                <InputField
+                  className='w-full'
+                  placeholder="Min"
+                  formik={formik}
+                  fieldName="email"
+                />
+              </div>
+
+              <Typography variant="bodyMediumSB" className="hidden sm:block">-</Typography>
+
+              <div className='md:max-w-[100px] lg:max-w-[200px] w-full'>
+                <InputField
+                  className='w-full'
+                  placeholder="Max"
+                  formik={formik}
+                  fieldName="email"
+                />
+              </div>
             </div>
           </div>
         </div>
