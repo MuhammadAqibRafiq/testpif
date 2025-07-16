@@ -9,8 +9,10 @@ import InputField from "@/components/InputField/InputField";
 import { useFormik } from "formik";
 import JoinPIF from "../../Screens/JoinPIF";
 import Footer from "../../Screens/Footer";
+import { useEffect, useState } from "react";
 
 export default function CryptoReport() {
+
   const headers = [
     { key: "srNo", label: "#" },
     { key: "name", label: "Name" },
@@ -47,6 +49,26 @@ export default function CryptoReport() {
   const data = [
     { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Uncomfortable" bgColor="var(--color-error-50)" /> },
     { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+    { name: maupulateName(), marketCap: maupulateMarketCap(), comfortRating: <Chip label="Comfortable" bgColor="var(--color-success-50)" />, },
+
   ];
 
   const formik = useFormik({
@@ -107,6 +129,7 @@ export default function CryptoReport() {
             headers={headers}
             data={data}
           />
+
         </div>
       </div>
 
