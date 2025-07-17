@@ -55,7 +55,7 @@ const Index = () => {
                     <div className='max-w-[361px] w-full'>
                         <InputField
                             className='w-full'
-                            placeholder="youremail@pif.com"
+                            placeholder="Your email address"
                             formik={formik}
                             fieldName="email"
                             onKeyDown={handleInputKeyDown}

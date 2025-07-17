@@ -256,12 +256,12 @@ h6 {
 .text-displayMedium {
   font-size: var(--font-size-displayMedium);
   letter-spacing: -1px;
-  line-height: 110%;
+  line-height: 130%;
 
   @media (max-width: 1024px) {
     font-size: var(--font-size-displayMedium-mobile);
     letter-spacing: -1px;
-    line-height: 110%;
+    line-height: 130%;
   }
 }
 

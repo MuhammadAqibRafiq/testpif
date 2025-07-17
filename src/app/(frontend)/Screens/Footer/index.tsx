@@ -32,6 +32,9 @@ const reportLinks = [
     { label: 'Stock Reports', href: constants.stocksReports.href, target: '', rel: 'noopener noreferrer' },
     { label: 'Crypto Reports', href: constants.cryptoReports.href, target: '', rel: 'noopener noreferrer' },
     { label: 'Pricing', href: constants.pricing.href, target: '', rel: 'noopener noreferrer' },
+    { label: 'Blog', href: constants.blog.href, target: '', rel: 'noopener noreferrer' },
+
+    
 ];
 
 const Index = () => {
@@ -85,9 +88,9 @@ const Index = () => {
 
 
                 <hr className="mt-8 border-t border-neutral-20" />
-                <div className="text-center py-4 text-lg text-neutral-100">
+                <Typography className="text-center py-4 text-neutral-100" variant="bodyMediumR" >
                     Copyright © 2025 Practical Islamic Finance. All right reserved
-                </div>
+                </Typography>
             </div>
         </footer>
     );

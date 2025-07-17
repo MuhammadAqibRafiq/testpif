@@ -25,7 +25,7 @@ export const constants = {
         href: 'https://app.practicalislamicfinance.com/reports/crypto',
     },
     blog: {
-        href: 'https://practicalislamicfinance.com/blog/',
+        href: 'https://blog.practicalislamicfinance.com',
     },
     youtube: {
         href: 'https://www.youtube.com/@practicalislamicfinance',

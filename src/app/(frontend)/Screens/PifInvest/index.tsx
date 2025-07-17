@@ -94,7 +94,10 @@ const Index = () => {
                           <div className="flex-shrink-0">
                             <Image src={greenTick} alt="greenTick" height={10.5} width={15} />
                           </div>
-                          <span>{item}</span>
+                          <Typography variant="bodyMediumR" className='text-neutral-100' >
+                            {item}
+                          </Typography>
+                          {/* <span className='text-bodyMediumR text-neutral-100' >{item}</span> */}
                         </li>
                       ))}
                     </ul>
