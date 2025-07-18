@@ -16,7 +16,7 @@ export default function CryptoReport() {
 
       <div className="max-w-7xl mx-auto max-xl:px-6 padding-y-xl">
         <Typography variant='h3' className='text-center text-neutral-100'>
-          Halal Crypto Report
+        Halal Stocks Report
         </Typography>
 
         <div className="pt-[40px] flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
