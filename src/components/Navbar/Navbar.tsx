@@ -7,7 +7,7 @@ import ThemeToggle from '@/components/ui/ThemeToggle';
 import Button from '../ui/Button/Button';
 import { constants } from '@/Contants/constants';
 import PIFLogo from '@/assets/images/PIFLogo.png';
-import { navLinks } from '@/constants/navLinks';
+import { navLinks } from '@/Contants/navLinks';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
