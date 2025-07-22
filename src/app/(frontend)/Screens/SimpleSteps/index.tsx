@@ -1,9 +1,9 @@
 import Typography from '@/components/ui/Typography'
 import React from 'react'
 import Image from 'next/image'
-import MoneyAnytime from '@/assets/images/Vector3.png'
-import Imge2 from '@/assets/images/Vector2.png'
-import handImg from '@/assets/images/Vector1.png'
+import getStarted1 from '@/assets/images/getStarted1.png'
+import getStarted2 from '@/assets/images/getStarted2.png'
+import getStarted3 from '@/assets/images/getStarted3.png'
 // import img1 from '@/assets/images/Vector1.png'
 // import img2 from '@/assets/images/Vector2.png'
 // import img3 from '@/assets/images/Vector3.png'
@@ -15,20 +15,20 @@ const Index = () => {
     const steps = [
         {
             // icon: img1,
-            mainImage: handImg,
-            label: 'Pick a Portfolio You Like',
+            mainImage: getStarted1,
+            label: 'Pick a portfolio you like',
             description: "Explore our portfolios and pick one or more to follow — or build your own mix from positions you like. We’ll also share halal-friendly brokerage options for U.S. and international investors.",
         },
         {
             // icon: img2,
-            mainImage: Imge2,
-            label: 'Invest Through Your Broker',
-            description: "Transfer funds and use our Watchlist to guide your timing — buy when prices are below target and take profits when they’re above.",
+            mainImage: getStarted2,
+            label: 'Invest through your broker',
+            description: "Use our Watchlist to guide your timing — buy when prices are below target and take profits when they’re above.",
         },
         {
             // icon: img3,
-            mainImage: MoneyAnytime,
-            label: 'Monitor and Grow Together',
+            mainImage: getStarted3,
+            label: 'Monitor and grow together',
             description: "Stay connected with a community of halal-conscious investors. Share insights, adjust your holdings, and sell when it’s time.",
         },
     ]
@@ -64,13 +64,13 @@ const Index = () => {
                             </div> */}
 
                             {/* <div className="flex justify-center"> */}
-                                    <Image
-                                        src={step.mainImage}
-                                        alt={step.label}
-                                        // style={{ objectFit: 'contain' }}
-                                        // sizes="(max-width: 768px) 200px, 329px"
-                                        className=' max-h-[346px] pb-[24px]'
-                                    />
+                            <Image
+                                src={step.mainImage}
+                                alt={step.label}
+                                // style={{ objectFit: 'contain' }}
+                                // sizes="(max-width: 768px) 200px, 329px"
+                                className='h-[284px] xl:h-[346px] pb-[24px]'
+                            />
                             {/* </div> */}
 
                             <Typography variant="displayMedium" className="pb-[16px] text-primary-50">{step.label}</Typography>
