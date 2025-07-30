@@ -2,7 +2,7 @@
 import Footer from "../../Screens/Footer";
 import Typography from "@/components/ui/Typography";
 
-export default function DisclaimerPage() {
+export default function PrivacyPage() {
 
   const lastUpdated = 'February 28, 2022'
 
