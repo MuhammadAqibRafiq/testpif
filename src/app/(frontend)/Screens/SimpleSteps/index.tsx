@@ -4,9 +4,7 @@ import Image from 'next/image'
 import getStarted1 from '@/assets/images/getStarted1.png'
 import getStarted2 from '@/assets/images/getStarted2.png'
 import getStarted3 from '@/assets/images/getStarted3.png'
-// import img1 from '@/assets/images/Vector1.png'
-// import img2 from '@/assets/images/Vector2.png'
-// import img3 from '@/assets/images/Vector3.png'
+
 
 
 
@@ -46,7 +44,7 @@ const Index = () => {
                 </Typography> */}
 
 
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-[24px]">
                     {steps?.map((step, idx) => (
                         <div key={idx} className="bg-white rounded-2xl shadow padding-lg flex flex-col border border-primary-30">
 
