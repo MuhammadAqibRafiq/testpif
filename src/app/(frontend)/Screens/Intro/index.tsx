@@ -9,7 +9,8 @@ import Avatar2 from '@/assets/images/Avatar2.png'
 import Avatar3 from '@/assets/images/Avatar3.png'
 import Avatar4 from '@/assets/images/Avatar4.png'
 import Avatar5 from '@/assets/images/Avatar5.png'
-
+import HeroContentLeft from '@/assets/images/HeroContentLeft.png'
+import HeroContentRight from '@/assets/images/HeroContentRight.png'
 import Isolation_Mode from '@/assets/images/Isolation_Mode.png'
 import Link from 'next/link'
 import { constants } from '@/Contants/constants'
@@ -22,6 +23,37 @@ const Index = () => {
         { src: Avatar4, alt: "User 4" },
         { src: Avatar5, alt: "User 5" },
     ];
+
+    const HeroSectionContent = () => {
+        return (
+            <>
+                <Image
+                    src={HeroContentLeft}
+                    alt="Laurel wreath left"
+                    className='w-[24px] h-[48px]' // Adjusted size for laurel wreath
+                />
+
+                <div className="flex flex-col items-center ">
+                    <div className="">
+                        <Typography
+                            variant="bodyXSmallM"
+                            className="text-neutral-100 w-full text-center"
+                        >
+                            Used and loved by
+                            <br />
+                            10,000+ muslim investors
+                        </Typography>
+                    </div>
+                </div>
+
+                <Image
+                    src={HeroContentRight}
+                    alt="Laurel wreath right"
+                    className='w-[24px] h-[48px]' // Adjusted size for laurel wreath
+                />
+            </>
+        )
+    }
     return (
         <div className="max-w-7xl mx-auto padding-y-lg max-xl:px-6 ">
             <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-8">
@@ -43,16 +75,8 @@ const Index = () => {
                     </div>
 
                     {/* Desktop only */}
-                    <div className="hidden lg:flex gap-[16px] flex-col">
-                        <Typography variant="bodyLargeM" className="text-neutral-100 ">
-                            Used and loved by 10,000+ muslim investors
-                        </Typography>
-                        {/* <OverlappingAvatars
-                            avatars={avatars}
-                            size="md"
-                            maxVisible={5}
-                            showCount={true}
-                        /> */}
+                    <div className="hidden lg:flex flex-row items-center gap-[8px]">
+                        <HeroSectionContent />
                     </div>
 
                 </div>
@@ -74,16 +98,8 @@ const Index = () => {
                     </div>
 
                     {/* Mobile only */}
-                    <div className="flex lg:hidden gap-[16px] flex-col mt-[40px] justify-center items-center">
-                        <Typography variant="bodyLargeM" className="text-neutral-100 text-center " >
-                            Used and loved by 10,000+ muslim investors
-                        </Typography>
-                        {/* <OverlappingAvatars
-                            avatars={avatars}
-                            size="md"
-                            maxVisible={5}
-                            showCount={true}
-                        /> */}
+                    <div className="flex lg:hidden gap-[8px] flex-row mt-[40px] justify-center items-center">
+                        <HeroSectionContent />
                     </div>
                 </div>
 
