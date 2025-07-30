@@ -22,10 +22,10 @@ const socialLinks = [
 ];
 
 const footerLinks = [
-    { label: 'Disclaimer', href: constants.disclaimer.href, target: '', rel: 'noopener noreferrer' },
-    { label: 'Terms & Conditions', href: constants.terms.href, target: '', rel: 'noopener noreferrer' },
-    { label: 'Cookie Policy', href: constants.cookie.href, target: '', rel: 'noopener noreferrer' },
-    { label: 'Privacy Policy', href: constants.privacy.href, target: '', rel: 'noopener noreferrer' },
+    { label: 'Disclaimer', href: '/disclaimers', target: '', rel: 'noopener noreferrer' },
+    { label: 'Terms & Conditions', href: '/terms-conditions', target: '', rel: 'noopener noreferrer' },
+    { label: 'Cookie Policy', href: '/cookie', target: '', rel: 'noopener noreferrer' },
+    { label: 'Privacy Policy', href: '/privacy', target: '', rel: 'noopener noreferrer' },
 ];
 
 const reportLinks = [

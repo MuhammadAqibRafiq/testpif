@@ -201,17 +201,17 @@ export default function TermsConditionsPage() {
     content: (
       <div className="space-y-4">  {/* Added wrapper div with space-y-4 */}
         <Typography variant="bodyMediumR" className="text-neutral-100">
-          By using the Site, you represent and warrant that: 
-          <ol className="list-decimal pl-6 mt-2 space-y-1">
-            <li>all registration information you submit will be true, accurate, current, and complete;</li>
-            <li>you will maintain the accuracy of such information and promptly update such registration information as necessary;</li>
-            <li>you have the legal capacity and you agree to comply with these Terms of Use;</li>
-            <li>you are not a minor in the jurisdiction in which you reside;</li>
-            <li>you will not access the Site through automated or non-human means, whether through a bot, script, or otherwise;</li>
-            <li>you will not use the Site for any illegal or unauthorized purpose;</li>
-            <li>your use of the Site will not violate any applicable law or regulation.</li>
-          </ol>
+          By using the Site, you represent and warrant that:
         </Typography>
+        <ol className="list-decimal pl-6 space-y-1 text-neutral-100">
+          <li>all registration information you submit will be true, accurate, current, and complete;</li>
+          <li>you will maintain the accuracy of such information and promptly update such registration information as necessary;</li>
+          <li>you have the legal capacity and you agree to comply with these Terms of Use;</li>
+          <li>you are not a minor in the jurisdiction in which you reside;</li>
+          <li>you will not access the Site through automated or non-human means, whether through a bot, script, or otherwise;</li>
+          <li>you will not use the Site for any illegal or unauthorized purpose;</li>
+          <li>your use of the Site will not violate any applicable law or regulation.</li>
+        </ol>
 
         <Typography variant="bodyMediumR" className="text-neutral-100">
           If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the Site (or any portion thereof).
@@ -252,7 +252,7 @@ export default function TermsConditionsPage() {
             
             <li>Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Site.</li>
             
-            <li>Use any information obtained from the Site in order to harass, abuse, or harm another person.</li>
+            <li>Use any information obtained from the Site in order to harass or threaten (in the legal sense of those terms) any other person and to promote violence against a specific person or class of people.</li>
             
             <li>Make improper use of our support services or submit false reports of abuse or misconduct.</li>
             
