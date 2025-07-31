@@ -898,14 +898,7 @@ export default function PrivacyPage() {
     title: '16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?',
     content: (
         <Typography variant="bodyMediumR" className="text-neutral-100">
-            Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please{' '}
-            <a 
-                href="#" // Replace with actual request form URL
-                className="text-primary-50 hover:underline"
-            >
-                submit a request form by clicking here
-            </a>
-            .
+           Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, request changes to that information, or ask for its deletion in certain cases. To review, update, or delete your personal information, please send a request to salam@practicalislamicfinance.com.
         </Typography>
     )
 };
