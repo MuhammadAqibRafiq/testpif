@@ -142,11 +142,11 @@ export default function PrivacyPage() {
 
         <Typography variant="bodyMediumR" className="text-neutral-100 mb-4">
           <strong>Social Media Login Data.</strong> We may provide you with the option to register with us using your existing social media account details, like your Facebook, Twitter, or other social media account. If you choose to register in this way, we will collect the information described in the section called{' '}
-          <a 
-              href="#section7" 
-              className="text-primary-50 hover:underline cursor-pointer"
+          <a
+            href="#section7"
+            className="text-primary-50 hover:underline cursor-pointer"
           >
-              "HOW DO WE HANDLE YOUR SOCIAL LOGINS?"
+            "HOW DO WE HANDLE YOUR SOCIAL LOGINS?"
           </a>
           {' '}below.
         </Typography>
@@ -221,11 +221,11 @@ export default function PrivacyPage() {
           <li>
             <Typography variant="bodyMediumR">
               <strong>To send you marketing and promotional communications.</strong> We may process the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt out of our marketing emails at any time. For more information, see{' '}
-              <a 
-                  href="#section11" 
-                  className="text-primary-50 hover:underline cursor-pointer"
+              <a
+                href="#section11"
+                className="text-primary-50 hover:underline cursor-pointer"
               >
-                  "WHAT ARE YOUR PRIVACY RIGHTS?"
+                "WHAT ARE YOUR PRIVACY RIGHTS?"
               </a>
               {' '}below).
             </Typography>
@@ -285,11 +285,11 @@ export default function PrivacyPage() {
           <li>
             <Typography variant="bodyMediumR">
               <strong>Consent.</strong> We may process your information if you have given us permission (i.e., consent) to use your personal information for a specific purpose. You can withdraw your consent at any time. Click{' '}
-              <a 
-                  href="#section11" 
-                  className="text-primary-50 hover:underline cursor-pointer"
+              <a
+                href="#section11"
+                className="text-primary-50 hover:underline cursor-pointer"
               >
-                  here
+                here
               </a>
               {' '}to learn more.
             </Typography>
@@ -299,14 +299,14 @@ export default function PrivacyPage() {
             <Typography variant="bodyMediumR">
               <strong>Legitimate Interests.</strong> We may process your information when we believe it is reasonably necessary to achieve our legitimate business interests and those interests do not outweigh your interests and fundamental rights and freedoms. For example, we may process your personal information for some of the purposes described in order to:
             </Typography>
-            
+
             <ul className="list-disc pl-6 space-y-2 text-neutral-100">
-                <li>Send users information about special offers and discounts on our products and services</li>
-                <li>Develop and display personalized and relevant advertising content for our users</li>
-                <li>Analyze how our services are used so we can improve them to engage and retain users</li>
-                <li>Support our marketing activities</li>
-                <li>Diagnose problems and/or prevent fraudulent activities</li>
-                <li>Understand how our users use our products and services so we can improve user experience</li>
+              <li>Send users information about special offers and discounts on our products and services</li>
+              <li>Develop and display personalized and relevant advertising content for our users</li>
+              <li>Analyze how our services are used so we can improve them to engage and retain users</li>
+              <li>Support our marketing activities</li>
+              <li>Diagnose problems and/or prevent fraudulent activities</li>
+              <li>Understand how our users use our products and services so we can improve user experience</li>
             </ul>
           </li>
 
@@ -329,11 +329,11 @@ export default function PrivacyPage() {
 
         <Typography variant="bodyMediumR" className="text-neutral-100 mb-4">
           We may process your information if you have given us specific permission (i.e., express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e., implied consent). You can withdraw your consent at any time. Click{' '}
-          <a 
-              href="#section11" 
-              className="text-primary-50 hover:underline cursor-pointer"
+          <a
+            href="#section11"
+            className="text-primary-50 hover:underline cursor-pointer"
           >
-              here
+            here
           </a>
           {' '}to learn more.
         </Typography>
@@ -497,11 +497,11 @@ export default function PrivacyPage() {
 
         <Typography variant="bodyMediumR" className="text-neutral-100 mb-4">
           In some regions (like the EEA, UK, and Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section{' '}
-          <a 
-              href="#section15" 
-              className="text-primary-50 hover:underline cursor-pointer"
+          <a
+            href="#section15"
+            className="text-primary-50 hover:underline cursor-pointer"
           >
-              "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"
+            "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"
           </a>
           {' '}below.
         </Typography>
@@ -538,11 +538,11 @@ export default function PrivacyPage() {
 
         <Typography variant="bodyMediumR" className="text-neutral-100 mb-4">
           <strong>Withdrawing your consent:</strong> If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section{' '}
-          <a 
-              href="#section15" 
-              className="text-primary-50 hover:underline cursor-pointer"
+          <a
+            href="#section15"
+            className="text-primary-50 hover:underline cursor-pointer"
           >
-              "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"
+            "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"
           </a>
           {' '}below.
         </Typography>
@@ -553,11 +553,11 @@ export default function PrivacyPage() {
 
         <Typography variant="bodyMediumR" className="text-neutral-100 mb-4">
           <strong>Opting out of marketing and promotional communications:</strong> You can unsubscribe from our marketing and promotional communications at any time by clicking on the unsubscribe link in the emails that we send, or by contacting us using the details provided in the section{' '}
-          <a 
-              href="#section15" 
-              className="text-primary-50 hover:underline cursor-pointer"
+          <a
+            href="#section15"
+            className="text-primary-50 hover:underline cursor-pointer"
           >
-              "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"
+            "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"
           </a>
           {' '}below. You will then be removed from the marketing lists — however, we may still communicate with you, for example to send you service-related messages that are necessary for the administration and use of your account, to respond to service requests, or for other non-marketing purposes.
         </Typography>
@@ -748,6 +748,36 @@ export default function PrivacyPage() {
           </ul>
         </div>
 
+        <Typography variant="bodyMediumM" className="text-neutral-100 mb-4">
+          How do we use and share your personal information?
+        </Typography>
+
+        <Typography variant="bodyMediumR" className="text-neutral-100 mb-4">
+          More information about our data collection and sharing practices can be found in this privacy notice.
+        </Typography>
+        <Typography variant="bodyMediumR" className="text-neutral-100 mb-4">
+          You may contact us by email at members@practicalislamicfinance.com, or by referring to the contact details at the bottom of this document.
+        </Typography>
+        <Typography variant="bodyMediumR" className="text-neutral-100 mb-4">
+          If you are using an authorized agent to exercise your right to opt out we may deny a request if the authorized agent does not submit proof that they have been validly authorized to act on your behalf.
+        </Typography>
+
+        <Typography variant="bodyMediumM" className="text-neutral-100 mb-4">
+          Will your information be shared with anyone else?
+        </Typography>
+
+        <Typography variant="bodyMediumR" className="text-neutral-100 mb-4">
+          We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Each service provider is a for-profit entity that processes the information on our behalf.
+        </Typography>
+
+        <Typography variant="bodyMediumR" className="text-neutral-100 mb-4">
+          We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be "selling" of your personal information.
+        </Typography>
+
+        <Typography variant="bodyMediumR" className="text-neutral-100 mb-4">
+          Practical Finance LLC has not disclosed or sold any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. Practical Finance LLC will not sell personal information in the future belonging to website visitors, users, and other consumers.
+        </Typography>
+
         {/* Rights and Contact Information */}
         <Typography variant="bodyMediumM" className="text-neutral-100 mb-4">
           Your rights with respect to your personal data
@@ -897,11 +927,11 @@ export default function PrivacyPage() {
   const section16 = {
     title: '16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?',
     content: (
-        <Typography variant="bodyMediumR" className="text-neutral-100">
-           Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, request changes to that information, or ask for its deletion in certain cases. To review, update, or delete your personal information, please send a request to salam@practicalislamicfinance.com.
-        </Typography>
+      <Typography variant="bodyMediumR" className="text-neutral-100">
+        Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, request changes to that information, or ask for its deletion in certain cases. To review, update, or delete your personal information, please send a request to salam@practicalislamicfinance.com.
+      </Typography>
     )
-};
+  };
 
   return (
     <div style={{ marginTop: 'var(--navbar-height)' }}>
@@ -943,22 +973,22 @@ export default function PrivacyPage() {
 
         <Typography variant='bodySmallR' className='text-neutral-100 pb-[8px]'>
           <strong>
-              This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for. You can also click{' '}
-              <a 
-                  href="#tableOfContents" 
-                  className="text-primary-50 hover:underline cursor-pointer"
-              >
-                here
-              </a>
-              {' '}to go directly to our table of contents.
+            This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for. You can also click{' '}
+            <a
+              href="#tableOfContents"
+              className="text-primary-50 hover:underline cursor-pointer"
+            >
+              here
+            </a>
+            {' '}to go directly to our table of contents.
           </strong>
         </Typography>
 
         <Typography variant='bodySmallR' className='text-neutral-100 pb-[8px]'>
           <strong>What personal information do we process?</strong> When you visit, use, or navigate our Services, we may process personal information depending on how you interact with Practical Islamic Finance and the Services, the choices you make, and the products and features you use. Click{' '}
-          <a 
-              href="#section1" 
-              className="text-primary-50 hover:underline cursor-pointer"
+          <a
+            href="#section1"
+            className="text-primary-50 hover:underline cursor-pointer"
           >
             here
           </a>
@@ -971,9 +1001,9 @@ export default function PrivacyPage() {
 
         <Typography variant='bodySmallR' className='text-neutral-100 pb-[8px]'>
           <strong>How do you process my information?</strong> We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Click{' '}
-          <a 
-              href="#section2" 
-              className="text-primary-50 hover:underline cursor-pointer"
+          <a
+            href="#section2"
+            className="text-primary-50 hover:underline cursor-pointer"
           >
             here
           </a>
@@ -982,9 +1012,9 @@ export default function PrivacyPage() {
 
         <Typography variant='bodySmallR' className='text-neutral-100 pb-[8px]'>
           <strong>In what situations and with which parties do we share personal information?</strong> We may share information in specific situations and with specific third parties. Click{' '}
-          <a 
-              href="#section4" 
-              className="text-primary-50 hover:underline cursor-pointer"
+          <a
+            href="#section4"
+            className="text-primary-50 hover:underline cursor-pointer"
           >
             here
           </a>
@@ -993,22 +1023,22 @@ export default function PrivacyPage() {
 
         <Typography variant='bodySmallR' className='text-neutral-100 pb-[8px]'>
           <strong>How do we keep your information safe? </strong> We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Click{' '}
-          <a 
-              href="#section9" 
-              className="text-primary-50 hover:underline cursor-pointer"
+          <a
+            href="#section9"
+            className="text-primary-50 hover:underline cursor-pointer"
           >
-              here
+            here
           </a>
           {' '}to learn more.
         </Typography>
 
         <Typography variant='bodySmallR' className='text-neutral-100 pb-[8px]'>
           <strong>What are your rights?</strong> Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Click{' '}
-          <a 
-              href="#section11" 
-              className="text-primary-50 hover:underline cursor-pointer"
+          <a
+            href="#section11"
+            className="text-primary-50 hover:underline cursor-pointer"
           >
-              here
+            here
           </a>
           {' '}to learn more.
         </Typography>
@@ -1019,11 +1049,11 @@ export default function PrivacyPage() {
 
         <Typography variant='bodySmallR' className='text-neutral-100 pb-[40px]'>
           Want to learn more about what Practical Islamic Finance does with any information we collect? Click{' '}
-          <a 
-              href="#section1" 
-              className="text-primary-50 hover:underline cursor-pointer"
+          <a
+            href="#section1"
+            className="text-primary-50 hover:underline cursor-pointer"
           >
-              here
+            here
           </a>
           {' '}to review the notice in full.
         </Typography>
@@ -1153,10 +1183,10 @@ export default function PrivacyPage() {
         </div>
 
         <div id="section16" className="scroll-mt-20">
-            <Typography variant="bodyXLargeSB" className="text-neutral-100 mb-6">
-                {section16.title}
-            </Typography>
-            {section16.content}
+          <Typography variant="bodyXLargeSB" className="text-neutral-100 mb-6">
+            {section16.title}
+          </Typography>
+          {section16.content}
         </div>
 
       </div>

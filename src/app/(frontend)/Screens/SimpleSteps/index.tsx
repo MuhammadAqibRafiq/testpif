@@ -67,7 +67,7 @@ const Index = () => {
                                 alt={step.label}
                                 // style={{ objectFit: 'contain' }}
                                 // sizes="(max-width: 768px) 200px, 329px"
-                                className='h-[284px] xl:h-[346px] pb-[24px]'
+                                className='h-[284px] xl:h-[346px] mb-[24px]'
                             />
                             {/* </div> */}
 
