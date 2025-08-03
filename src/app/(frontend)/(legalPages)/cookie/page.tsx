@@ -17,7 +17,7 @@ export default function CookiePage() {
           >
             https://practicalislamicfinance.com 
           </a> 
-          ("Websites"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
+          , ("Websites"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
         </Typography>
 
         <Typography variant="bodyMediumR" className="text-neutral-100">
