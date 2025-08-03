@@ -9,16 +9,15 @@ export default function CookiePage() {
     content: (
       <div className="space-y-4">
         <Typography variant="bodyMediumR" className="text-neutral-100">
-          This Cookie Policy explains how Practical Islamic Finance ("Company", "we", "us", and "our") uses cookies and similar technologies to recognize you when you visit our websites at{' '}
-          <a 
+        This Cookie Policy explains how __________ ("Company", "we", "us", and "our") uses cookies and similar technologies to recognize you when you visit our websites at <a 
             href="https://practicalislamicfinance.com" 
             className="text-primary-50 hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://practicalislamicfinance.com
-          </a>
-          , ("Websites"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
+            https://practicalislamicfinance.com 
+          </a> 
+          ("Websites"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
         </Typography>
 
         <Typography variant="bodyMediumR" className="text-neutral-100">
@@ -37,7 +36,7 @@ export default function CookiePage() {
         </Typography>
 
         <Typography variant="bodyMediumR" className="text-neutral-100">
-          Cookies set by the website owner (in this case, Practical Islamic Finance) are called "first party cookies". Cookies set by parties other than the website owner are called "third party cookies". Third party cookies enable third party features or functionality to be provided on or through the website (e.g. like advertising, interactive content and analytics). The parties that set these third party cookies can recognize your computer both when it visits the website in question and also when it visits certain other websites.
+        Cookies set by the website owner (in this case, __________) are called "first party cookies". Cookies set by parties other than the website owner are called "third party cookies". Third party cookies enable third party features or functionality to be provided on or through the website (e.g. like advertising, interactive content and analytics). The parties that set these third party cookies can recognize your computer both when it visits the website in question and also when it visits certain other websites.
         </Typography>
       </div>
     )

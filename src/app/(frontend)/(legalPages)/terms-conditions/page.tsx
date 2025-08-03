@@ -252,7 +252,7 @@ export default function TermsConditionsPage() {
             
             <li>Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Site.</li>
             
-            <li>Use any information obtained from the Site in order to harass or threaten (in the legal sense of those terms) any other person and to promote violence against a specific person or class of people.</li>
+            <li>Use any information obtained from the Site in order to harass, abuse, or harm another person.</li>
             
             <li>Make improper use of our support services or submit false reports of abuse or misconduct.</li>
             
@@ -640,7 +640,7 @@ export default function TermsConditionsPage() {
         </Typography>
 
         <Typography variant="bodyMediumR" className="text-neutral-100">
-          In no event shall any Dispute brought by either Party related in any way to the Site be commenced more than one (1) years after the cause of action arose. If this provision is found to be illegal or unenforceable, then neither Party will elect to arbitrate any Dispute falling within that portion of this provision found to be illegal or unenforceable and such Dispute shall be decided by a court of competent jurisdiction within the courts listed for jurisdiction above, and the Parties agree to submit to the personal jurisdiction of that court.
+        In no event shall any Dispute brought by either Party related in any way to the Site be commenced more than one (1) years after the cause of action arose. If this provision is found to be illegal or unenforceable, then neither Party will elect to arbitrate any Dispute falling within that portion of this provision found to be illegal or unenforceable, and such Dispute shall be decided by a court of competent jurisdiction within the courts listed for jurisdiction above, and the Parties agree to submit to the personal jurisdiction of that court.
         </Typography>
 
         <div>

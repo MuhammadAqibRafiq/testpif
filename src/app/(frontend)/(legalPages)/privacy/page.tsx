@@ -636,7 +636,7 @@ export default function PrivacyPage() {
         <div className="mb-6">
           <ol className="list-decimal pl-6 space-y-2">
             <li className="text-neutral-100">
-              every individual who is in the State of California for other than a temporary or transitory purpose
+            every individual who is in the State of California for other than a temporary or transitory purpose and
             </li>
             <li className="text-neutral-100">
               every individual who is domiciled in the State of California who is outside the State of California for a temporary or transitory purpose
@@ -997,6 +997,10 @@ export default function PrivacyPage() {
 
         <Typography variant='bodySmallR' className='text-neutral-100 pb-[8px]'>
           <strong>Do we process any sensitive personal information?</strong> We do not process sensitive personal information.
+        </Typography>
+
+        <Typography variant='bodySmallR' className='text-neutral-100 pb-[8px]'>
+          <strong>Do you receive any information from third parties?</strong> We do not receive any information from third parties.
         </Typography>
 
         <Typography variant='bodySmallR' className='text-neutral-100 pb-[8px]'>
