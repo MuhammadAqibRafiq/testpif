@@ -530,7 +530,7 @@ export default function TermsConditionsPage() {
             Counter Notification
           </Typography>
           <Typography variant="bodyMediumR" className="text-neutral-100">
-            If you believe your own copyrighted material has been removed from the Site as a result of a mistake or misidentification, you may submit a written counter notification to our Designated Copyright Agent using the contact information provided below (a "Counter Notification"). To be an effective Counter Notification under the DMCA, your Counter Notification must include substantially the following:
+          If you believe your own copyrighted material has been removed from the Site as a result of a mistake or misidentification, you may submit a written counter notification to our Designated Copyright Agent using the contact information provided below (a “Counter Notification”). To be an effective Counter Notification under the DMCA, your Counter Notification must include substantially the following:
           </Typography>
           <ol className="list-decimal pl-6 mt-2 space-y-2 text-neutral-100">
             <li>identification of the material that has been removed or disabled and the location at which the material appeared before it was removed or disabled;</li>
