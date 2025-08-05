@@ -52,7 +52,7 @@ const Index = () => {
                 </Typography>
 
                 <div className="flex items-start justify-center gap-2 mx-auto pt-[32px] max-md:flex-col">
-                    <div className='max-w-[361px] w-full'>
+                    <div className='max-w-[361px] max-md:max-w-none w-full'>
                         <InputField
                             className='w-full'
                             placeholder="Your email address"
@@ -68,6 +68,7 @@ const Index = () => {
                         onClick={handleSubmit}
                         className='max-md:w-full'
                         loading={loading}
+                        size='medium'
                     >
                         Get Course
                     </Button>

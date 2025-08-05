@@ -56,7 +56,7 @@ const NotFound = () => {
             <Button
               variant="contained"
               color="primary"
-              size="large"
+              size="medium"
               className='max-md:w-full mt-[40px]'
               onClick={handleGoHome}
             >

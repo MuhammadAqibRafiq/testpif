@@ -37,9 +37,9 @@ const Button: React.FC<ButtonProps> = ({
 
   // Size classes
   const sizeClasses = {
-    small: 'px-3 py-1.5 text-sm',
-    medium: 'px-4 py-2 text-base',
-    large: 'px-6 py-3 text-lg',
+    small: 'px-[20px] py-[8px] text-[14px] font-medium h-[36px]',
+    medium: 'px-[32px] py-[16px] text-base font-semibold h-[56px]',
+    large: 'px-[48px] py-[24px] text-lg font-medium',
   };
 
   // Color classes for different variants
