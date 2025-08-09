@@ -103,5 +103,6 @@ module.exports = [
   '/category/islamic-finance-products',
   '/category/crypto/crypto-halal-haram-reports',
   '/category/crypto/crypto-investment-analysis',
-  '/category/crypto'
+  '/category/crypto',
+  '/category/stocks',
 ];
