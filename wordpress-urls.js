@@ -105,4 +105,6 @@ module.exports = [
   '/category/crypto/crypto-investment-analysis',
   '/category/crypto',
   '/category/stocks',
+  '/wp-content/uploads/2017/01/dissent-of-mustapha-al-zarqa.pdf',
+  '/category/learning-center'
 ];
