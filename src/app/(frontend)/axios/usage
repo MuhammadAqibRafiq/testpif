@@ -33,4 +33,3 @@
 //     onSuccess: (res) => console.log('Uploaded:', res.data),
 //     onFail: (err) => console.error('Upload failed:', err.message),
 //   });
-  

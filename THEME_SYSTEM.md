@@ -19,7 +19,7 @@ A comprehensive design system built with Next.js and Tailwind CSS that provides 
 
 Wrap your app with the `ThemeProvider` in your root layout:
 
-```tsx
+\`\`\`tsx
 // app/layout.tsx
 import { ThemeProvider } from '@/contexts/ThemeContext';
 
@@ -34,13 +34,13 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-```
+\`\`\`
 
 ### 2. Using the Theme Hook
 
 Access theme functionality in any component:
 
-```tsx
+\`\`\`tsx
 import { useTheme } from '@/contexts/ThemeContext';
 
 function MyComponent() {
@@ -52,7 +52,7 @@ function MyComponent() {
     </button>
   );
 }
-```
+\`\`\`
 
 ## Design System
 
@@ -60,7 +60,7 @@ function MyComponent() {
 
 The color system follows MUI's approach with semantic color names and consistent shades:
 
-```tsx
+\`\`\`tsx
 // Primary colors (50-900)
 bg-primary-500    // Main primary color
 bg-primary-100    // Light primary
@@ -77,13 +77,13 @@ text-text-primary        // Main text (light mode)
 text-text-primary-dark   // Main text (dark mode)
 text-text-secondary      // Secondary text
 text-text-disabled       // Disabled text
-```
+\`\`\`
 
 ### Typography System
 
 Use the `Typography` component with MUI-like variants:
 
-```tsx
+\`\`\`tsx
 import Typography from '@/components/ui/Typography';
 
 // Headings
@@ -100,13 +100,13 @@ import Typography from '@/components/ui/Typography';
 <Typography variant="button">Button text</Typography>
 <Typography variant="caption">Caption text</Typography>
 <Typography variant="overline">Overline text</Typography>
-```
+\`\`\`
 
 ### Button Component
 
 The `Button` component supports multiple variants and colors:
 
-```tsx
+\`\`\`tsx
 import Button from '@/components/ui/Button';
 
 // Variants
@@ -129,33 +129,33 @@ import Button from '@/components/ui/Button';
 
 // Full width
 <Button fullWidth>Full Width</Button>
-```
+\`\`\`
 
 ## Component APIs
 
 ### ThemeProvider
 
-```tsx
+\`\`\`tsx
 interface ThemeProviderProps {
   children: ReactNode;
   defaultMode?: 'light' | 'dark';
 }
-```
+\`\`\`
 
 ### useTheme Hook
 
-```tsx
+\`\`\`tsx
 interface ThemeContextType {
   mode: 'light' | 'dark';
   toggleTheme: () => void;
   setTheme: (mode: 'light' | 'dark') => void;
   isDark: boolean;
 }
-```
+\`\`\`
 
 ### Typography Component
 
-```tsx
+\`\`\`tsx
 interface TypographyProps {
   variant?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 
            'subtitle1' | 'subtitle2' | 'body1' | 'body2' | 
@@ -170,11 +170,11 @@ interface TypographyProps {
   className?: string;
   as?: React.ElementType;
 }
-```
+\`\`\`
 
 ### Button Component
 
-```tsx
+\`\`\`tsx
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'contained' | 'outlined' | 'text';
   color?: 'primary' | 'secondary' | 'success' | 'error' | 'warning' | 'info';
@@ -183,7 +183,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   disabled?: boolean;
   children: React.ReactNode;
 }
-```
+\`\`\`
 
 ## Customization
 
@@ -191,7 +191,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 Extend the color system in `tailwind.config.ts`:
 
-```ts
+\`\`\`ts
 // tailwind.config.ts
 module.exports = {
   theme: {
@@ -207,13 +207,13 @@ module.exports = {
     },
   },
 };
-```
+\`\`\`
 
 ### Custom Typography Variants
 
 Add new typography variants:
 
-```ts
+\`\`\`ts
 // tailwind.config.ts
 module.exports = {
   theme: {
@@ -224,13 +224,13 @@ module.exports = {
     },
   },
 };
-```
+\`\`\`
 
 ### Custom Component Variants
 
 Extend component variants by modifying the component files:
 
-```tsx
+\`\`\`tsx
 // Example: Adding a new button variant
 const getColorClasses = () => {
   const colorMap = {
@@ -243,7 +243,7 @@ const getColorClasses = () => {
   };
   return colorMap[color][variant];
 };
-```
+\`\`\`
 
 ## Best Practices
 
@@ -273,7 +273,7 @@ const getColorClasses = () => {
 
 ## File Structure
 
-```
+\`\`\`
 src/
 ├── contexts/
 │   └── ThemeContext.tsx          # Theme provider and hook
@@ -288,7 +288,7 @@ src/
 │   ├── layout.tsx                # Root layout with ThemeProvider
 │   └── page.tsx                  # Demo page
 └── tailwind.config.ts            # Tailwind configuration
-```
+\`\`\`
 
 ## Migration Guide
 
@@ -296,25 +296,25 @@ src/
 
 Replace CSS module classes with Tailwind classes:
 
-```tsx
+\`\`\`tsx
 // Before
 <div className={styles.container}>
 
 // After
 <div className="bg-background-default dark:bg-background-dark">
-```
+\`\`\`
 
 ### From MUI
 
 The API is designed to be familiar to MUI users:
 
-```tsx
+\`\`\`tsx
 // MUI
 <Typography variant="h1" color="primary">
 
 // This system
 <Typography variant="h1" color="primary">
-```
+\`\`\`
 
 ## Troubleshooting
 
@@ -342,4 +342,4 @@ When adding new components or features:
 
 ## License
 
-This theming system is part of your Next.js project and follows the same license terms. 
+This theming system is part of your Next.js project and follows the same license terms.

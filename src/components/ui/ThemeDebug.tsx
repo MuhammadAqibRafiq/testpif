@@ -17,4 +17,4 @@ const ThemeDebug: React.FC = () => {
   );
 };
 
-export default ThemeDebug; 
+export default ThemeDebug;

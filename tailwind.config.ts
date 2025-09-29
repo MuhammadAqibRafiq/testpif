@@ -41,4 +41,4 @@ const config: Config = {
   plugins: [],
 } as any;
 
-export default config 
+export default config

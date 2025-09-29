@@ -157,4 +157,4 @@ const Typography: React.FC<TypographyProps> = ({
   return React.createElement(Element, { className: combinedClasses, ...props }, children);
 };
 
-export default Typography; 
+export default Typography;

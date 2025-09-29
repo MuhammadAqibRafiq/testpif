@@ -7,4 +7,4 @@ export const navLinks = [
 
 //   { label: 'Pricing', href: '/watchlist', external: false },
 
-]; 
+];

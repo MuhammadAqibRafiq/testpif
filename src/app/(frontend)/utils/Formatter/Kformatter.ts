@@ -15,4 +15,3 @@ export const Kformatter = (value:number) => {
       return (value / 1_000_000_000_000).toFixed(1).replace(/\.0$/, '') + 'T'; // Trillion
     }
   }
-  
